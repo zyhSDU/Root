@@ -2,12 +2,12 @@ package reptile
 
 import org.jsoup.Jsoup
 import util.FileUtil
+import value.StringValue
 import java.io.*
 import java.net.URL
 import javax.servlet.http.HttpServletRequest
 import javax.servlet.http.HttpServletResponse
 
-val dirPath= FileUtil.dirPath
 
 fun main() {
 
@@ -16,11 +16,14 @@ fun main() {
     url="https://www.jianshu.com/u/bf21189c27f6"
     url="https://www.baidu.com/"
     url = "http://news.sina.com.cn/hotnews/?q_kkhha"
-    // 解析本地html文件
-    b.saveHtml(url,dirPath)
-    Thread.sleep(5000)
-    b.getLocalHtml(dirPath)
 
+    val dirPath= StringValue.FilePath.create()
+
+    // 解析本地html文件
+    File(dirPath).mkdirs()
+    b.saveHtml(url,dirPath)
+
+    b.getLocalHtml(dirPath)
 }
 
 object b {
@@ -167,7 +170,7 @@ object b {
     fun exportFile(title: String, content: String) {
 
         try {
-            val file = File("$dirPath\\xinwen.txt")
+            val file = File("${dirPath}xinwen.txt")
 
             if (!file.parentFile.exists()) {//判断路径是否存在，如果不存在，则创建上一级目录文件夹
                 file.parentFile.mkdirs()

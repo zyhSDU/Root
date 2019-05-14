@@ -1,24 +1,13 @@
 package util
 
 import page.Page
-
+import value.StringValue
 import java.io.DataOutputStream
 import java.io.File
 import java.io.FileOutputStream
-import java.io.IOException
 
 /*  本类主要是 下载那些已经访问过的文件*/
 object FileUtil {
-    val dirPath: String
-        get() {
-            val a = "data\\temp\\${TimeUtil.nowDateTime()}\\"
-            val fileDir = File(a)
-            if (!fileDir.exists()) {
-                fileDir.mkdir()
-            }
-            return a
-        }
-
     /**
      * getMethod.getResponseHeader("Content-Type").getValue()
      * 根据 URL 和网页类型生成需要保存的网页的文件名，去除 URL 中的非文件名字符
@@ -42,9 +31,11 @@ object FileUtil {
      */
     fun saveToLocal(page: Page) {
         val fileName = getFileNameByUrl(page.url, page.contentType)
-        val filePath = dirPath + fileName
+        val filePath = StringValue.FilePath.create() + fileName
         val data = page.content
-        val out = DataOutputStream(FileOutputStream(File(filePath)))
+        val file = File(filePath)
+        file.createNewFileWithParent()
+        val out = DataOutputStream(FileOutputStream(file))
         for (i in data!!.indices) {
             out.write(data[i].toInt())
         }

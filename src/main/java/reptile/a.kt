@@ -13,7 +13,6 @@ object a {
     /**
      * 使用种子初始化 URL 队列
      * @param seeds 种子 URL
-     * @return
      */
     private fun initCrawlerWithSeeds(seeds: Array<String>) {
         for (i in seeds.indices) {
@@ -24,7 +23,6 @@ object a {
     /**
      * 抓取过程
      * @param seeds
-     * @return
      */
     fun crawling(seeds: Array<String>) {
         //初始化 URL 队列
