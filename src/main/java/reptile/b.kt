@@ -2,26 +2,25 @@ package reptile
 
 import org.jsoup.Jsoup
 import util.FileUtil
+import util.createNewFileWithParent
 import value.StringValue
 import java.io.*
 import java.net.URL
 import javax.servlet.http.HttpServletRequest
 import javax.servlet.http.HttpServletResponse
 
+val dirPath = StringValue.FilePath.create()
 
 fun main() {
-
     var url: String
-    url="https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=%20%20%20%20%20%20%20%20%20%20%20%20while%20((length%20%3D%20bis.read(bytes%2C%200%2C%20bytes.size))%20!%3D%20-1)%20%7B%20%20%20kotlin&oq=while%2520((length%2520%253D%2520bis.read(bytes%252C%25200%252C%2520bytes.size))%2520!%253D%2520-1)%2520%257B%2520kotlin&rsv_pq=ff7db4440018a180&rsv_t=9014lEW%2B0rzgJppCRxhc3%2FOlJnJ1AqLMeGzQQPYlBpxhmgj8RTXFuo%2B%2FqJw&rqlang=cn&rsv_enter=0"
-    url="https://www.jianshu.com/u/bf21189c27f6"
-    url="https://www.baidu.com/"
+    url = "https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=%20%20%20%20%20%20%20%20%20%20%20%20while%20((length%20%3D%20bis.read(bytes%2C%200%2C%20bytes.size))%20!%3D%20-1)%20%7B%20%20%20kotlin&oq=while%2520((length%2520%253D%2520bis.read(bytes%252C%25200%252C%2520bytes.size))%2520!%253D%2520-1)%2520%257B%2520kotlin&rsv_pq=ff7db4440018a180&rsv_t=9014lEW%2B0rzgJppCRxhc3%2FOlJnJ1AqLMeGzQQPYlBpxhmgj8RTXFuo%2B%2FqJw&rqlang=cn&rsv_enter=0"
+    url = "https://www.jianshu.com/u/bf21189c27f6"
+    url = "https://www.baidu.com/"
     url = "http://news.sina.com.cn/hotnews/?q_kkhha"
-
-    val dirPath= StringValue.FilePath.create()
 
     // 解析本地html文件
     File(dirPath).mkdirs()
-    b.saveHtml(url,dirPath)
+    b.saveHtml(url, dirPath)
 
     b.getLocalHtml(dirPath)
 }
@@ -38,49 +37,40 @@ object b {
      * @throws
      */
     fun saveHtml(url: String, dirPath: String) {
-        try {
-            // 这是将首页的信息存入到一个html文件中 为了后面分析html文件里面的信息做铺垫
+        // 这是将首页的信息存入到一个html文件中 为了后面分析html文件里面的信息做铺垫
 //            val dest = File("temp\\${TimeUtil.nowDateTime()}\\${FileUtil.getFileNameByUrl(url, contentType)}")
 
-            val dest = File(dirPath + "a1.html")
+        val dest = File(dirPath + "a1.html")
 
-            // 接收字节输入流
-            val `is`: InputStream
-            // 字节输出流
-            val fos = FileOutputStream(dest)
-            val temp = URL(url)
-            // 这个地方需要加入头部 避免大部分网站拒绝访问
-            // 这个地方是容易忽略的地方所以要注意
-            val uc = temp.openConnection()
-            // 因为现在很大一部分网站都加入了反爬虫机制 这里加入这个头信息
-            uc.addRequestProperty(
-                    "User-Agent",
-                    "Mozilla/5.0 "
-                            + "(iPad; U; CPU OS 4_3_3 like Mac OS X; en-us) "
-                            + "AppleWebKit/533.17.9"
-                            + " (KHTML, like Gecko) Version/5.0.2 Mobile/8J2 Safari/6533.18.5")
-            `is` = temp.openStream()
-            // 为字节输入流加入缓冲
-            val bis = BufferedInputStream(`is`)
-            // 为字节输出流加入缓冲
-            val bos = BufferedOutputStream(fos)
-            var length: Int = -1
-            val bytes = ByteArray(1024 * 20)
+        // 接收字节输入流
+        val `is`: InputStream
+        // 字节输出流
+        val fos = FileOutputStream(dest)
+        val temp = URL(url)
+        // 这个地方需要加入头部 避免大部分网站拒绝访问
+        // 这个地方是容易忽略的地方所以要注意
+        val uc = temp.openConnection()
+        // 因为现在很大一部分网站都加入了反爬虫机制 这里加入这个头信息
+        uc.addRequestProperty(
+                "User-Agent",
+                "Mozilla/5.0 "
+                        + "(iPad; U; CPU OS 4_3_3 like Mac OS X; en-us) "
+                        + "AppleWebKit/533.17.9"
+                        + " (KHTML, like Gecko) Version/5.0.2 Mobile/8J2 Safari/6533.18.5")
+        `is` = temp.openStream()
+        // 为字节输入流加入缓冲
+        val bis = BufferedInputStream(`is`)
+        // 为字节输出流加入缓冲
+        val bos = BufferedOutputStream(fos)
+        var length: Int = -1
+        val bytes = ByteArray(1024 * 20)
 
-            while (length.run {
-                        length = bis.read(bytes, 0, bytes.size)
-                        length != -1
-                    }) {
-                fos.write(bytes, 0, length)
-            }
-            bos.close()
-            fos.close()
-            bis.close()
-            `is`.close()
-        } catch (e: IOException) {
-            e.printStackTrace()
+        while (length.run {
+                    length = bis.read(bytes, 0, bytes.size)
+                    length != -1
+                }) {
+            fos.write(bytes, 0, length)
         }
-
     }
 
     /*
@@ -96,40 +86,34 @@ object b {
         val request: HttpServletRequest? = null
         var tmp = 1
         // 循环解析所有的html文件
-        try {
-            for (i in files!!.indices) {
-                // 首先先判断是不是文件
-                if (files[i].isFile) {
-                    // 获取文件名
-                    val filename = files[i].name
-                    // 开始解析文件
-
-                    val doc = Jsoup.parse(files[i], "UTF-8")
-                    // 获取所有内容 获取新闻内容
-                    val contents = doc.getElementsByClass("ConsTi")
-                    for (element in contents) {
-                        val e1 = element.getElementsByTag("a")
-                        for (element2 in e1) {
-                            // System.out.print(element2.attr("href"));
-                            // 根据href获取新闻的详情信息
-                            val newText = desGetUrl(element2.attr("href"))
-                            // 获取新闻的标题
-                            val newTitle = element2.text()
-                            exportFile(newTitle, newText)
-                            println("抓取成功。。。$tmp")
-                            tmp++
-
-                        }
+        for (i in files!!.indices) {
+            // 首先先判断是不是文件
+            if (files[i].isFile) {
+                // 获取文件名
+                val filename = files[i].name
+                // 开始解析文件
+                val doc = Jsoup.parse(files[i], "UTF-8")
+                // 获取所有内容 获取新闻内容
+                val contents = doc.getElementsByClass("ConsTi")
+                for (element in contents) {
+                    val e1 = element.getElementsByTag("a")
+                    for (element2 in e1) {
+                        // System.out.print(element2.attr("href"));
+                        // 根据href获取新闻的详情信息
+                        val newText = desGetUrl(element2.attr("href"))
+                        // 获取新闻的标题
+                        val newTitle = element2.text()
+                        exportFile(newTitle, newText)
+                        println("抓取成功。。。$tmp")
+                        tmp++
                     }
                 }
-
             }
-            //excelExport(news, response, request);
-        } catch (e: IOException) {
-            e.printStackTrace()
-        }
 
+        }
+        //excelExport(news, response, request);
     }
+
     /**
      *
      * @Title: desGetUrl
@@ -142,7 +126,6 @@ object b {
      */
     fun desGetUrl(url: String): String {
         var newText = ""
-        try {
             val doc = Jsoup
                     .connect(url)
                     .userAgent(
@@ -157,31 +140,18 @@ object b {
                 newText = content.text()
             }
             //System.out.println(content);
-            //return newText;
-        } catch (e: IOException) {
-            e.printStackTrace()
-        }
-
         return newText
     }
+
     /*
      * 将新闻标题和内容写入文件
      */
-    fun exportFile(title: String, content: String) {
-
-        try {
-            val file = File("${dirPath}xinwen.txt")
-
-            if (!file.parentFile.exists()) {//判断路径是否存在，如果不存在，则创建上一级目录文件夹
-                file.parentFile.mkdirs()
-            }
-            val fileWriter = FileWriter(file, true)
-            fileWriter.write("$title----------")
-            fileWriter.write(content + "\r\n")
-            fileWriter.close()
-        } catch (e: Exception) {
-            e.printStackTrace()
-        }
-
+    private fun exportFile(title: String, content: String) {
+        val file = File("${dirPath}xinwen.txt")
+        file.createNewFileWithParent()
+        val fileWriter = FileWriter(file, true)
+        fileWriter.write("$title----------")
+        fileWriter.write(content + "\r\n")
+        fileWriter.flush()
     }
 }
