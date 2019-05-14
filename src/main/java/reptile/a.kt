@@ -2,8 +2,9 @@ package reptile
 
 import page.PageParserTool
 import page.RequestAndResponseTool
-import util.FileTool
+import util.FileUtil
 
+//https://www.cnblogs.com/sanmubird/p/7857474.html
 fun main() {
     a.crawling(arrayOf("http://www.baidu.com"))
 }
@@ -25,7 +26,7 @@ object a {
      * @param seeds
      * @return
      */
-     fun crawling(seeds: Array<String>) {
+    fun crawling(seeds: Array<String>) {
         //初始化 URL 队列
         initCrawlerWithSeeds(seeds)
         //循环条件：待抓取的链接不空且抓取的网页不多于 1000
@@ -41,7 +42,7 @@ object a {
                 println(es)
             }
             //将保存文件
-            FileTool.saveToLocal(page)
+            FileUtil.saveToLocal(page)
             //将已经访问过的链接放入已访问的链接中；
             Links.addVisitedUrlSet(visitUrl)
 

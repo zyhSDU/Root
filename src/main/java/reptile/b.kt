@@ -1,13 +1,13 @@
 package reptile
 
 import org.jsoup.Jsoup
-import util.FileTool
+import util.FileUtil
 import java.io.*
 import java.net.URL
 import javax.servlet.http.HttpServletRequest
 import javax.servlet.http.HttpServletResponse
 
-val dirPath= FileTool.dirPath
+val dirPath= FileUtil.dirPath
 
 fun main() {
 
@@ -37,7 +37,7 @@ object b {
     fun saveHtml(url: String, dirPath: String) {
         try {
             // 这是将首页的信息存入到一个html文件中 为了后面分析html文件里面的信息做铺垫
-//            val dest = File("temp\\${TimeUtil.nowDateTime()}\\${FileTool.getFileNameByUrl(url, contentType)}")
+//            val dest = File("temp\\${TimeUtil.nowDateTime()}\\${FileUtil.getFileNameByUrl(url, contentType)}")
 
             val dest = File(dirPath + "a.html")
 

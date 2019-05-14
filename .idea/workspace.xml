@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa01d114-9c47-4dc2-a5db-f7cadec776dd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/data/temp/2019.05.14_21.07.21/www.baidu.com.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/temp/2019.05.14_21.07.21/www.baidu.com_img_bd_logo1.png.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/temp/2019.05.14_21.07.21/www.baidu.com_img_gs.gif.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/test/createNewFileWithParentTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/a.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reptile/a.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reptile/a.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reptile/b.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reptile/b.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/FileTool.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/FileUtil.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/root.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/root.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/learnKotlin/AKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/reptile/AKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/reptile/AKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/reptile/BKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/reptile/BKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/reptile/a.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/reptile/a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/FileTool.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -14,20 +28,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/learnKotlin/a2.kt">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/reptile/a.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1850">
-              <caret line="122" column="6" selection-start-line="122" selection-start-column="6" selection-end-line="122" selection-end-column="6" />
+            <state relative-caret-position="200">
+              <caret line="44" column="29" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/util/FileUtil.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="55" column="36" lean-forward="true" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/test/a.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
               <folding>
-                <element signature="n#!!block;n#main#1" />
-                <element signature="e#731#871#0" />
-                <element signature="e#895#911#0" />
-                <element signature="e#1158#1174#0" />
-                <element signature="e#1310#1428#0" />
-                <element signature="e#1501#1641#0" />
-                <element signature="e#1709#1815#0" />
+                <element signature="e#14#69#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/files/java/jdk/jdk-11.0.1/lib/src.zip!/java.base/java/io/File.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="273" column="31" selection-start-line="273" selection-start-column="16" selection-end-line="273" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -58,7 +93,6 @@
         <option value="$PROJECT_DIR$/src/main/java/Crawler/main.kt" />
         <option value="$PROJECT_DIR$/src/main/java/Reptile/main.kt" />
         <option value="$PROJECT_DIR$/src/main/java/reptile/a.java" />
-        <option value="$PROJECT_DIR$/src/main/java/reptile/a.kt" />
         <option value="$PROJECT_DIR$/src/main/java/reptile/main.kt" />
         <option value="$PROJECT_DIR$/src/main/java/reptile/b.kt" />
         <option value="$PROJECT_DIR$/src/main/java/reptile/c.kt" />
@@ -89,10 +123,13 @@
         <option value="$PROJECT_DIR$/src/main/java/a/mainmethon/major.kt" />
         <option value="$PROJECT_DIR$/src/main/java/buc/buc.kt" />
         <option value="$PROJECT_DIR$/src/main/java/util2/FileTool.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/util/FileTool.kt" />
         <option value="$PROJECT_DIR$/src/main/java/learnKotlin/a.kt" />
         <option value="$PROJECT_DIR$/src/main/java/learnKotlin/a1.kt" />
         <option value="$PROJECT_DIR$/src/main/java/learnKotlin/a2.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/reptile/a.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/util/FileTool.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/util/FileUtil.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/test/a.kt" />
       </list>
     </option>
   </component>
@@ -122,6 +159,18 @@
             <path>
               <item name="root" type="b2602c69:ProjectViewProjectNode" />
               <item name="root" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="temp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="root" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="root" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -143,16 +192,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="a" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="root" type="b2602c69:ProjectViewProjectNode" />
               <item name="root" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="a" type="462c0819:PsiDirectoryNode" />
-              <item name="htmlparse" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -163,7 +209,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557837610818" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557840408312" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.14482759" />
@@ -194,7 +240,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.learnKotlin.A1Kt">
+  <component name="RunManager" selected="Kotlin.test.AKt">
     <configuration name="buc.BucKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="root" />
       <option name="VM_PARAMETERS" />
@@ -203,19 +249,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="buc.BucKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="buc.a" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="root" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="buc.a" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -247,14 +280,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="util2.CSVUtilKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="reptile.AKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="root" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="util2.CSVUtilKt" />
+      <option name="MAIN_CLASS_NAME" value="reptile.AKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.AKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="root" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="test.AKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -262,11 +308,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.test.AKt" />
+        <item itemvalue="Kotlin.reptile.AKt" />
         <item itemvalue="Kotlin.learnKotlin.A1Kt" />
         <item itemvalue="Kotlin.buc.BucKt" />
         <item itemvalue="Kotlin.kmeans.KKt" />
-        <item itemvalue="Kotlin.util2.CSVUtilKt" />
-        <item itemvalue="Kotlin.buc.a" />
       </list>
     </recent_temporary>
   </component>
@@ -302,7 +348,21 @@
       <option name="project" value="LOCAL" />
       <updated>1557837300877</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2019-05-14 20:33:16">
+      <created>1557837620213</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1557837620213</updated>
+    </task>
+    <task id="LOCAL-00005" summary="2019-05-14 20:33:16">
+      <created>1557837642276</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1557837642276</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -316,16 +376,16 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.37057993" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.39179632" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3696884" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.39093485" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.3286119" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32956153" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -402,13 +462,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/reptile/a.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-890">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -559,22 +612,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/reptile/b.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-550">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/util/TimeUtil.kt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/FileTool.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-250">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/learnKotlin/a1.kt">
       <provider selected="true" editor-type-id="text-editor">
@@ -589,8 +628,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/learnKotlin/a2.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1850">
-          <caret line="122" column="6" selection-start-line="122" selection-start-column="6" selection-end-line="122" selection-end-column="6" />
+        <state relative-caret-position="599">
+          <caret line="110" column="45" lean-forward="true" selection-start-line="110" selection-start-column="45" selection-end-line="110" selection-end-column="45" />
           <folding>
             <element signature="n#!!block;n#main#1" />
             <element signature="e#731#871#0" />
@@ -600,6 +639,50 @@
             <element signature="e#1501#1641#0" />
             <element signature="e#1709#1815#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/reptile/b.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/reptile/a.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="44" column="29" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/test/1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://D:/files/java/jdk/jdk-11.0.1/lib/src.zip!/java.base/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="273" column="31" selection-start-line="273" selection-start-column="16" selection-end-line="273" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/test/createNewFileWithParent.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/a.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
+          <folding>
+            <element signature="e#14#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/FileUtil.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="55" column="36" lean-forward="true" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
         </state>
       </provider>
     </entry>
