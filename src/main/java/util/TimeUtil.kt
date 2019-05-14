@@ -14,13 +14,13 @@ object TimeUtil {
     //Current Date: 周六 2019.05.11 at 02:20:59 下午 CST
     fun a() {
         val now = Date()
-        val ft = SimpleDateFormat("E yyyy.MM.dd 'at' hh:mm:ss a zzz")
+        val ft = SimpleDateFormat("E yyyy.MM.dd 'at' hh:mm:ss a1 zzz")
         println("Current Date: " + ft.format(now))
     }
 
     //周六 2019.05.11 at 02:20:59 下午 CST
     fun now(): String {
-        return SimpleDateFormat("E yyyy.MM.dd 'at' hh:mm:ss a zzz").format(Date())
+        return SimpleDateFormat("E yyyy.MM.dd 'at' hh:mm:ss a1 zzz").format(Date())
     }
 
     fun nowDateTime(): String {

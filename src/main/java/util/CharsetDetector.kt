@@ -13,7 +13,7 @@ package util
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
  *
- * You should have received a copy of the GNU General Public License
+ * You should have received a1 copy of the GNU General Public License
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
  */
@@ -37,9 +37,9 @@ object CharsetDetector {
             "<meta\\s+([^>]*http-equiv=(\"|')?content-type(\"|')?[^>]*)>",
             Pattern.CASE_INSENSITIVE)
     private val charsetPattern = Pattern.compile(
-            "charset=\\s*([a-z][_\\-0-9a-z]*)", Pattern.CASE_INSENSITIVE)
+            "charset=\\s*([a1-z][_\\-0-9a-z]*)", Pattern.CASE_INSENSITIVE)
     private val charsetPatternHTML5 = Pattern.compile(
-            "<meta\\s+charset\\s*=\\s*[\"']?([a-z][_\\-0-9a-z]*)[^>]*>",
+            "<meta\\s+charset\\s*=\\s*[\"']?([a1-z][_\\-0-9a-z]*)[^>]*>",
             Pattern.CASE_INSENSITIVE)
 
     //从Nutch借鉴的网页编码检测代码

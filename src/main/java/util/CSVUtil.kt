@@ -4,7 +4,7 @@ import java.io.*
 import java.util.ArrayList
 
 fun main() {
-    CSVUtil.read("in\\a.csv")
+    CSVUtil.read("in\\a1.csv")
 }
 
 object CSVUtil {
