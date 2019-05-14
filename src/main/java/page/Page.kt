@@ -40,7 +40,6 @@ class Page(val content: ByteArray?, val url: String//url路径
             ex.printStackTrace()
             null
         }
-
     }
 
     /*
@@ -59,6 +58,4 @@ class Page(val content: ByteArray?, val url: String//url路径
         }
 
     }
-
-
 }

@@ -1,4 +1,4 @@
-package page
+package util
 
 import org.apache.commons.httpclient.DefaultHttpMethodRetryHandler
 import org.apache.commons.httpclient.HttpClient
@@ -6,10 +6,10 @@ import org.apache.commons.httpclient.HttpException
 import org.apache.commons.httpclient.HttpStatus
 import org.apache.commons.httpclient.methods.GetMethod
 import org.apache.commons.httpclient.params.HttpMethodParams
-
+import page.Page
 import java.io.IOException
 
-object RequestAndResponseTool {
+object RequestUtil {
     fun sendRequestAndGetResponse(url: String): Page? {
         var page: Page? = null
         // 1.生成 HttpClient 对象并设置参数
@@ -47,4 +47,3 @@ object RequestAndResponseTool {
         return page
     }
 }
-

@@ -11,7 +11,6 @@ object PageParserTool {
     fun select(page: Page, cssSelector: String): Elements {
         return page.getDoc()!!.select(cssSelector)
     }
-
     /*
      *  通过css选择器来得到指定元素;
      *

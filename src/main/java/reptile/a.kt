@@ -1,8 +1,8 @@
 package reptile
 
 import page.PageParserTool
-import page.RequestAndResponseTool
 import util.FileUtil
+import util.RequestUtil
 
 //https://www.cnblogs.com/sanmubird/p/7857474.html
 fun main() {
@@ -32,7 +32,7 @@ object a {
             //先从待访问的序列中取出第一个；
             val visitUrl = Links.removeHeadOfUnVisitedUrlQueue()
             //根据URL得到page;
-            val page = RequestAndResponseTool.sendRequestAndGetResponse(visitUrl)!!
+            val page = RequestUtil.sendRequestAndGetResponse(visitUrl)!!
             //对page进行处理： 访问DOM的某个标签
             val es = PageParserTool.select(page, "a")
             if (!es.isEmpty()) {
