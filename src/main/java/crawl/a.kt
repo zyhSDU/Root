@@ -1,12 +1,15 @@
-package reptile
+package crawl
 
 import page.PageParserTool
 import util.FileUtil
 import util.RequestUtil
+import value.StringValue
+import value.StringValue.URL.baidu
 
+//肤浅
 //https://www.cnblogs.com/sanmubird/p/7857474.html
 fun main() {
-    a.crawling(arrayOf("http://www.baidu.com"))
+    a.crawling(arrayOf(baidu))
 }
 
 object a {
@@ -40,7 +43,7 @@ object a {
                 println(es)
             }
             //将保存文件
-            FileUtil.saveToLocal(page)
+            FileUtil.savePageToDir(page, StringValue.DirPath.create())
             //将已经访问过的链接放入已访问的链接中；
             Links.addVisitedUrlSet(visitUrl)
 

@@ -1,21 +1,22 @@
-package reptile
+package crawl
 
 import org.jsoup.Jsoup
-import util.FileUtil
 import util.createNewFileWithParent
 import value.StringValue
+import value.StringValue.URL.baidu
 import java.io.*
 import java.net.URL
 import javax.servlet.http.HttpServletRequest
 import javax.servlet.http.HttpServletResponse
 
-val dirPath = StringValue.FilePath.create()
+//代码乱，不好学习
+val dirPath = StringValue.DirPath.create()
 
 fun main() {
     var url: String
     url = "https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=%20%20%20%20%20%20%20%20%20%20%20%20while%20((length%20%3D%20bis.read(bytes%2C%200%2C%20bytes.size))%20!%3D%20-1)%20%7B%20%20%20kotlin&oq=while%2520((length%2520%253D%2520bis.read(bytes%252C%25200%252C%2520bytes.size))%2520!%253D%2520-1)%2520%257B%2520kotlin&rsv_pq=ff7db4440018a180&rsv_t=9014lEW%2B0rzgJppCRxhc3%2FOlJnJ1AqLMeGzQQPYlBpxhmgj8RTXFuo%2B%2FqJw&rqlang=cn&rsv_enter=0"
     url = "https://www.jianshu.com/u/bf21189c27f6"
-    url = "https://www.baidu.com/"
+    url = baidu
     url = "http://news.sina.com.cn/hotnews/?q_kkhha"
 
     // 解析本地html文件
@@ -27,14 +28,7 @@ fun main() {
 
 object b {
     /**
-     *
-     * @Title: saveHtml
      * @Description: 将抓取过来的数据保存到本地或者json文件
-     * @param url
-     * @return void 返回类型
-     * @author liangchu
-     * @date 2017-12-28 下午12:23:05
-     * @throws
      */
     fun saveHtml(url: String, dirPath: String) {
         // 这是将首页的信息存入到一个html文件中 为了后面分析html文件里面的信息做铺垫
@@ -126,20 +120,20 @@ object b {
      */
     fun desGetUrl(url: String): String {
         var newText = ""
-            val doc = Jsoup
-                    .connect(url)
-                    .userAgent(
-                            "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; MALC)")
-                    .get()
-            // System.out.println(doc);
-            // 得到html下的所有东西
-            //Element content = doc.getElementById("article");
-            val contents = doc.getElementsByClass("article")
-            if (contents != null && contents.size > 0) {
-                val content = contents[0]
-                newText = content.text()
-            }
-            //System.out.println(content);
+        val doc = Jsoup
+                .connect(url)
+                .userAgent(
+                        "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; MALC)")
+                .get()
+        // System.out.println(doc);
+        // 得到html下的所有东西
+        //Element content = doc.getElementById("article");
+        val contents = doc.getElementsByClass("article")
+        if (contents != null && contents.size > 0) {
+            val content = contents[0]
+            newText = content.text()
+        }
+        //System.out.println(content);
         return newText
     }
 

@@ -10,10 +10,10 @@ fun main() {
 
 object a1 {
     fun a3(){
-        println(StringValue.FilePath.`out`)
+        println(StringValue.DirPath.`out`)
     }
     fun a2(){//文件名结尾的斜杠不影响文件名，文件夹名
-        val name = StringValue.FilePath.test + "StringValueTest\\"
+        val name = StringValue.DirPath.test + "StringValueTest\\"
         println(name)
         File(name).mkdirs()
     }

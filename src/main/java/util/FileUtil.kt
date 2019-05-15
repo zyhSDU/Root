@@ -29,9 +29,9 @@ object FileUtil {
     /**
      * 保存网页字节数组到本地文件，filePath 为要保存的文件的相对地址
      */
-    fun saveToLocal(page: Page) {
+    fun savePageToDir(page: Page, dirPath:String) {
         val fileName = getFileNameByUrl(page.url, page.contentType)
-        val filePath = StringValue.FilePath.create() + fileName
+        val filePath = dirPath + fileName
         val data = page.content
         val file = File(filePath)
         file.createNewFileWithParent()

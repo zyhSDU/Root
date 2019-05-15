@@ -1,0 +1,3 @@
+ 网站可能改版了，修改下对应的正则就好
+ import com.lulei.knn.index.KnnSearch;
+ import com.lulei.util.ParseMD5;
