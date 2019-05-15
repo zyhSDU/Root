@@ -2,53 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa01d114-9c47-4dc2-a5db-f7cadec776dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/cpdetector_1_0_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/cpdetector_1.0.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/redis/commons-pool-1.5.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/redis/jedis-2.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/c.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/d/BaiduNewList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/d/CharsetUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/d/CrawlBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/d/CrawlListPageBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/d/CrawlNews.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/d/DoRegex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/d/News.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/d/a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/ip/IPModel/IPMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/ip/IPModel/SerializeUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/ip/database/MyRedis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/ip/database/RedisDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/ip/htmlparse/IPPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/ip/htmlparse/IPThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/ip/htmlparse/URLFecter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/ip/httpbrowser/MyHttpResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/ip/ipfilter/IPFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/ip/ipfilter/IPUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/ip/timeutils/MyTimeJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/ip/timeutils/MyTimer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/redis-java-client--jedis-2.9.0-doc&amp;jar包&amp;source/jedis-2.9.0-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/redis-java-client--jedis-2.9.0-doc&amp;jar包&amp;source/jedis-2.9.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/redis-java-client--jedis-2.9.0-doc&amp;jar包&amp;source/jedis-2.9.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/zyh.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/zyh.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/cpdetector_1_0_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/cpdetector_1_0_5.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reptile/HttpClientDemo.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reptile/Links.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawl/Links.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reptile/a.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawl/a.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reptile/b.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawl/b.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/a1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/a1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/FileUtil.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/FileUtil.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/RequestUtil.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/RequestUtil.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/value/StringValue.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/value/StringValue.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/root.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/root.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/page/Page.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/page/Page.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/page/PageParserTool.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/page/PageParserTool.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/page/RequestAndResponseTool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/reptile/AKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/reptile/BKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/reptile/HttpClientDemoKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/reptile/Links.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/reptile/a.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/reptile/b.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/crawl/ip/database/RedisDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawl/ip/database/RedisDB.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -64,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/database/RedisDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="62" column="18" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
+            <state relative-caret-position="156">
+              <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,7 +39,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/database/MyRedis.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
+            <state relative-caret-position="431">
               <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -90,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/redis/jedis-2.1.0.jar!/redis/clients/jedis/Jedis.class">
+      <file pinned="false" current-in-tab="true">
+        <entry file="jar://$PROJECT_DIR$/lib/redis-java-client--jedis-2.9.0-doc&amp;jar包&amp;source/jedis-2.9.0-sources.jar!/redis/clients/jedis/Jedis.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-22747">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="100">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -102,8 +62,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/htmlparse/IPPool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="750">
               <caret line="32" column="65" selection-start-line="32" selection-start-column="65" selection-end-line="32" selection-end-column="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/htmlparse/IPThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,7 +86,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
+            <state relative-caret-position="1350">
               <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
             </state>
           </provider>
@@ -123,8 +95,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/httpbrowser/MyHttpResponse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="29" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="29" />
+            <state relative-caret-position="-607">
+              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -146,30 +121,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
               <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/IPModel/SerializeUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/timeutils/MyTimeJob.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#767#778#0" expanded="true" />
-                <element signature="e#814#822#0" expanded="true" />
-                <element signature="e#886#894#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -279,6 +230,18 @@
             <path>
               <item name="root" type="b2602c69:ProjectViewProjectNode" />
               <item name="root" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="root" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="redis-java-client--jedis-2.9.0-doc&amp;jar包&amp;source" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="root" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -339,27 +302,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="crawl" type="462c0819:PsiDirectoryNode" />
               <item name="ip" type="462c0819:PsiDirectoryNode" />
-              <item name="httpbrowser" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="root" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="crawl" type="462c0819:PsiDirectoryNode" />
-              <item name="ip" type="462c0819:PsiDirectoryNode" />
               <item name="ipfilter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="root" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="crawl" type="462c0819:PsiDirectoryNode" />
-              <item name="ip" type="462c0819:PsiDirectoryNode" />
-              <item name="IPModel" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="root" type="b2602c69:ProjectViewProjectNode" />
@@ -390,10 +333,10 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557912241387" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/redis/jedis-2.1.0.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/redis-java-client--jedis-2.9.0-doc&amp;jar包&amp;source" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.41034484" />
+    <property name="project.structure.side.proportion" value="0.5218391" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -405,9 +348,9 @@
       <recent name="D:\Users\zyh\IdeaProjects\root" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\zyh\IdeaProjects\root\lib" />
       <recent name="D:\Users\zyh\IdeaProjects\root\lib\redis" />
       <recent name="D:\Users\zyh\IdeaProjects\root\src\main\java\crawl\ip" />
-      <recent name="D:\Users\zyh\IdeaProjects\root\lib" />
       <recent name="D:\Users\zyh\IdeaProjects\root" />
       <recent name="D:\Users\zyh\IdeaProjects\root\in" />
     </key>
@@ -579,12 +522,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557843392393</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add ip package">
+      <created>1557918584907</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1557918584908</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28217158" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -620,16 +569,10 @@
     <MESSAGE value="add package value" />
     <MESSAGE value="add fun create(): String" />
     <MESSAGE value="add RequestUtil" />
-    <option name="LAST_COMMIT_MESSAGE" value="add RequestUtil" />
+    <MESSAGE value="add ip package" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ip package" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/buc/buc.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/kmeans/k.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="482">
@@ -927,16 +870,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/htmlparse/IPThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/htmlparse/URLFecter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -988,40 +921,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/htmlparse/IPPool.java">
+    <entry file="jar://$PROJECT_DIR$/lib/redis/jedis-2.1.0.jar!/redis/clients/jedis/Jedis.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="32" column="65" selection-start-line="32" selection-start-column="65" selection-end-line="32" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
+        <state relative-caret-position="1350">
           <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/httpbrowser/MyHttpResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="29" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/redis/jedis-2.1.0.jar!/redis/clients/jedis/Jedis.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-22747">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/database/MyRedis.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
+        <state relative-caret-position="431">
           <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1031,13 +947,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/database/RedisDB.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/httpbrowser/MyHttpResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="62" column="18" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
+        <state relative-caret-position="-607">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/htmlparse/IPThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/htmlparse/IPPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="32" column="65" selection-start-line="32" selection-start-column="65" selection-end-line="32" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/database/RedisDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/redis-java-client--jedis-2.9.0-doc&amp;jar包&amp;source/jedis-2.9.0-sources.jar!/redis/clients/jedis/Jedis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>

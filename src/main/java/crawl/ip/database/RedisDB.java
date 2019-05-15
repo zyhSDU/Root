@@ -60,7 +60,7 @@ public class RedisDB {
     //释放Jedis资源
     public static void close(final Jedis jedis) {
         if (jedis != null) {
-//            jedis.close();
+            jedis.close();
         }
     }
 }
