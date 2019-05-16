@@ -1,4 +1,4 @@
-package crawl.ip.IPModel
+package crawl.ip.ipModel
 
 import java.io.*
 
@@ -40,7 +40,7 @@ object SerializeUtil {
     }
 
     //反序列化
-    fun unserialize(bytes: ByteArray): Any? {
+    fun unSerialize(bytes: ByteArray): Any? {
         val bais: ByteArrayInputStream
         val ois: ObjectInputStream
 

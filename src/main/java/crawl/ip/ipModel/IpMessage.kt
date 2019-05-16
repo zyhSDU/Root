@@ -1,4 +1,4 @@
-package crawl.ip.IPModel
+package crawl.ip.ipModel
 
 import java.io.Serializable
 

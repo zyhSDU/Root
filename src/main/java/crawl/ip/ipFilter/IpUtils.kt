@@ -1,6 +1,6 @@
-package crawl.ip.ipfilter
+package crawl.ip.ipFilter
 
-import crawl.ip.IPModel.IpMessage
+import crawl.ip.ipModel.IpMessage
 import org.apache.http.HttpHost
 import org.apache.http.client.config.RequestConfig
 import org.apache.http.client.methods.CloseableHttpResponse
@@ -8,8 +8,6 @@ import org.apache.http.client.methods.HttpGet
 import org.apache.http.impl.client.HttpClients
 
 import java.io.IOException
-
-import java.lang.System.out
 
 /**
  * Created by paranoid on 17-4-21.
@@ -39,8 +37,7 @@ object IpUtils {
             try {
                 response = httpClient!!.execute(httpGet)
             } catch (e: IOException) {
-                out.println("不可用代理已删除" + ipMessages1[i].ipAddress
-                        + ": " + ipMessages1[i].ipPort)
+                println("不可用代理已删除" + ipMessages1[i].ipAddress + ": " + ipMessages1[i].ipPort)
                 ipMessages1.remove(ipMessages1[i])
                 i--
             }

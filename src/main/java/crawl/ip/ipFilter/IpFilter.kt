@@ -1,6 +1,6 @@
-package crawl.ip.ipfilter
+package crawl.ip.ipFilter
 
-import crawl.ip.IPModel.IpMessage
+import crawl.ip.ipModel.IpMessage
 
 import java.util.*
 

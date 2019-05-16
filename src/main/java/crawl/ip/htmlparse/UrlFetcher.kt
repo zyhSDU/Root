@@ -1,6 +1,6 @@
 package crawl.ip.htmlparse
 
-import crawl.ip.IPModel.IpMessage
+import crawl.ip.ipModel.IpMessage
 import crawl.ip.httpbrowser.MyHttpResponse
 import org.jsoup.Jsoup
 
@@ -8,7 +8,7 @@ import org.jsoup.Jsoup
  * Created by paranoid on 17-4-10.
  */
 
-object URLFecter {
+object UrlFetcher {
     //使用代理进行爬取
     fun urlParse(url: String, ip: String, port: String, ipMessages1: MutableList<IpMessage>): Boolean {
         //调用一个类使其返回html源码

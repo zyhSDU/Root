@@ -1,9 +1,7 @@
 package crawl.ip.database
 
-import crawl.ip.IPModel.IpMessage
-import crawl.ip.IPModel.SerializeUtil
-
-import java.lang.System.out
+import crawl.ip.ipModel.IpMessage
+import crawl.ip.ipModel.SerializeUtil
 
 /**
  * Created by hg_yi on 17-8-9.
@@ -16,11 +14,11 @@ class MyRedis {
         get() {
             val rand = (Math.random() * jedis.llen("IpPool")!!).toInt()
 
-            val o = SerializeUtil.unserialize(jedis.lindex("IpPool".toByteArray(), 0))
+            val o = SerializeUtil.unSerialize(jedis.lindex("IpPool".toByteArray(), 0))
             return if (o is IpMessage) {
                 o
             } else {
-                out.println("不是IPMessage的一个实例~")
+                println("不是IPMessage的一个实例~")
                 null
             }
         }

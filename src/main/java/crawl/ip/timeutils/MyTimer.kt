@@ -1,8 +1,6 @@
 package crawl.ip.timeutils
 
-import java.util.Calendar
-import java.util.Date
-import java.util.Timer
+import java.util.*
 
 /**
  * Created by paranoid on 17-4-13.

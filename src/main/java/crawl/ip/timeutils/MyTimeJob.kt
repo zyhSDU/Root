@@ -1,26 +1,19 @@
 package crawl.ip.timeutils
 
-import crawl.ip.IPModel.IpMessage
+import crawl.ip.ipModel.IpMessage
 import crawl.ip.database.MyRedis
 import crawl.ip.htmlparse.IpPool
 import crawl.ip.htmlparse.IpThread
-import crawl.ip.htmlparse.URLFecter
-import crawl.ip.ipfilter.IpFilter
-import crawl.ip.ipfilter.IpUtils
+import crawl.ip.htmlparse.UrlFetcher
+import crawl.ip.ipFilter.IpFilter
+import crawl.ip.ipFilter.IpUtils
 
 import java.util.ArrayList
 import java.util.TimerTask
 
 /**
- * Created by paranoid on 17-4-13.
- *
- *
  * ip代理池里面最少保存200个代理ip
- *
- *
  * 多线程主要考虑的就是合理的任务分配以及线程安全性。
- *
- *
  * implements Job
  */
 
@@ -38,7 +31,7 @@ class MyTimeJob : TimerTask() {
         val threads = ArrayList<Thread>()
 
         //首先使用本机ip爬取xici代理网第一页
-        ipMessages = URLFecter.urlParse(ipMessages).toMutableList()
+        ipMessages = UrlFetcher.urlParse(ipMessages).toMutableList()
 
         //对得到的IP进行筛选，将IP速度在两秒以内的并且类型是https的留下，其余删除
         ipMessages = IpFilter.filter(ipMessages).toMutableList()
