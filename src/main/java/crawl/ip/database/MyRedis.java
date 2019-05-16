@@ -19,7 +19,6 @@ public class MyRedis {
         for (IPMessage ipMessage : ipMessages) {
             //首先将ipMessage进行序列化
             byte[] bytes = SerializeUtil.serialize(ipMessage);
-
             jedis.rpush("IPPool".getBytes(), bytes);
         }
     }

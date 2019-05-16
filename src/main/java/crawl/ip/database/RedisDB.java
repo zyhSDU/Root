@@ -1,8 +1,6 @@
 package crawl.ip.database;
 
 import redis.clients.jedis.Jedis;
-import redis.clients.jedis.JedisPool;
-import redis.clients.jedis.JedisPoolConfig;
 
 import java.util.ResourceBundle;
 
@@ -52,8 +50,7 @@ public class RedisDB {
         //连接本地的 Redis 服务
         Jedis jedis = new Jedis(addr, port);
         //权限认证
-        jedis.auth(passwd);
-
+//        jedis.auth(passwd);
         return jedis;
     }
 

@@ -7,6 +7,7 @@ import crawl.ip.htmlparse.IPThread;
 import crawl.ip.htmlparse.URLFecter;
 import crawl.ip.ipfilter.IPFilter;
 import crawl.ip.ipfilter.IPUtils;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.TimerTask;
@@ -15,15 +16,18 @@ import static java.lang.System.out;
 
 /**
  * Created by paranoid on 17-4-13.
- *
+ * <p>
  * ip代理池里面最少保存200个代理ip
- *
+ * <p>
  * 多线程主要考虑的就是合理的任务分配以及线程安全性。
- *
+ * <p>
  * implements Job
  */
 
 public class MyTimeJob extends TimerTask {
+    public static void main(String[]args){
+        new MyTimeJob().run();
+    }
     MyRedis redis = new MyRedis();
 
     @Override
@@ -60,7 +64,7 @@ public class MyTimeJob extends TimerTask {
         IPPool ipPool = new IPPool(ipMessages);
         for (int i = 0; i < 20; i++) {
             //给每个线程进行任务的分配
-            Thread IPThread = new IPThread(urls.subList(i*2, i*2+2), ipPool);
+            Thread IPThread = new IPThread(urls.subList(i * 2, i * 2 + 2), ipPool);
             threads.add(IPThread);
             IPThread.start();
         }
@@ -73,7 +77,7 @@ public class MyTimeJob extends TimerTask {
             }
         }
 
-        for(IPMessage ipMessage : ipMessages){
+        for (IPMessage ipMessage : ipMessages) {
             out.println(ipMessage.getIPAddress());
             out.println(ipMessage.getIPPort());
             out.println(ipMessage.getIPType());

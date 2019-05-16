@@ -4,6 +4,7 @@
       <root url="jar://$PROJECT_DIR$/lib/cpdetector_1.0.5.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/redis/commons-pool-1.5.4.jar!/" />
       <root url="file://$PROJECT_DIR$/lib/redis-java-client--jedis-2.9.0-doc&amp;jar包&amp;source" />
+      <root url="jar://$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/lib/quartz-2.4.0-SNAPSHOT.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
