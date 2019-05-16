@@ -2,1137 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa01d114-9c47-4dc2-a5db-f7cadec776dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/out/ip.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/QUICK-START.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/docs/images/quartzEJS.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/docs/images/quartzEJS.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/docs/images/quartzEJS_lg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/bin/addpath.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/bin/buildcp.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/bin/buildcp.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/bin/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example1/basics_readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example1/example1.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example1/example1.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example1/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example10/example10.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example10/example10.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example10/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example10/plugins_readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example10/quartz.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example10/quartz_data.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example11/example11.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example11/example11.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example11/high_load_readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example11/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example11/quartz.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example12/client.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example12/client.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example12/client.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example12/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example12/rmi.policy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example12/rmi_readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example12/server.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example12/server.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example12/server.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example13/clustering_readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example13/instance1.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example13/instance1.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example13/instance1.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example13/instance2.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example13/instance2.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example13/instance2.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example13/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example14/example14.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example14/example14.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example14/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example14/priority_readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example15/instance1.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example15/instance1.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example15/instance1.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example15/instance2.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example15/instance2.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example15/instance2.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example15/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example15/start-sample-server.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example15/start-sample-server.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example15/stop-sample-server.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example15/stop-sample-server.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example15/tc_clustering_readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example2/example2.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example2/example2.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example2/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example2/simple_triggers_readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example3/cron_triggers_readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example3/example3.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example3/example3.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example3/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example4/example4.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example4/example4.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example4/job_state_readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example4/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example5/example5.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example5/example5.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example5/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example5/misfires_readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example6/example6.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example6/example6.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example6/exceptions_readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example6/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example7/example7.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example7/example7.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example7/interrupting_readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example7/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example8/calendars_readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example8/example8.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example8/example8.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example8/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example9/example9.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example9/example9.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example9/listeners_readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/example9/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/examples_guide.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/lib/gf.javax.transaction-1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/lib/quartz-examples-2.4.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example1/HelloJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example1/SimpleExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example10/PlugInExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example10/SimpleJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example11/LoadExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example11/SimpleJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example12/RemoteClientExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example12/RemoteServerExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example12/SimpleJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example13/ClusterExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example13/SimpleRecoveryJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example13/SimpleRecoveryStatefulJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example14/PriorityExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example14/TriggerEchoJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example15/ClusterExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example15/SimpleRecoveryJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example15/SimpleRecoveryStatefulJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example2/SimpleJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example2/SimpleTriggerExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example3/CronTriggerExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example3/SimpleJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example4/ColorJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example4/JobStateExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example5/MisfireExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example5/StatefulDumbJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example6/BadJob1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example6/BadJob2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example6/JobExceptionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example7/DumbInterruptableJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example7/InterruptExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example8/CalendarExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example8/SimpleJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example9/Job1Listener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example9/ListenerExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example9/SimpleJob1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example9/SimpleJob2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/allclasses-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/allclasses-noframe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/constant-values.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/deprecated-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/help-doc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/index-all.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/Calendar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/CalendarIntervalScheduleBuilder.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/CalendarIntervalTrigger.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/CronExpression.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/CronScheduleBuilder.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/CronTrigger.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/DailyTimeIntervalScheduleBuilder.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/DailyTimeIntervalTrigger.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/DateBuilder.IntervalUnit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/DateBuilder.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/DisallowConcurrentExecution.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/ExecuteInJTATransaction.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/InterruptableJob.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/Job.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/JobBuilder.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/JobDataMap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/JobDetail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/JobExecutionContext.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/JobExecutionException.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/JobKey.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/JobListener.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/JobPersistenceException.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/ListenerManager.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/Matcher.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/ObjectAlreadyExistsException.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/PersistJobDataAfterExecution.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/ScheduleBuilder.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/Scheduler.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/SchedulerConfigException.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/SchedulerContext.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/SchedulerException.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/SchedulerFactory.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/SchedulerListener.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/SchedulerMetaData.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/SimpleScheduleBuilder.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/SimpleTrigger.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/StatefulJob.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/TimeOfDay.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/Trigger.CompletedExecutionInstruction.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/Trigger.TriggerState.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/Trigger.TriggerTimeComparator.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/Trigger.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/TriggerBuilder.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/TriggerKey.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/TriggerListener.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/TriggerUtils.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/UnableToInterruptJobException.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/class-use/Calendar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/class-use/CalendarIntervalScheduleBuilder.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/class-use/CalendarIntervalTrigger.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/class-use/CronExpression.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/class-use/CronScheduleBuilder.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/class-use/CronTrigger.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/class-use/DailyTimeIntervalScheduleBuilder.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/class-use/DailyTimeIntervalTrigger.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/class-use/DateBuilder.IntervalUnit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/class-use/DateBuilder.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/class-use/DisallowConcurrentExecution.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/class-use/ExecuteInJTATransaction.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/class-use/InterruptableJob.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/class-use/Job.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/class-use/JobBuilder.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/class-use/JobDataMap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/class-use/JobDetail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/class-use/JobExecutionContext.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/class-use/JobExecutionException.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/class-use/JobKey.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/class-use/JobListener.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/class-use/JobPersistenceException.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/class-use/ListenerManager.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/class-use/Matcher.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/class-use/ObjectAlreadyExistsException.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/class-use/PersistJobDataAfterExecution.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/class-use/ScheduleBuilder.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/class-use/Scheduler.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/class-use/SchedulerConfigException.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/class-use/SchedulerContext.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/class-use/SchedulerException.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/class-use/SchedulerFactory.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/class-use/SchedulerListener.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/class-use/SchedulerMetaData.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/class-use/SimpleScheduleBuilder.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/class-use/SimpleTrigger.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/class-use/StatefulJob.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/class-use/TimeOfDay.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/class-use/Trigger.CompletedExecutionInstruction.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/class-use/Trigger.TriggerState.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/class-use/Trigger.TriggerTimeComparator.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/class-use/Trigger.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/class-use/TriggerBuilder.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/class-use/TriggerKey.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/class-use/TriggerListener.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/class-use/TriggerUtils.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/class-use/UnableToInterruptJobException.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/commonj/WorkManagerThreadExecutor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/commonj/class-use/WorkManagerThreadExecutor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/commonj/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/commonj/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/commonj/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/commonj/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/core/JobRunShell.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/core/JobRunShellFactory.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/core/ListenerManagerImpl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/core/NullSampledStatisticsImpl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/core/QuartzScheduler.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/core/QuartzSchedulerMBeanImpl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/core/QuartzSchedulerResources.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/core/QuartzSchedulerThread.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/core/RemotableQuartzScheduler.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/core/SampledStatistics.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/core/SampledStatisticsImpl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/core/SchedulerSignalerImpl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/core/class-use/JobRunShell.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/core/class-use/JobRunShellFactory.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/core/class-use/ListenerManagerImpl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/core/class-use/NullSampledStatisticsImpl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/core/class-use/QuartzScheduler.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/core/class-use/QuartzSchedulerMBeanImpl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/core/class-use/QuartzSchedulerResources.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/core/class-use/QuartzSchedulerThread.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/core/class-use/RemotableQuartzScheduler.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/core/class-use/SampledStatistics.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/core/class-use/SampledStatisticsImpl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/core/class-use/SchedulerSignalerImpl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/core/jmx/CronTriggerSupport.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/core/jmx/JobDataMapSupport.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/core/jmx/JobDetailSupport.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/core/jmx/JobExecutionContextSupport.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/core/jmx/QuartzSchedulerMBean.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/core/jmx/SimpleTriggerSupport.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/core/jmx/TriggerSupport.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/core/jmx/class-use/CronTriggerSupport.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/core/jmx/class-use/JobDataMapSupport.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/core/jmx/class-use/JobDetailSupport.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/core/jmx/class-use/JobExecutionContextSupport.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/core/jmx/class-use/QuartzSchedulerMBean.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/core/jmx/class-use/SimpleTriggerSupport.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/core/jmx/class-use/TriggerSupport.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/core/jmx/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/core/jmx/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/core/jmx/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/core/jmx/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/core/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/core/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/core/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/core/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/ee/jmx/jboss/JBoss4RMIRemoteMBeanScheduler.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/ee/jmx/jboss/QuartzService.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/ee/jmx/jboss/QuartzServiceMBean.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/ee/jmx/jboss/class-use/JBoss4RMIRemoteMBeanScheduler.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/ee/jmx/jboss/class-use/QuartzService.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/ee/jmx/jboss/class-use/QuartzServiceMBean.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/ee/jmx/jboss/doc-files/quartz-service.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/ee/jmx/jboss/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/ee/jmx/jboss/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/ee/jmx/jboss/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/ee/jmx/jboss/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/ee/jta/JTAAnnotationAwareJobRunShellFactory.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/ee/jta/JTAJobRunShell.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/ee/jta/JTAJobRunShellFactory.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/ee/jta/UserTransactionHelper.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/ee/jta/class-use/JTAAnnotationAwareJobRunShellFactory.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/ee/jta/class-use/JTAJobRunShell.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/ee/jta/class-use/JTAJobRunShellFactory.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/ee/jta/class-use/UserTransactionHelper.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/ee/jta/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/ee/jta/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/ee/jta/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/ee/jta/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/ee/servlet/QuartzInitializerListener.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/ee/servlet/QuartzInitializerServlet.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/ee/servlet/class-use/QuartzInitializerListener.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/ee/servlet/class-use/QuartzInitializerServlet.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/ee/servlet/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/ee/servlet/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/ee/servlet/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/ee/servlet/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/helpers/VersionPrinter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/helpers/class-use/VersionPrinter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/helpers/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/helpers/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/helpers/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/helpers/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/DefaultThreadExecutor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/DirectSchedulerFactory.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/JobDetailImpl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/JobExecutionContextImpl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/QuartzServer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/RemoteMBeanScheduler.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/RemoteScheduler.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/SchedulerRepository.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/StdJobRunShellFactory.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/StdScheduler.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/StdSchedulerFactory.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/calendar/AnnualCalendar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/calendar/BaseCalendar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/calendar/CronCalendar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/calendar/DailyCalendar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/calendar/HolidayCalendar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/calendar/MonthlyCalendar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/calendar/WeeklyCalendar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/calendar/class-use/AnnualCalendar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/calendar/class-use/BaseCalendar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/calendar/class-use/CronCalendar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/calendar/class-use/DailyCalendar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/calendar/class-use/HolidayCalendar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/calendar/class-use/MonthlyCalendar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/calendar/class-use/WeeklyCalendar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/calendar/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/calendar/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/calendar/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/calendar/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/class-use/DefaultThreadExecutor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/class-use/DirectSchedulerFactory.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/class-use/JobDetailImpl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/class-use/JobExecutionContextImpl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/class-use/QuartzServer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/class-use/RemoteMBeanScheduler.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/class-use/RemoteScheduler.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/class-use/SchedulerRepository.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/class-use/StdJobRunShellFactory.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/class-use/StdScheduler.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/class-use/StdSchedulerFactory.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/AttributeRestoringConnectionInvocationHandler.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/CUBRIDDelegate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/CacheDelegate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/CalendarIntervalTriggerPersistenceDelegate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/Constants.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/CronTriggerPersistenceDelegate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/DB2v6Delegate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/DB2v7Delegate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/DB2v8Delegate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/DBSemaphore.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/DailyTimeIntervalTriggerPersistenceDelegate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/DriverDelegate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/FiredTriggerRecord.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/HSQLDBDelegate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/InvalidConfigurationException.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/JTANonClusteredSemaphore.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/JobStoreCMT.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/JobStoreSupport.RecoverMisfiredJobsResult.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/JobStoreSupport.TransactionCallback.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/JobStoreSupport.TransactionValidator.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/JobStoreSupport.VoidTransactionCallback.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/JobStoreSupport.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/JobStoreTX.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/LockException.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/MSSQLDelegate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/NoSuchDelegateException.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/PointbaseDelegate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/PostgreSQLDelegate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/SchedulerStateRecord.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/Semaphore.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/SimplePropertiesTriggerPersistenceDelegateSupport.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/SimplePropertiesTriggerProperties.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/SimpleSemaphore.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/SimpleTriggerPersistenceDelegate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/StdJDBCConstants.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/StdJDBCDelegate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/StdRowLockSemaphore.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/SybaseDelegate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/TablePrefixAware.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/TriggerPersistenceDelegate.TriggerPropertyBundle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/TriggerPersistenceDelegate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/TriggerStatus.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/UpdateLockRowSemaphore.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/Util.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/WebLogicDelegate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/class-use/AttributeRestoringConnectionInvocationHandler.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/class-use/CUBRIDDelegate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/class-use/CacheDelegate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/class-use/CalendarIntervalTriggerPersistenceDelegate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/class-use/Constants.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/class-use/CronTriggerPersistenceDelegate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/class-use/DB2v6Delegate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/class-use/DB2v7Delegate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/class-use/DB2v8Delegate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/class-use/DBSemaphore.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/class-use/DailyTimeIntervalTriggerPersistenceDelegate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/class-use/DriverDelegate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/class-use/FiredTriggerRecord.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/class-use/HSQLDBDelegate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/class-use/InvalidConfigurationException.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/class-use/JTANonClusteredSemaphore.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/class-use/JobStoreCMT.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/class-use/JobStoreSupport.RecoverMisfiredJobsResult.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/class-use/JobStoreSupport.TransactionCallback.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/class-use/JobStoreSupport.TransactionValidator.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/class-use/JobStoreSupport.VoidTransactionCallback.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/class-use/JobStoreSupport.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/class-use/JobStoreTX.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/class-use/LockException.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/class-use/MSSQLDelegate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/class-use/NoSuchDelegateException.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/class-use/PointbaseDelegate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/class-use/PostgreSQLDelegate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/class-use/SchedulerStateRecord.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/class-use/Semaphore.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/class-use/SimplePropertiesTriggerPersistenceDelegateSupport.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/class-use/SimplePropertiesTriggerProperties.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/class-use/SimpleSemaphore.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/class-use/SimpleTriggerPersistenceDelegate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/class-use/StdJDBCConstants.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/class-use/StdJDBCDelegate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/class-use/StdRowLockSemaphore.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/class-use/SybaseDelegate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/class-use/TablePrefixAware.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/class-use/TriggerPersistenceDelegate.TriggerPropertyBundle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/class-use/TriggerPersistenceDelegate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/class-use/TriggerStatus.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/class-use/UpdateLockRowSemaphore.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/class-use/Util.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/class-use/WebLogicDelegate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/oracle/OracleDelegate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/oracle/class-use/OracleDelegate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/oracle/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/oracle/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/oracle/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/oracle/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/oracle/weblogic/WebLogicOracleDelegate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/oracle/weblogic/class-use/WebLogicOracleDelegate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/oracle/weblogic/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/oracle/weblogic/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/oracle/weblogic/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/oracle/weblogic/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/jdbcjobstore/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/matchers/AndMatcher.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/matchers/EverythingMatcher.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/matchers/GroupMatcher.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/matchers/KeyMatcher.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/matchers/NameMatcher.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/matchers/NotMatcher.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/matchers/OrMatcher.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/matchers/StringMatcher.StringOperatorName.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/matchers/StringMatcher.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/matchers/class-use/AndMatcher.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/matchers/class-use/EverythingMatcher.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/matchers/class-use/GroupMatcher.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/matchers/class-use/KeyMatcher.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/matchers/class-use/NameMatcher.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/matchers/class-use/NotMatcher.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/matchers/class-use/OrMatcher.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/matchers/class-use/StringMatcher.StringOperatorName.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/matchers/class-use/StringMatcher.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/matchers/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/matchers/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/matchers/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/matchers/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/triggers/AbstractTrigger.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/triggers/CalendarIntervalTriggerImpl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/triggers/CoreTrigger.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/triggers/CronTriggerImpl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/triggers/DailyTimeIntervalTriggerImpl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/triggers/SimpleTriggerImpl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/triggers/class-use/AbstractTrigger.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/triggers/class-use/CalendarIntervalTriggerImpl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/triggers/class-use/CoreTrigger.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/triggers/class-use/CronTriggerImpl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/triggers/class-use/DailyTimeIntervalTriggerImpl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/triggers/class-use/SimpleTriggerImpl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/triggers/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/triggers/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/triggers/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/impl/triggers/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/jobs/DirectoryScanJob.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/jobs/DirectoryScanListener.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/jobs/FileScanJob.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/jobs/FileScanListener.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/jobs/NativeJob.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/jobs/NoOpJob.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/jobs/class-use/DirectoryScanJob.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/jobs/class-use/DirectoryScanListener.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/jobs/class-use/FileScanJob.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/jobs/class-use/FileScanListener.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/jobs/class-use/NativeJob.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/jobs/class-use/NoOpJob.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/jobs/ee/ejb/EJB3InvokerJob.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/jobs/ee/ejb/EJBInvokerJob.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/jobs/ee/ejb/class-use/EJB3InvokerJob.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/jobs/ee/ejb/class-use/EJBInvokerJob.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/jobs/ee/ejb/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/jobs/ee/ejb/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/jobs/ee/ejb/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/jobs/ee/ejb/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/jobs/ee/jms/JmsHelper.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/jobs/ee/jms/JmsJobException.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/jobs/ee/jms/JmsMessageFactory.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/jobs/ee/jms/SendDestinationMessageJob.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/jobs/ee/jms/SendQueueMessageJob.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/jobs/ee/jms/SendTopicMessageJob.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/jobs/ee/jms/class-use/JmsHelper.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/jobs/ee/jms/class-use/JmsJobException.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/jobs/ee/jms/class-use/JmsMessageFactory.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/jobs/ee/jms/class-use/SendDestinationMessageJob.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/jobs/ee/jms/class-use/SendQueueMessageJob.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/jobs/ee/jms/class-use/SendTopicMessageJob.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/jobs/ee/jms/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/jobs/ee/jms/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/jobs/ee/jms/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/jobs/ee/jms/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/jobs/ee/jmx/JMXInvokerJob.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/jobs/ee/jmx/class-use/JMXInvokerJob.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/jobs/ee/jmx/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/jobs/ee/jmx/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/jobs/ee/jmx/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/jobs/ee/jmx/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/jobs/ee/mail/SendMailJob.MailInfo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/jobs/ee/mail/SendMailJob.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/jobs/ee/mail/class-use/SendMailJob.MailInfo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/jobs/ee/mail/class-use/SendMailJob.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/jobs/ee/mail/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/jobs/ee/mail/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/jobs/ee/mail/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/jobs/ee/mail/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/jobs/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/jobs/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/jobs/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/jobs/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/listeners/BroadcastJobListener.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/listeners/BroadcastSchedulerListener.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/listeners/BroadcastTriggerListener.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/listeners/JobChainingJobListener.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/listeners/JobListenerSupport.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/listeners/SchedulerListenerSupport.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/listeners/TriggerListenerSupport.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/listeners/class-use/BroadcastJobListener.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/listeners/class-use/BroadcastSchedulerListener.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/listeners/class-use/BroadcastTriggerListener.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/listeners/class-use/JobChainingJobListener.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/listeners/class-use/JobListenerSupport.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/listeners/class-use/SchedulerListenerSupport.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/listeners/class-use/TriggerListenerSupport.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/listeners/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/listeners/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/listeners/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/listeners/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/management/ManagementRESTServiceConfiguration.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/management/ManagementServer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/management/class-use/ManagementRESTServiceConfiguration.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/management/class-use/ManagementServer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/management/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/management/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/management/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/management/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/plugins/SchedulerPluginWithUserTransactionSupport.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/plugins/class-use/SchedulerPluginWithUserTransactionSupport.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/plugins/history/LoggingJobHistoryPlugin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/plugins/history/LoggingTriggerHistoryPlugin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/plugins/history/class-use/LoggingJobHistoryPlugin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/plugins/history/class-use/LoggingTriggerHistoryPlugin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/plugins/history/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/plugins/history/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/plugins/history/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/plugins/history/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/plugins/interrupt/JobInterruptMonitorPlugin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/plugins/interrupt/class-use/JobInterruptMonitorPlugin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/plugins/interrupt/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/plugins/interrupt/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/plugins/interrupt/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/plugins/interrupt/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/plugins/management/ShutdownHookPlugin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/plugins/management/class-use/ShutdownHookPlugin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/plugins/management/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/plugins/management/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/plugins/management/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/plugins/management/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/plugins/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/plugins/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/plugins/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/plugins/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/plugins/xml/XMLSchedulingDataProcessorPlugin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/plugins/xml/class-use/XMLSchedulingDataProcessorPlugin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/plugins/xml/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/plugins/xml/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/plugins/xml/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/plugins/xml/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/simpl/CascadingClassLoadHelper.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/simpl/HostnameInstanceIdGenerator.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/simpl/InitThreadContextClassLoadHelper.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/simpl/LoadingLoaderClassLoadHelper.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/simpl/PropertySettingJobFactory.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/simpl/RAMJobStore.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/simpl/SimpleClassLoadHelper.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/simpl/SimpleInstanceIdGenerator.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/simpl/SimpleJobFactory.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/simpl/SimpleThreadPool.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/simpl/SimpleTimeBroker.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/simpl/SystemPropertyInstanceIdGenerator.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/simpl/ThreadContextClassLoadHelper.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/simpl/ZeroSizeThreadPool.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/simpl/class-use/CascadingClassLoadHelper.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/simpl/class-use/HostnameInstanceIdGenerator.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/simpl/class-use/InitThreadContextClassLoadHelper.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/simpl/class-use/LoadingLoaderClassLoadHelper.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/simpl/class-use/PropertySettingJobFactory.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/simpl/class-use/RAMJobStore.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/simpl/class-use/SimpleClassLoadHelper.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/simpl/class-use/SimpleInstanceIdGenerator.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/simpl/class-use/SimpleJobFactory.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/simpl/class-use/SimpleThreadPool.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/simpl/class-use/SimpleTimeBroker.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/simpl/class-use/SystemPropertyInstanceIdGenerator.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/simpl/class-use/ThreadContextClassLoadHelper.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/simpl/class-use/ZeroSizeThreadPool.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/simpl/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/simpl/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/simpl/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/simpl/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/spi/ClassLoadHelper.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/spi/InstanceIdGenerator.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/spi/JobFactory.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/spi/JobStore.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/spi/MutableTrigger.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/spi/OperableTrigger.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/spi/SchedulerPlugin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/spi/SchedulerSignaler.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/spi/ThreadExecutor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/spi/ThreadPool.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/spi/TimeBroker.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/spi/TriggerFiredBundle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/spi/TriggerFiredResult.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/spi/class-use/ClassLoadHelper.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/spi/class-use/InstanceIdGenerator.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/spi/class-use/JobFactory.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/spi/class-use/JobStore.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/spi/class-use/MutableTrigger.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/spi/class-use/OperableTrigger.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/spi/class-use/SchedulerPlugin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/spi/class-use/SchedulerSignaler.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/spi/class-use/ThreadExecutor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/spi/class-use/ThreadPool.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/spi/class-use/TimeBroker.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/spi/class-use/TriggerFiredBundle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/spi/class-use/TriggerFiredResult.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/spi/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/spi/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/spi/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/spi/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/C3p0PoolingConnectionProvider.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/CircularLossyQueue.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/ClassUtils.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/ConnectionProvider.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/DBConnectionManager.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/DirtyFlagMap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/FindbugsSuppressWarnings.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/HikariCpPoolingConnectionProvider.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/JNDIConnectionProvider.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/Key.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/PoolingConnectionProvider.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/PropertiesParser.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/StringKeyDirtyFlagMap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/class-use/C3p0PoolingConnectionProvider.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/class-use/CircularLossyQueue.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/class-use/ClassUtils.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/class-use/ConnectionProvider.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/class-use/DBConnectionManager.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/class-use/DirtyFlagMap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/class-use/FindbugsSuppressWarnings.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/class-use/HikariCpPoolingConnectionProvider.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/class-use/JNDIConnectionProvider.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/class-use/Key.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/class-use/PoolingConnectionProvider.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/class-use/PropertiesParser.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/class-use/StringKeyDirtyFlagMap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/counter/Counter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/counter/CounterConfig.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/counter/CounterImpl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/counter/CounterManager.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/counter/CounterManagerImpl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/counter/class-use/Counter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/counter/class-use/CounterConfig.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/counter/class-use/CounterImpl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/counter/class-use/CounterManager.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/counter/class-use/CounterManagerImpl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/counter/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/counter/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/counter/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/counter/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/counter/sampled/SampledCounter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/counter/sampled/SampledCounterConfig.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/counter/sampled/SampledCounterImpl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/counter/sampled/SampledRateCounter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/counter/sampled/SampledRateCounterConfig.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/counter/sampled/SampledRateCounterImpl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/counter/sampled/TimeStampedCounterValue.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/counter/sampled/class-use/SampledCounter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/counter/sampled/class-use/SampledCounterConfig.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/counter/sampled/class-use/SampledCounterImpl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/counter/sampled/class-use/SampledRateCounter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/counter/sampled/class-use/SampledRateCounterConfig.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/counter/sampled/class-use/SampledRateCounterImpl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/counter/sampled/class-use/TimeStampedCounterValue.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/counter/sampled/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/counter/sampled/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/counter/sampled/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/counter/sampled/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/weblogic/WeblogicConnectionProvider.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/weblogic/class-use/WeblogicConnectionProvider.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/weblogic/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/weblogic/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/weblogic/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/utils/weblogic/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/xml/ValidationException.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/xml/XMLSchedulingDataProcessor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/xml/class-use/ValidationException.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/xml/class-use/XMLSchedulingDataProcessor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/xml/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/xml/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/xml/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/xml/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/terracotta/quartz/AbstractTerracottaJobStore.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/terracotta/quartz/ClusteredJobStore.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/terracotta/quartz/PlainTerracottaJobStore.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/terracotta/quartz/TerracottaJobStore.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/terracotta/quartz/TerracottaJobStoreExtensions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/terracotta/quartz/TerracottaToolkitBuilder.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/terracotta/quartz/class-use/AbstractTerracottaJobStore.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/terracotta/quartz/class-use/ClusteredJobStore.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/terracotta/quartz/class-use/PlainTerracottaJobStore.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/terracotta/quartz/class-use/TerracottaJobStore.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/terracotta/quartz/class-use/TerracottaJobStoreExtensions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/terracotta/quartz/class-use/TerracottaToolkitBuilder.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/terracotta/quartz/collections/SerializationHelper.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/terracotta/quartz/collections/SerializedToolkitStore.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/terracotta/quartz/collections/TimeTrigger.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/terracotta/quartz/collections/TimeTriggerSet.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/terracotta/quartz/collections/ToolkitDSHolder.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/terracotta/quartz/collections/class-use/SerializationHelper.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/terracotta/quartz/collections/class-use/SerializedToolkitStore.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/terracotta/quartz/collections/class-use/TimeTrigger.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/terracotta/quartz/collections/class-use/TimeTriggerSet.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/terracotta/quartz/collections/class-use/ToolkitDSHolder.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/terracotta/quartz/collections/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/terracotta/quartz/collections/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/terracotta/quartz/collections/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/terracotta/quartz/collections/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/terracotta/quartz/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/terracotta/quartz/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/terracotta/quartz/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/terracotta/quartz/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/terracotta/quartz/wrappers/DefaultWrapperFactory.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/terracotta/quartz/wrappers/FiredTrigger.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/terracotta/quartz/wrappers/JobFacade.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/terracotta/quartz/wrappers/JobWrapper.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/terracotta/quartz/wrappers/TriggerFacade.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/terracotta/quartz/wrappers/TriggerWrapper.TriggerState.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/terracotta/quartz/wrappers/TriggerWrapper.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/terracotta/quartz/wrappers/WrapperFactory.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/terracotta/quartz/wrappers/class-use/DefaultWrapperFactory.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/terracotta/quartz/wrappers/class-use/FiredTrigger.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/terracotta/quartz/wrappers/class-use/JobFacade.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/terracotta/quartz/wrappers/class-use/JobWrapper.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/terracotta/quartz/wrappers/class-use/TriggerFacade.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/terracotta/quartz/wrappers/class-use/TriggerWrapper.TriggerState.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/terracotta/quartz/wrappers/class-use/TriggerWrapper.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/terracotta/quartz/wrappers/class-use/WrapperFactory.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/terracotta/quartz/wrappers/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/terracotta/quartz/wrappers/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/terracotta/quartz/wrappers/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/terracotta/quartz/wrappers/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/overview-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/overview-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/overview-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/package-list" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/serialized-form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/lib/c3p0-0.9.5.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/lib/log4j-1.2.16.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/lib/quartz-2.4.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/lib/quartz-jobs-2.4.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/lib/slf4j-api-1.7.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/lib/slf4j-log4j12-1.7.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/licenses/3rd_Party_Licenses_TAQ_2.2.3.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/licenses/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/licenses/Legal Notice.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/META-INF/terracotta/public-api-types" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/checkstyle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/Calendar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/CalendarIntervalScheduleBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/CalendarIntervalTrigger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/CronExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/CronScheduleBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/CronTrigger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/DailyTimeIntervalScheduleBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/DailyTimeIntervalTrigger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/DateBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/DisallowConcurrentExecution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/ExecuteInJTATransaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/InterruptableJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/Job.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/JobBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/JobDataMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/JobDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/JobExecutionContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/JobExecutionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/JobKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/JobListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/JobPersistenceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/ListenerManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/Matcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/ObjectAlreadyExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/PersistJobDataAfterExecution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/ScheduleBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/Scheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/SchedulerConfigException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/SchedulerContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/SchedulerException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/SchedulerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/SchedulerListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/SchedulerMetaData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/SimpleScheduleBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/SimpleTrigger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/StatefulJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/TimeOfDay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/Trigger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/TriggerBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/TriggerKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/TriggerListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/TriggerUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/UnableToInterruptJobException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/commonj/WorkManagerThreadExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/core/JobRunShell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/core/JobRunShellFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/core/ListenerManagerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/core/NullSampledStatisticsImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/core/QuartzScheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/core/QuartzSchedulerMBeanImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/core/QuartzSchedulerResources.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/core/QuartzSchedulerThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/core/RemotableQuartzScheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/core/SampledStatistics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/core/SampledStatisticsImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/core/SchedulerSignalerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/core/jmx/CronTriggerSupport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/core/jmx/JobDataMapSupport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/core/jmx/JobDetailSupport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/core/jmx/JobExecutionContextSupport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/core/jmx/QuartzSchedulerMBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/core/jmx/SimpleTriggerSupport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/core/jmx/TriggerSupport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/core/mbeans-descriptors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/core/package.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/core/quartz-build.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/ee/jmx/jboss/JBoss4RMIRemoteMBeanScheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/ee/jmx/jboss/QuartzService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/ee/jmx/jboss/QuartzServiceMBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/ee/jmx/jboss/doc-files/quartz-service.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/ee/jta/JTAAnnotationAwareJobRunShellFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/ee/jta/JTAJobRunShell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/ee/jta/JTAJobRunShellFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/ee/jta/UserTransactionHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/ee/servlet/QuartzInitializerListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/ee/servlet/QuartzInitializerServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/helpers/VersionPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/helpers/package.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/DefaultThreadExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/DirectSchedulerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/JobDetailImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/JobExecutionContextImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/QuartzServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/RemoteMBeanScheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/RemoteScheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/SchedulerDetailsSetter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/SchedulerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/StdJobRunShellFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/StdScheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/StdSchedulerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/calendar/AnnualCalendar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/calendar/BaseCalendar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/calendar/CronCalendar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/calendar/DailyCalendar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/calendar/HolidayCalendar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/calendar/MonthlyCalendar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/calendar/WeeklyCalendar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/AttributeRestoringConnectionInvocationHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/CUBRIDDelegate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/CacheDelegate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/CalendarIntervalTriggerPersistenceDelegate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/CronTriggerPersistenceDelegate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/DB2v6Delegate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/DB2v7Delegate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/DB2v8Delegate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/DBSemaphore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/DailyTimeIntervalTriggerPersistenceDelegate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/DriverDelegate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/FiredTriggerRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/HSQLDBDelegate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/InvalidConfigurationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/JTANonClusteredSemaphore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/JobStoreCMT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/JobStoreSupport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/JobStoreTX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/LockException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/MSSQLDelegate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/NoSuchDelegateException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/PointbaseDelegate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/PostgreSQLDelegate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/SchedulerStateRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/Semaphore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/SimplePropertiesTriggerPersistenceDelegateSupport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/SimplePropertiesTriggerProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/SimpleSemaphore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/SimpleTriggerPersistenceDelegate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/StdJDBCConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/StdJDBCDelegate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/StdRowLockSemaphore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/SybaseDelegate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/TablePrefixAware.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/TriggerPersistenceDelegate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/TriggerStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/UpdateLockRowSemaphore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/WebLogicDelegate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/liquibase.quartz.init.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/oracle/OracleDelegate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/oracle/weblogic/WebLogicOracleDelegate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/tables_cloudscape.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/tables_cubrid.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/tables_db2.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/tables_db2_v72.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/tables_db2_v8.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/tables_db2_v95.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/tables_derby.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/tables_derby_previous.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/tables_firebird.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/tables_h2.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/tables_hsqldb.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/tables_hsqldb_old.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/tables_informix.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/tables_mysql.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/tables_mysql_innodb.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/tables_oracle.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/tables_pointbase.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/tables_postgres.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/tables_sapdb.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/tables_solid.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/tables_sqlServer.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/tables_sybase.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/matchers/AndMatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/matchers/EverythingMatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/matchers/GroupMatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/matchers/KeyMatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/matchers/NameMatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/matchers/NotMatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/matchers/OrMatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/matchers/StringMatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/package.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/triggers/AbstractTrigger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/triggers/CalendarIntervalTriggerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/triggers/CoreTrigger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/triggers/CronTriggerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/triggers/DailyTimeIntervalTriggerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/triggers/SimpleTriggerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/triggers/package.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/listeners/BroadcastJobListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/listeners/BroadcastSchedulerListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/listeners/BroadcastTriggerListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/listeners/JobChainingJobListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/listeners/JobListenerSupport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/listeners/SchedulerListenerSupport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/listeners/TriggerListenerSupport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/management/ManagementRESTServiceConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/management/ManagementServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/package.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/plugins/SchedulerPluginWithUserTransactionSupport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/plugins/history/LoggingJobHistoryPlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/plugins/history/LoggingTriggerHistoryPlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/plugins/interrupt/JobInterruptMonitorPlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/plugins/management/ShutdownHookPlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/plugins/xml/XMLSchedulingDataProcessorPlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/quartz.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/simpl/CascadingClassLoadHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/simpl/HostnameInstanceIdGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/simpl/InitThreadContextClassLoadHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/simpl/LoadingLoaderClassLoadHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/simpl/PropertySettingJobFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/simpl/RAMJobStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/simpl/SimpleClassLoadHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/simpl/SimpleInstanceIdGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/simpl/SimpleJobFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/simpl/SimpleThreadPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/simpl/SimpleTimeBroker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/simpl/SystemPropertyInstanceIdGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/simpl/ThreadContextClassLoadHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/simpl/ZeroSizeThreadPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/simpl/package.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/spi/ClassLoadHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/spi/InstanceIdGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/spi/JobFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/spi/JobStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/spi/MutableTrigger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/spi/OperableTrigger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/spi/SchedulerPlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/spi/SchedulerSignaler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/spi/ThreadExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/spi/ThreadPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/spi/TimeBroker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/spi/TriggerFiredBundle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/spi/TriggerFiredResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/spi/package.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/C3p0PoolingConnectionProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/CircularLossyQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/ClassUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/ConnectionProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/DBConnectionManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/DirtyFlagMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/FindbugsSuppressWarnings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/HikariCpPoolingConnectionProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/JNDIConnectionProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/Key.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/PoolingConnectionProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/PropertiesParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/StringKeyDirtyFlagMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/counter/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/counter/CounterConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/counter/CounterImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/counter/CounterManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/counter/CounterManagerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/counter/sampled/SampledCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/counter/sampled/SampledCounterConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/counter/sampled/SampledCounterImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/counter/sampled/SampledRateCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/counter/sampled/SampledRateCounterConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/counter/sampled/SampledRateCounterImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/counter/sampled/TimeStampedCounterValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/weblogic/WeblogicConnectionProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/xml/ValidationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/xml/XMLSchedulingDataProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/xml/job_scheduling_data_1_8.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/xml/job_scheduling_data_2_0.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/terracotta/quartz/AbstractTerracottaJobStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/terracotta/quartz/ClusteredJobStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/terracotta/quartz/DefaultClusteredJobStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/terracotta/quartz/PlainTerracottaJobStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/terracotta/quartz/TerracottaJobStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/terracotta/quartz/TerracottaJobStoreExtensions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/terracotta/quartz/TerracottaToolkitBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/terracotta/quartz/TransactionControllingLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/terracotta/quartz/collections/SerializationHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/terracotta/quartz/collections/SerializedToolkitStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/terracotta/quartz/collections/TimeTrigger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/terracotta/quartz/collections/TimeTriggerSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/terracotta/quartz/collections/ToolkitDSHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/terracotta/quartz/wrappers/DefaultWrapperFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/terracotta/quartz/wrappers/FiredTrigger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/terracotta/quartz/wrappers/JobFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/terracotta/quartz/wrappers/JobWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/terracotta/quartz/wrappers/TriggerFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/terracotta/quartz/wrappers/TriggerWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/terracotta/quartz/wrappers/WrapperFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/overview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/ip/timeutils/TimeUpdate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/redisTest/a.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db-config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/cpdetector_1_0_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/cpdetector_1_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/out/ip2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/ip/IPModel/IpMessage.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/ip/IPModel/SerializeUtil.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/ip/database/MyRedis.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/ip/database/RedisDB.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/ip/htmlparse/IpPool.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/ip/htmlparse/IpThread.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/ip/htmlparse/URLFecter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/ip/httpbrowser/MyHttpResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/ip/ipfilter/IpFilter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/ip/ipfilter/IpUtils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/ip/timeutils/MyTimeJob.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/ip/timeutils/MyTimer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/zyh.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/zyh.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/crawl/ip/database/MyRedis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawl/ip/database/MyRedis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/crawl/ip/database/RedisDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawl/ip/database/RedisDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/crawl/ip/timeutils/MyTimeJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawl/ip/timeutils/MyTimeJob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/root.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/root.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/a/htmlparse/HttpUrl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/a/htmlparse/HttpUrl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/a/htmlparse/UrlFecter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/a/htmlparse/UrlFecter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/a/httpbrowser/CreateUrl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/a/httpbrowser/CreateUrl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/a/mainmethon/major.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/a/mainmethon/major.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/a/savefile/ImageFile$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/a/savefile/ImageFile$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/a/savefile/ImageFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/a/savefile/ImageFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/buc/BucKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/buc/BucKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kmeans/KKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kmeans/KKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/page/Page.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/page/Page.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/page/PageParserTool.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/page/PageParserTool.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/CSVUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/CSVUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/CSVUtilKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/CSVUtilKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/CharsetDetector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/CharsetDetector.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/RegexRule.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/RegexRule.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/TimeUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/TimeUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/TimeUtilKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/TimeUtilKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/out/ip.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/out/ip1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/crawl/ip/IPModel/IPMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/crawl/ip/IPModel/SerializeUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/crawl/ip/database/MyRedis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/crawl/ip/database/RedisDB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/crawl/ip/htmlparse/IPPool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/crawl/ip/htmlparse/IPThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/crawl/ip/htmlparse/URLFecter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/crawl/ip/httpbrowser/MyHttpResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/crawl/ip/ipfilter/IPFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/crawl/ip/ipfilter/IPUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/crawl/ip/timeutils/MyTimeJob.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/crawl/ip/timeutils/MyTimer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/crawl/ip/timeutils/TimeUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawl/ip/timeutils/TimeUpdate.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -1149,37 +47,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/timeutils/MyTimeJob.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/timeutils/MyTimeJob.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-898">
-              <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+            <state relative-caret-position="959">
+              <caret line="86" column="12" selection-start-line="86" selection-start-column="12" selection-end-line="86" selection-end-column="12" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#611#612#0" expanded="true" />
-                <element signature="e#648#649#0" expanded="true" />
+                <element signature="e#28#320#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/out/ip.txt">
+        <entry file="file://$PROJECT_DIR$/data/out/ip1.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
+            <state relative-caret-position="358">
               <caret line="262" selection-start-line="262" selection-end-line="262" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/htmlparse/IPPool.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#847#858#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -1196,8 +79,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>out.</find>
       <find>sou</find>
+      <find>out.</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -1206,24 +89,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/javaTemp/A.java" />
-        <option value="$PROJECT_DIR$/src/main/java/kmeans/k.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/a/htmlparse/UrlFecter.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/a/savefile/ImageFile.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/a/httpbrowser/CreateUrl.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/a/mainmethon/major.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/buc/buc.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/util2/FileTool.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/learnKotlin/a.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/learnKotlin/a1.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/learnKotlin/a2.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/util/FileTool.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/test/a.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/test/a1.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/reptile/HttpClientDemo.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/page/PageParserTool.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/page/Page.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/util/FileUtil.kt" />
         <option value="$PROJECT_DIR$/src/main/java/reptile/a.kt" />
         <option value="$PROJECT_DIR$/src/main/java/reptile/b.kt" />
         <option value="$PROJECT_DIR$/src/main/java/crawler/b.kt" />
@@ -1248,15 +113,33 @@
         <option value="$PROJECT_DIR$/src/main/java/crawl/ip/htmlparse/IPPool.java" />
         <option value="$PROJECT_DIR$/src/main/java/crawl/ip/httpbrowser/MyHttpResponse.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/crawl/ip/timeutils/TimeUpdate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/crawl/ip/timeutils/MyTimeJob.java" />
         <option value="$PROJECT_DIR$/src/main/java/redisTest/RedisJava.java" />
         <option value="$PROJECT_DIR$/src/main/java/redisTest/RedisJava.kt" />
         <option value="$PROJECT_DIR$/src/main/java/redisTest/a.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/crawl/ip/database/MyRedis.java" />
         <option value="$PROJECT_DIR$/src/main/resources/db-config.properties" />
         <option value="$PROJECT_DIR$/src/main/java/crawl/ip/database/RedisDB.java" />
         <option value="$PROJECT_DIR$/data/out/ip.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/crawl/ip/htmlparse/IPThread.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/crawl/ip/ipfilter/IPUtils.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/crawl/ip/IPModel/SerializeUtil.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/crawl/ip/timeutils/TimeUpdate.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/crawl/ip/timeutils/TimeUpdate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/crawl/ip/database/MyRedis.java" />
+        <option value="$PROJECT_DIR$/src/main/java/crawl/ip/ipfilter/IPFilter.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/crawl/ip/timeutils/MyTimeJob.java" />
+        <option value="$PROJECT_DIR$/data/out/ip2.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/crawl/ip/database/RedisDB.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/crawl/ip/httpbrowser/MyHttpResponse.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/crawl/ip/timeutils/MyTimer.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/crawl/ip/ipfilter/IpFilter.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/crawl/ip/htmlparse/URLFecter.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/crawl/ip/ipfilter/IpUtils.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/crawl/ip/htmlparse/IPPool.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/crawl/ip/htmlparse/IpPool.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/crawl/ip/IPModel/IPMessage.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/crawl/ip/IPModel/IpMessage.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/crawl/ip/database/MyRedis.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/crawl/ip/timeutils/MyTimeJob.kt" />
       </list>
     </option>
   </component>
@@ -1335,6 +218,26 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="crawl" type="462c0819:PsiDirectoryNode" />
               <item name="ip" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="root" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="crawl" type="462c0819:PsiDirectoryNode" />
+              <item name="ip" type="462c0819:PsiDirectoryNode" />
+              <item name="htmlparse" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="root" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="crawl" type="462c0819:PsiDirectoryNode" />
+              <item name="ip" type="462c0819:PsiDirectoryNode" />
               <item name="httpbrowser" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -1362,7 +265,10 @@
               <item name="root" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="crawl" type="462c0819:PsiDirectoryNode" />
+              <item name="ip" type="462c0819:PsiDirectoryNode" />
+              <item name="timeutils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="root" type="b2602c69:ProjectViewProjectNode" />
@@ -1417,7 +323,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyTimeJob">
+  <component name="RunManager" selected="Kotlin.crawl.ip.timeutils.MyTimer">
     <configuration name="MyTimeJob" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="crawl.ip.timeutils.MyTimeJob" />
       <module name="root" />
@@ -1444,14 +350,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="learnKotlin.A1Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="crawl.ip.timeutils.MyTimer" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="root" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="learnKotlin.A1Kt" />
+      <option name="MAIN_CLASS_NAME" value="crawl.ip.timeutils.MyTimer" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -1485,6 +391,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.crawl.ip.timeutils.MyTimer" />
         <item itemvalue="Application.MyTimeJob" />
         <item itemvalue="Kotlin.redisTest.AKt" />
         <item itemvalue="Application.RedisJava" />
@@ -1593,7 +500,21 @@
       <option name="project" value="LOCAL" />
       <updated>1557919045264</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add ip.txt">
+      <created>1557972469253</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1557972469253</updated>
+    </task>
+    <task id="LOCAL-00015" summary="add ip.txt">
+      <created>1557972504788</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1557972504788</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1609,7 +530,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17493297" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20308311" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1618,7 +539,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.16288953" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.41784704" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24362606" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1626,7 +547,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3286119" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.17705382" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.33286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1649,46 +570,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="add ip.txt" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/temp/2019.05.14_22.05.32/xinwen.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2333" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/page/Page.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#14#141#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/page/RequestAndResponseTool.kt" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/page/PageParserTool.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding>
-            <element signature="e#14#130#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/FileUtil.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/Links.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar!/org/apache/http/impl/client/CloseableHttpClient.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
@@ -1870,13 +751,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/ipfilter/IPUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/redis/jedis-2.1.0.jar!/redis/clients/jedis/Jedis.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1895,47 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/timeutils/MyTimer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/htmlparse/IPThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/IPModel/SerializeUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-444">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/IPModel/IPMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/ipfilter/IPFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1967,13 +800,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/timeutils/TimeUpdate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="7" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/redisTest/a.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -1988,18 +814,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/database/MyRedis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1075#1076#0" expanded="true" />
-            <element signature="e#1111#1112#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/QUICK-START.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -2010,63 +824,165 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/database/RedisDB.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/IPModel/SerializeUtil.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="53" column="21" lean-forward="true" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+        <state relative-caret-position="512">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/out/ip2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/database/RedisDB.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-250">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#27#78#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/httpbrowser/MyHttpResponse.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar!/org/apache/http/client/config/RequestConfig.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+        <state relative-caret-position="199">
+          <caret line="249" column="37" selection-start-line="249" selection-start-column="37" selection-end-line="249" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/timeutils/TimeUpdate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/files/java/jdk/jdk-11.0.1/lib/src.zip!/java.base/java/util/Timer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="284" column="16" selection-start-line="284" selection-start-column="16" selection-end-line="284" selection-end-column="16" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getHtml#1;class#MyHttpResponse#0" />
+            <element signature="e#4831#4832#0" expanded="true" />
+            <element signature="e#4878#4879#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/htmlparse/URLFecter.java">
+    <entry file="jar://D:/files/java/jdk/jdk-11.0.1/lib/src.zip!/java.base/java/util/Calendar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        <state relative-caret-position="169">
+          <caret line="1783" column="22" selection-start-line="1783" selection-start-column="22" selection-end-line="1783" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#71982#71983#0" expanded="true" />
+            <element signature="e#72032#72033#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/htmlparse/IPPool.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/timeutils/MyTimer.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
+        <state relative-caret-position="259">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/httpbrowser/MyHttpResponse.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="64" column="14" lean-forward="true" selection-start-line="64" selection-start-column="14" selection-end-line="64" selection-end-column="14" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#847#858#0" expanded="true" />
+            <element signature="e#30#326#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/out/ip.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/ipfilter/IpFilter.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
+        <state relative-caret-position="9">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/ipfilter/IpUtils.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/htmlparse/IpThread.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/files/java/jdk/jdk-11.0.1/lib/src.zip!/java.base/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="1377" column="22" selection-start-line="1377" selection-start-column="22" selection-end-line="1377" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib/1.3.31/kotlin-stdlib-1.3.31-sources.jar!/kotlin/Collections.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="189" column="17" selection-start-line="189" selection-start-column="17" selection-end-line="189" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/database/MyRedis.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/htmlparse/IpPool.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding>
+            <element signature="e#28#156#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/htmlparse/URLFecter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="45" column="11" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
+          <folding>
+            <element signature="e#28#127#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/IPModel/IpMessage.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/out/ip1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
           <caret line="262" selection-start-line="262" selection-end-line="262" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/timeutils/MyTimeJob.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/timeutils/MyTimeJob.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-898">
-          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+        <state relative-caret-position="959">
+          <caret line="86" column="12" selection-start-line="86" selection-start-column="12" selection-end-line="86" selection-end-column="12" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#28#320#0" expanded="true" />
           </folding>
         </state>
       </provider>
