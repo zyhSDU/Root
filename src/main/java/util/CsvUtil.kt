@@ -4,10 +4,10 @@ import java.io.*
 import java.util.ArrayList
 
 fun main() {
-    CSVUtil.read("in\\a1.csv")
+    CsvUtil.read("in\\a1.csv")
 }
 
-object CSVUtil {
+object CsvUtil {
     fun read(path: String): ArrayList<String> {
         val arrayList = ArrayList<String>()
 

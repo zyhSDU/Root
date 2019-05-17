@@ -1,10 +1,10 @@
 package buc
 
-import util.CSVUtil
+import util.CsvUtil
 
 const val minCount = 3
 val kks = ArrayList<List<String>>()
-val ks = CSVUtil.read("data\\in\\buc_in.csv")
+val ks = CsvUtil.read("data\\in\\buc_in.csv")
 val size = ks[0].split(",").size//维数
 val vvs = Array(size) { ArrayList<String>() }
 val vs = ArrayList<Int>()
@@ -32,7 +32,7 @@ fun main() {
     val resultList = result.map {
         it.toString()
     }as ArrayList<String>
-    CSVUtil.write("data\\out\\buc_out.csv",resultList)
+    CsvUtil.write("data\\out\\buc_out.csv",resultList)
 }
 
 fun buc(a: Int) {

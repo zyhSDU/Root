@@ -1,6 +1,6 @@
 package kmeans
 
-import util.CSVUtil
+import util.CsvUtil
 import java.lang.StringBuilder
 
 fun main() {
@@ -9,7 +9,7 @@ fun main() {
 
 fun kmeans() {
     val k = 6
-    val ks = CSVUtil.read("data\\in\\kmeans_in.csv").map { it.split(",").map { it.toDouble() } }
+    val ks = CsvUtil.read("data\\in\\kmeans_in.csv").map { it.split(",").map { it.toDouble() } }
     var sse = 0.01
     val centroids = Array(k) { ArrayList<Double>() }
     //1 随机选取k个中心点
@@ -78,5 +78,5 @@ fun kmeans() {
         }
         sb.toString()
     } as ArrayList<String>
-    CSVUtil.write("data\\out\\kmeans_out.csv", resultList)
+    CsvUtil.write("data\\out\\kmeans_out.csv", resultList)
 }
