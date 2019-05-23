@@ -1,107 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa01d114-9c47-4dc2-a5db-f7cadec776dd" name="Default Changelist" comment="add bj package">
-      <change afterPath="$PROJECT_DIR$/lib/classes-dex2jar.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.16.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/paDouBan.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/paMaoYan/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/paMaoYan/MovieItem.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/MySQLDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/zyh.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/zyh.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/cpdetector_1_0_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/cpdetector_1_0_5.xml" afterDir="false" />
+    <list default="true" id="fa01d114-9c47-4dc2-a5db-f7cadec776dd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/MySQLUtil.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/in/bj_in.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/bj_in.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/out/bj_out.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/out/bj_out.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example1/SimpleExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example1/SimpleExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example10/PlugInExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example10/PlugInExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example11/LoadExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example11/LoadExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example13/ClusterExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example13/ClusterExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example15/ClusterExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example15/ClusterExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example5/MisfireExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example5/MisfireExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example6/BadJob1.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example6/BadJob1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example7/DumbInterruptableJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example7/DumbInterruptableJob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example7/InterruptExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example7/InterruptExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example8/CalendarExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example8/CalendarExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/Calendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/Calendar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/CalendarIntervalScheduleBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/CalendarIntervalScheduleBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/CalendarIntervalTrigger.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/CalendarIntervalTrigger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/CronExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/CronExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/CronTrigger.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/CronTrigger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/DailyTimeIntervalScheduleBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/DailyTimeIntervalScheduleBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/DailyTimeIntervalTrigger.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/DailyTimeIntervalTrigger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/DateBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/DateBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/ExecuteInJTATransaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/ExecuteInJTATransaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/InterruptableJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/InterruptableJob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/JobBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/JobBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/JobDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/JobDetail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/JobExecutionContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/JobExecutionContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/ListenerManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/ListenerManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/Scheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/Scheduler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/SimpleTrigger.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/SimpleTrigger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/StatefulJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/StatefulJob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/Trigger.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/Trigger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/TriggerBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/TriggerBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/TriggerListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/TriggerListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/TriggerUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/TriggerUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/core/JobRunShell.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/core/JobRunShell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/core/NullSampledStatisticsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/core/NullSampledStatisticsImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/core/QuartzScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/core/QuartzScheduler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/core/QuartzSchedulerResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/core/QuartzSchedulerResources.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/core/QuartzSchedulerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/core/QuartzSchedulerThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/ee/jmx/jboss/QuartzService.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/ee/jmx/jboss/QuartzService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/JobDetailImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/JobDetailImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/StdSchedulerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/StdSchedulerFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/calendar/AnnualCalendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/calendar/AnnualCalendar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/calendar/BaseCalendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/calendar/BaseCalendar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/calendar/CronCalendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/calendar/CronCalendar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/calendar/DailyCalendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/calendar/DailyCalendar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/calendar/HolidayCalendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/calendar/HolidayCalendar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/calendar/MonthlyCalendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/calendar/MonthlyCalendar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/calendar/WeeklyCalendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/calendar/WeeklyCalendar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/DriverDelegate.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/DriverDelegate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/JTANonClusteredSemaphore.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/JTANonClusteredSemaphore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/JobStoreSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/JobStoreSupport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/SimplePropertiesTriggerPersistenceDelegateSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/SimplePropertiesTriggerPersistenceDelegateSupport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/StdJDBCDelegate.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/StdJDBCDelegate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/TriggerStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/TriggerStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/UpdateLockRowSemaphore.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/UpdateLockRowSemaphore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/triggers/AbstractTrigger.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/triggers/AbstractTrigger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/triggers/CalendarIntervalTriggerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/triggers/CalendarIntervalTriggerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/triggers/CronTriggerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/triggers/CronTriggerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/triggers/DailyTimeIntervalTriggerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/triggers/DailyTimeIntervalTriggerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/triggers/SimpleTriggerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/triggers/SimpleTriggerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/plugins/history/LoggingJobHistoryPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/plugins/history/LoggingJobHistoryPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/plugins/history/LoggingTriggerHistoryPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/plugins/history/LoggingTriggerHistoryPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/plugins/management/ShutdownHookPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/plugins/management/ShutdownHookPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/plugins/xml/XMLSchedulingDataProcessorPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/plugins/xml/XMLSchedulingDataProcessorPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/simpl/CascadingClassLoadHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/simpl/CascadingClassLoadHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/simpl/RAMJobStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/simpl/RAMJobStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/simpl/SimpleThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/simpl/SimpleThreadPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/simpl/SimpleTimeBroker.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/simpl/SimpleTimeBroker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/simpl/ZeroSizeThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/simpl/ZeroSizeThreadPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/spi/JobFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/spi/JobFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/spi/JobStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/spi/JobStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/spi/MutableTrigger.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/spi/MutableTrigger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/spi/OperableTrigger.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/spi/OperableTrigger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/spi/SchedulerPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/spi/SchedulerPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/spi/ThreadExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/spi/ThreadExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/spi/ThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/spi/ThreadPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/C3p0PoolingConnectionProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/C3p0PoolingConnectionProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/HikariCpPoolingConnectionProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/HikariCpPoolingConnectionProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/JNDIConnectionProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/JNDIConnectionProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/PoolingConnectionProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/PoolingConnectionProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/PropertiesParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/PropertiesParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/StringKeyDirtyFlagMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/StringKeyDirtyFlagMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/weblogic/WeblogicConnectionProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/weblogic/WeblogicConnectionProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/xml/XMLSchedulingDataProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/xml/XMLSchedulingDataProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/terracotta/quartz/DefaultClusteredJobStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/terracotta/quartz/DefaultClusteredJobStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/crawl/a.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawl/a.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/crawl/c.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawl/c.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learnKotlin/a2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learnKotlin/a2.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/RequestUtil.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/HttpUtil.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/value/StringValue.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/value/StringValue.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/MySQLDemo.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/META-INF/root.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/root.kotlin_module" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -117,90 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/util/HttpUtil.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-              <folding>
-                <element signature="n#!!block;n#setHeaderAsBrowser#0;n#!!block;n#Get#0;n#!!block;n#RequestUtil#0" />
-                <element signature="n#!!block;n#setHeaderAsBrowser#0" />
-                <element signature="n#!!block;n#returnResponse#2" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/crawl/paDouBan.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="28" column="54" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/crawl/paMaoYan/MovieItem.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-225">
-              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-              <folding>
-                <element signature="e#24#73#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/test/a1.kt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/test/MySQLDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/util/MySQLUtil.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/crawl/paMaoYan/Main.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="e#24#90#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/crawl/c.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/crawl/a.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar!/org/apache/http/util/EntityUtils.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="165" column="25" selection-start-line="165" selection-start-column="25" selection-end-line="165" selection-end-column="25" />
+            <state relative-caret-position="150">
+              <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -227,8 +51,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/redisTest/a.kt" />
-        <option value="$PROJECT_DIR$/src/main/resources/db-config.properties" />
         <option value="$PROJECT_DIR$/src/main/java/crawl/ip/database/RedisDB.java" />
         <option value="$PROJECT_DIR$/data/out/ip.txt" />
         <option value="$PROJECT_DIR$/src/main/java/crawl/ip/htmlparse/IPThread.kt" />
@@ -278,6 +100,8 @@
         <option value="$PROJECT_DIR$/src/main/java/crawl/paMaoYan/Main.kt" />
         <option value="$PROJECT_DIR$/src/main/java/crawl/paMaoYan/MovieItem.kt" />
         <option value="$PROJECT_DIR$/src/main/java/test/MySQLDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/MySQLDemo.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/util/MySQLUtil.kt" />
       </list>
     </option>
   </component>
@@ -432,7 +256,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MySQLDemo">
+  <component name="RunManager" selected="Kotlin.test.MySQLDemoKt">
     <configuration name="MySQLDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.MySQLDemo" />
       <module name="root" />
@@ -472,19 +296,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="crawl.ip.timeutils.MyTimer" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="root" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="crawl.ip.timeutils.MyTimer" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="crawl.paMaoYan.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="root" />
       <option name="VM_PARAMETERS" />
@@ -498,13 +309,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test.MySQLDemoKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="root" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="test.MySQLDemoKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.test.MySQLDemoKt" />
         <item itemvalue="Application.MySQLDemo" />
         <item itemvalue="Kotlin.crawl.paMaoYan.MainKt" />
         <item itemvalue="Kotlin.crawl.PaDouBanKt" />
         <item itemvalue="Kotlin.bj.AKt" />
-        <item itemvalue="Kotlin.crawl.ip.timeutils.MyTimer" />
       </list>
     </recent_temporary>
   </component>
@@ -652,7 +476,14 @@
       <option name="project" value="LOCAL" />
       <updated>1558112937603</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="connect mysql">
+      <created>1558592280935</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1558592280935</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TodoView">
@@ -666,8 +497,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2647453" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2647453" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -676,7 +508,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.16288953" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3654391" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3654391" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -734,16 +566,10 @@
     <MESSAGE value="add ip.txt" />
     <MESSAGE value="add done ip package" />
     <MESSAGE value="add bj package" />
-    <option name="LAST_COMMIT_MESSAGE" value="add bj package" />
+    <MESSAGE value="connect mysql" />
+    <option name="LAST_COMMIT_MESSAGE" value="connect mysql" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/a/httpbrowser/CreateUrl.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/htmlparse/IpThread.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -1127,10 +953,17 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/test/a1.kt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/MySQLDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/MySQLDemo.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+        <state relative-caret-position="156">
+          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/MySQLUtil.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
         </state>
       </provider>
     </entry>
