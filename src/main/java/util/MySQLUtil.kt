@@ -1,16 +1,26 @@
 package util
 
+import java.sql.Connection
 import java.sql.DriverManager
 
-object MySQLUtil{
+fun main() {
+    MySQLUtil.connect1()
+}
+
+object MySQLUtil {
     private val JDBC_DRIVER = "com.mysql.cj.jdbc.Driver"
-    private val DB_URL = "jdbc:mysql://localhost:3306/runoob?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC"
+    private val DB_URL = "jdbc:mysql://localhost:3306/temp?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC"
     private val USER = "root"
     private val PASS = "167943"
-    fun connect(){
-        Class.forName(JDBC_DRIVER)
-        val conn= DriverManager.getConnection(DB_URL, USER,PASS)
-        val stmt= conn!!.createStatement()
+
+    val connection: Connection
+        get() {
+            Class.forName(JDBC_DRIVER)
+            return DriverManager.getConnection(DB_URL, USER, PASS)!!
+        }
+
+    fun connect1() {
+        val stmt = connection.createStatement()
         val sql = "SELECT id, name, url FROM websites"
         val rs = stmt!!.executeQuery(sql)
         // 展开结果集数据库

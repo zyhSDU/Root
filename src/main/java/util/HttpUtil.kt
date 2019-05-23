@@ -8,6 +8,7 @@ import org.apache.commons.httpclient.params.HttpMethodParams
 import org.apache.http.client.methods.CloseableHttpResponse
 import org.apache.http.client.methods.HttpGet
 import org.apache.http.client.methods.HttpPost
+import org.apache.http.impl.client.CloseableHttpClient
 import org.apache.http.impl.client.HttpClients
 import org.apache.http.util.EntityUtils
 import page.Page
@@ -16,7 +17,10 @@ import value.StringValue
 
 object HttpUtil {
 
-    val httpClient = HttpClients.createDefault()!!
+    val httpClient: CloseableHttpClient
+        get() {
+            return HttpClients.createDefault()!!
+        }
 
     object Get {
         fun create(url: String): HttpGet {
@@ -69,10 +73,10 @@ fun HttpGet.response(): CloseableHttpResponse {
     return httpClient.execute(this)!!
 }
 
-fun CloseableHttpResponse.ifSuccess(success:()->String,fail:()->Unit={}): String {
+fun CloseableHttpResponse.ifSuccess(success: () -> String, fail: () -> Unit = {}): String {
     return if (statusLine.statusCode == 200) {
         success()
-    }else{
+    } else {
         fail()
         ""
     }
@@ -81,7 +85,7 @@ fun CloseableHttpResponse.ifSuccess(success:()->String,fail:()->Unit={}): String
 fun CloseableHttpResponse.entityString(): String {
     return ifSuccess(success = {
         EntityUtils.toString(entity, "utf-8")
-    },fail = {
+    }, fail = {
         EntityUtils.consume(entity)
     })
 }
