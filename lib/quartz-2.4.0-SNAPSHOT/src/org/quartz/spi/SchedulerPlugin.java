@@ -26,7 +26,7 @@ import org.quartz.SchedulerException;
  * </p>
  * 
  * <p>
- * Plugins can do virtually anything you wish, though the most interesting ones
+ * Plugins can response virtually anything you wish, though the most interesting ones
  * will obviously interact with the scheduler in some way - either actively: by
  * invoking actions on the scheduler, or passively: by being a <code>JobListener</code>,
  * <code>TriggerListener</code>, and/or <code>SchedulerListener</code>.

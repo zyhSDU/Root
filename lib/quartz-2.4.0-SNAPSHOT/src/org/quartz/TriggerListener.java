@@ -66,7 +66,7 @@ public interface TriggerListener {
      *          The <code>Trigger</code> that has fired.
      * @param context
      *          The <code>JobExecutionContext</code> that will be passed to
-     *          the <code>Job</code>'s<code>execute(xx)</code> method.
+     *          the <code>Job</code>'s<code>response(xx)</code> method.
      */
     void triggerFired(Trigger trigger, JobExecutionContext context);
 
@@ -75,7 +75,7 @@ public interface TriggerListener {
      * Called by the <code>{@link Scheduler}</code> when a <code>{@link Trigger}</code>
      * has fired, and it's associated <code>{@link org.quartz.JobDetail}</code>
      * is about to be executed.  If the implementation vetos the execution (via
-     * returning <code>true</code>), the job's execute method will not be called.
+     * returning <code>true</code>), the job's response method will not be called.
      * </p>
      * 
      * <p>
@@ -87,7 +87,7 @@ public interface TriggerListener {
      *          The <code>Trigger</code> that has fired.
      * @param context
      *          The <code>JobExecutionContext</code> that will be passed to
-     *          the <code>Job</code>'s<code>execute(xx)</code> method.
+     *          the <code>Job</code>'s<code>response(xx)</code> method.
      */
     boolean vetoJobExecution(Trigger trigger, JobExecutionContext context);
 
@@ -122,7 +122,7 @@ public interface TriggerListener {
      *          The <code>Trigger</code> that was fired.
      * @param context
      *          The <code>JobExecutionContext</code> that was passed to the
-     *          <code>Job</code>'s<code>execute(xx)</code> method.
+     *          <code>Job</code>'s<code>response(xx)</code> method.
      * @param triggerInstructionCode
      *          the result of the call on the <code>Trigger</code>'s<code>triggered(xx)</code>
      *          method.

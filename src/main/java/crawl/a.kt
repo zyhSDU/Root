@@ -2,7 +2,7 @@ package crawl
 
 import page.PageParserTool
 import util.FileUtil
-import util.RequestUtil
+import util.HttpUtil
 import value.StringValue
 import value.StringValue.URL.baidu
 
@@ -35,7 +35,7 @@ object a {
             //先从待访问的序列中取出第一个；
             val visitUrl = Links.removeHeadOfUnVisitedUrlQueue()
             //根据URL得到page;
-            val page = RequestUtil.sendRequestAndGetResponse(visitUrl)!!
+            val page = HttpUtil.sendRequestAndGetResponse(visitUrl)!!
             //对page进行处理： 访问DOM的某个标签
             val es = PageParserTool.select(page, "a")
             if (!es.isEmpty()) {

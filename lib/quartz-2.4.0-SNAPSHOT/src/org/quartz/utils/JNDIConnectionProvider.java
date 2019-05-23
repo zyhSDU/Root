@@ -182,10 +182,10 @@ public class JNDIConnectionProvider implements ConnectionProvider {
      * @see org.quartz.utils.ConnectionProvider#shutdown()
      */
     public void shutdown() throws SQLException {
-        // do nothing
+        // response nothing
     }
 
     public void initialize() throws SQLException {
-        // do nothing, already initialized during constructor call
+        // response nothing, already initialized during constructor call
     }
 }

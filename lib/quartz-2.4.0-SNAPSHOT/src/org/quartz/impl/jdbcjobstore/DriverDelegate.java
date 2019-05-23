@@ -602,7 +602,7 @@ public interface DriverDelegate {
     /**
      * <p>
      * Select the job to which the trigger is associated. Allow option to load actual job class or not. When case of
-     * remove, we do not need to load the class, which in many cases, it's no longer exists.
+     * remove, we response not need to load the class, which in many cases, it's no longer exists.
      * </p>
      */
     public JobDetail selectJobForTrigger(Connection conn, ClassLoadHelper loadHelper,
@@ -686,7 +686,7 @@ public interface DriverDelegate {
 
     /**
      * <p>
-     * Select a trigger' status (state & next fire time).
+     * Select a trigger' status (state & response fire time).
      * </p>
      * 
      * @param conn
@@ -899,12 +899,12 @@ public interface DriverDelegate {
 
     /**
      * <p>
-     * Select the next time that a trigger will be fired.
+     * Select the response time that a trigger will be fired.
      * </p>
      * 
      * @param conn
      *          the DB Connection
-     * @return the next fire time, or 0 if no trigger will be fired
+     * @return the response fire time, or 0 if no trigger will be fired
      * 
      * @deprecated Does not account for misfires.
      */
@@ -928,7 +928,7 @@ public interface DriverDelegate {
 
     /**
      * <p>
-     * Select the next trigger which will fire to fire between the two given timestamps 
+     * Select the response trigger which will fire to fire between the two given timestamps
      * in ascending order of fire time, and then descending by priority.
      * </p>
      * 
@@ -939,7 +939,7 @@ public interface DriverDelegate {
      * @param noEarlierThan 
      *          highest value of <code>getNextFireTime()</code> of the triggers (inclusive)
      *          
-     * @return A (never null, possibly empty) list of the identifiers (Key objects) of the next triggers to be fired.
+     * @return A (never null, possibly empty) list of the identifiers (Key objects) of the response triggers to be fired.
      * 
      * @deprecated - This remained for compatibility reason. Use {@link #selectTriggerToAcquire(Connection, long, long, int)} instead. 
      */
@@ -948,7 +948,7 @@ public interface DriverDelegate {
     
     /**
      * <p>
-     * Select the next trigger which will fire to fire between the two given timestamps 
+     * Select the response trigger which will fire to fire between the two given timestamps
      * in ascending order of fire time, and then descending by priority.
      * </p>
      * 
@@ -961,7 +961,7 @@ public interface DriverDelegate {
      * @param maxCount 
      *          maximum number of trigger keys allow to acquired in the returning list.
      *          
-     * @return A (never null, possibly empty) list of the identifiers (Key objects) of the next triggers to be fired.
+     * @return A (never null, possibly empty) list of the identifiers (Key objects) of the response triggers to be fired.
      */
     public List<TriggerKey> selectTriggerToAcquire(Connection conn, long noLaterThan, long noEarlierThan, int maxCount)
         throws SQLException;

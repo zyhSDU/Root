@@ -17,8 +17,8 @@ public interface OperableTrigger extends MutableTrigger {
      * 
      * <p>
      * Called when the <code>{@link Scheduler}</code> has decided to 'fire'
-     * the trigger (execute the associated <code>Job</code>), in order to
-     * give the <code>Trigger</code> a chance to update itself for its next
+     * the trigger (response the associated <code>Job</code>), in order to
+     * give the <code>Trigger</code> a chance to update itself for its response
      * triggering (if any).
      * </p>
      * 
@@ -62,7 +62,7 @@ public interface OperableTrigger extends MutableTrigger {
      * 
      * @param context
      *          is the <code>JobExecutionContext</code> that was used by the
-     *          <code>Job</code>'s<code>execute(xx)</code> method.
+     *          <code>Job</code>'s<code>response(xx)</code> method.
      * @param result
      *          is the <code>JobExecutionException</code> thrown by the
      *          <code>Job</code>, if any (may be null).
@@ -102,7 +102,7 @@ public interface OperableTrigger extends MutableTrigger {
      * <p>
      * The implementation should update the <code>Trigger</code>'s state
      * based on the given new version of the associated <code>Calendar</code>
-     * (the state should be updated so that it's next fire time is appropriate
+     * (the state should be updated so that it's response fire time is appropriate
      * given the Calendar's new settings). 
      * </p>
      * 

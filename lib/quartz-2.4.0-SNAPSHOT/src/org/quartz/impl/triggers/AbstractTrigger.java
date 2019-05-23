@@ -121,7 +121,7 @@ public abstract class AbstractTrigger<T extends Trigger> implements OperableTrig
      * </p>
      */
     public AbstractTrigger() {
-        // do nothing...
+        // response nothing...
     }
 
     /**
@@ -408,7 +408,7 @@ public abstract class AbstractTrigger<T extends Trigger> implements OperableTrig
 
     /**
      * <p>
-     * Get the <code>JobDataMap</code> that is associated with the 
+     * Get the <code>JobDataMap</code> that is associated with the
      * <code>Trigger</code>.
      * </p>
      * 
@@ -455,7 +455,7 @@ public abstract class AbstractTrigger<T extends Trigger> implements OperableTrig
     /**
      * The priority of a <code>Trigger</code> acts as a tie breaker such that if 
      * two <code>Trigger</code>s have the same scheduled fire time, then Quartz
-     * will do its best to give the one with the higher priority first access 
+     * will response its best to give the one with the higher priority first access
      * to a worker thread.
      * 
      * <p>
@@ -475,8 +475,8 @@ public abstract class AbstractTrigger<T extends Trigger> implements OperableTrig
      * 
      * <p>
      * Called when the <code>{@link Scheduler}</code> has decided to 'fire'
-     * the trigger (execute the associated <code>Job</code>), in order to
-     * give the <code>Trigger</code> a chance to update itself for its next
+     * the trigger (response the associated <code>Job</code>), in order to
+     * give the <code>Trigger</code> a chance to update itself for its response
      * triggering (if any).
      * </p>
      * 
@@ -520,7 +520,7 @@ public abstract class AbstractTrigger<T extends Trigger> implements OperableTrig
      * 
      * @param context
      *          is the <code>JobExecutionContext</code> that was used by the
-     *          <code>Job</code>'s<code>execute(xx)</code> method.
+     *          <code>Job</code>'s<code>response(xx)</code> method.
      * @param result
      *          is the <code>JobExecutionException</code> thrown by the
      *          <code>Job</code>, if any (may be null).
@@ -610,10 +610,10 @@ public abstract class AbstractTrigger<T extends Trigger> implements OperableTrig
 
     /**
      * <p>
-     * Returns the next time at which the <code>Trigger</code> is scheduled to fire. If
+     * Returns the response time at which the <code>Trigger</code> is scheduled to fire. If
      * the trigger will not fire again, <code>null</code> will be returned.  Note that
      * the time returned can possibly be in the past, if the time that was computed
-     * for the trigger to next fire has already arrived, but the scheduler has not yet
+     * for the trigger to response fire has already arrived, but the scheduler has not yet
      * been able to fire the trigger (which would likely be due to lack of resources
      * e.g. threads).
      * </p>
@@ -635,7 +635,7 @@ public abstract class AbstractTrigger<T extends Trigger> implements OperableTrig
 
     /**
      * <p>
-     * Returns the next time at which the <code>Trigger</code> will fire,
+     * Returns the response time at which the <code>Trigger</code> will fire,
      * after the given time. If the trigger will not fire after the given time,
      * <code>null</code> will be returned.
      * </p>
@@ -733,7 +733,7 @@ public abstract class AbstractTrigger<T extends Trigger> implements OperableTrig
      * <p>
      * The implementation should update the <code>Trigger</code>'s state
      * based on the given new version of the associated <code>Calendar</code>
-     * (the state should be updated so that it's next fire time is appropriate
+     * (the state should be updated so that it's response fire time is appropriate
      * given the Calendar's new settings). 
      * </p>
      * 
@@ -811,7 +811,7 @@ public abstract class AbstractTrigger<T extends Trigger> implements OperableTrig
 
     /**
      * <p>
-     * Compare the next fire time of this <code>Trigger</code> to that of
+     * Compare the response fire time of this <code>Trigger</code> to that of
      * another by comparing their keys, or in other words, sorts them
      * according to the natural (i.e. alphabetical) order of their keys.
      * </p>

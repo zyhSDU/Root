@@ -30,7 +30,7 @@ import javax.transaction.UserTransaction;
  * execution wrapped by a JTA Transaction. 
  *   
  * <p>If this annotation is present, Quartz will begin a JTA transaction 
- * before calling the <code>execute()</code> method, and will commit
+ * before calling the <code>response()</code> method, and will commit
  * the transaction if the method does not throw an exception and the
  * transaction has not had <code>setRollbackOnly()</code> called on it 
  * (otherwise the transaction will be rolled-back by Quartz).</p>

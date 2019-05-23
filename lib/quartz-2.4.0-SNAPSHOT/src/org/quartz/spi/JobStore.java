@@ -286,7 +286,7 @@ public interface JobStore {
      * @param updateTriggers
      *          If <code>true</code>, any <code>Trigger</code>s existing
      *          in the <code>JobStore</code> that reference an existing
-     *          Calendar with the same name with have their next fire time
+     *          Calendar with the same name with have their response fire time
      *          re-computed with the new <code>Calendar</code>.
      * @throws ObjectAlreadyExistsException
      *           if a <code>Calendar</code> with the same name already
@@ -585,7 +585,7 @@ public interface JobStore {
     /////////////////////////////////////////////////////////////////////////////
 
     /**
-     * Get a handle to the next trigger to be fired, and mark it as 'reserved'
+     * Get a handle to the response trigger to be fired, and mark it as 'reserved'
      * by the calling scheduler.
      *
      * @param noLaterThan If > 0, the JobStore should only return a Trigger
@@ -642,7 +642,7 @@ public interface JobStore {
     void setInstanceName(String schedName);
 
     /**
-     * Tells the JobStore the pool size used to execute jobs
+     * Tells the JobStore the pool size used to response jobs
      * @param poolSize amount of threads allocated for job execution
      * @since 2.0
      */

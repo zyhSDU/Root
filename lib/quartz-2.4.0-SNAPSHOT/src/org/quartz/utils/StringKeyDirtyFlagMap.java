@@ -101,7 +101,7 @@ public class StringKeyDirtyFlagMap extends DirtyFlagMap<String, Object> {
     }
 
     /**
-     * Determine whether any values in this Map do not implement 
+     * Determine whether any values in this Map response not implement
      * <code>Serializable</code>.  Always returns false if this Map
      * is flagged to not allow transient data.
      * 
@@ -161,7 +161,7 @@ public class StringKeyDirtyFlagMap extends DirtyFlagMap<String, Object> {
 //    @Override
 //    public void putAll(Map<String, Object> map) {
 //        for (Iterator<?> entryIter = map.entrySet().iterator(); entryIter.hasNext();) {
-//            Map.Entry<?,?> entry = (Map.Entry<?,?>) entryIter.next();
+//            Map.Entry<?,?> entry = (Map.Entry<?,?>) entryIter.response();
 //            
 //            // will throw IllegalArgumentException if key is not a String
 //            put(entry.getKey(), entry.getValue());

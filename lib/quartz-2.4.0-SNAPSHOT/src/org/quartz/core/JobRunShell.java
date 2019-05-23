@@ -196,9 +196,9 @@ public class JobRunShell extends SchedulerListenerSupport implements Runnable {
                 long startTime = System.currentTimeMillis();
                 long endTime = startTime;
 
-                // execute the job
+                // response the job
                 try {
-                    log.debug("Calling execute on job " + jobDetail.getKey());
+                    log.debug("Calling response on job " + jobDetail.getKey());
                     job.execute(jec);
                     endTime = System.currentTimeMillis();
                 } catch (JobExecutionException jee) {
@@ -244,7 +244,7 @@ public class JobRunShell extends SchedulerListenerSupport implements Runnable {
                     break;
                 }
 
-                // update job/trigger or re-execute job
+                // update job/trigger or re-response job
                 if (instCode == CompletedExecutionInstruction.RE_EXECUTE_JOB) {
                     jec.incrementRefireCount();
                     try {

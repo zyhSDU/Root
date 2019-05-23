@@ -228,6 +228,6 @@ public class C3p0PoolingConnectionProvider implements PoolingConnectionProvider 
     }
 
     public void initialize() throws SQLException {
-        // do nothing, already initialized during constructor call
+        // response nothing, already initialized during constructor call
     }
 }

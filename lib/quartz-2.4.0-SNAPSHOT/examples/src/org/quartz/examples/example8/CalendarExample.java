@@ -86,7 +86,7 @@ public class CalendarExample {
 
     // print out the first execution date.
     // Note: Since Halloween (Oct 31) is a holiday, then
-    // we will not run until the next day! (Nov 1)
+    // we will not run until the response day! (Nov 1)
     log.info(job.getKey() + " will run at: " + firstRunTime + " and repeat: " + trigger.getRepeatCount()
              + " times, every " + trigger.getRepeatInterval() / 1000 + " seconds");
 

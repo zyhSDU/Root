@@ -1,18 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa01d114-9c47-4dc2-a5db-f7cadec776dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/in/bj_in.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bj/a.kt" afterDir="false" />
+    <list default="true" id="fa01d114-9c47-4dc2-a5db-f7cadec776dd" name="Default Changelist" comment="add bj package">
+      <change afterPath="$PROJECT_DIR$/lib/classes-dex2jar.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/paDouBan.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/paMaoYan/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/paMaoYan/MovieItem.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/MySQLDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/zyh.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/zyh.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/cpdetector_1_0_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/cpdetector_1_0_5.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/buc/buc.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/buc/buc.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kmeans/k.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kmeans/k.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/CSVUtil.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/CsvUtil.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/in/bj_in.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/in/bj_in.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/out/bj_out.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/out/bj_out.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example1/SimpleExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example1/SimpleExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example10/PlugInExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example10/PlugInExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example11/LoadExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example11/LoadExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example13/ClusterExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example13/ClusterExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example15/ClusterExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example15/ClusterExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example5/MisfireExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example5/MisfireExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example6/BadJob1.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example6/BadJob1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example7/DumbInterruptableJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example7/DumbInterruptableJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example7/InterruptExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example7/InterruptExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example8/CalendarExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example8/CalendarExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/Calendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/Calendar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/CalendarIntervalScheduleBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/CalendarIntervalScheduleBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/CalendarIntervalTrigger.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/CalendarIntervalTrigger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/CronExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/CronExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/CronTrigger.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/CronTrigger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/DailyTimeIntervalScheduleBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/DailyTimeIntervalScheduleBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/DailyTimeIntervalTrigger.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/DailyTimeIntervalTrigger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/DateBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/DateBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/ExecuteInJTATransaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/ExecuteInJTATransaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/InterruptableJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/InterruptableJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/JobBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/JobBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/JobDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/JobDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/JobExecutionContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/JobExecutionContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/ListenerManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/ListenerManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/Scheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/Scheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/SimpleTrigger.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/SimpleTrigger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/StatefulJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/StatefulJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/Trigger.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/Trigger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/TriggerBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/TriggerBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/TriggerListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/TriggerListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/TriggerUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/TriggerUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/core/JobRunShell.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/core/JobRunShell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/core/NullSampledStatisticsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/core/NullSampledStatisticsImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/core/QuartzScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/core/QuartzScheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/core/QuartzSchedulerResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/core/QuartzSchedulerResources.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/core/QuartzSchedulerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/core/QuartzSchedulerThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/ee/jmx/jboss/QuartzService.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/ee/jmx/jboss/QuartzService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/JobDetailImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/JobDetailImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/StdSchedulerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/StdSchedulerFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/calendar/AnnualCalendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/calendar/AnnualCalendar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/calendar/BaseCalendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/calendar/BaseCalendar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/calendar/CronCalendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/calendar/CronCalendar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/calendar/DailyCalendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/calendar/DailyCalendar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/calendar/HolidayCalendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/calendar/HolidayCalendar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/calendar/MonthlyCalendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/calendar/MonthlyCalendar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/calendar/WeeklyCalendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/calendar/WeeklyCalendar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/DriverDelegate.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/DriverDelegate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/JTANonClusteredSemaphore.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/JTANonClusteredSemaphore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/JobStoreSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/JobStoreSupport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/SimplePropertiesTriggerPersistenceDelegateSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/SimplePropertiesTriggerPersistenceDelegateSupport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/StdJDBCDelegate.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/StdJDBCDelegate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/TriggerStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/TriggerStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/UpdateLockRowSemaphore.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/UpdateLockRowSemaphore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/triggers/AbstractTrigger.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/triggers/AbstractTrigger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/triggers/CalendarIntervalTriggerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/triggers/CalendarIntervalTriggerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/triggers/CronTriggerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/triggers/CronTriggerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/triggers/DailyTimeIntervalTriggerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/triggers/DailyTimeIntervalTriggerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/triggers/SimpleTriggerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/triggers/SimpleTriggerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/plugins/history/LoggingJobHistoryPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/plugins/history/LoggingJobHistoryPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/plugins/history/LoggingTriggerHistoryPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/plugins/history/LoggingTriggerHistoryPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/plugins/management/ShutdownHookPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/plugins/management/ShutdownHookPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/plugins/xml/XMLSchedulingDataProcessorPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/plugins/xml/XMLSchedulingDataProcessorPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/simpl/CascadingClassLoadHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/simpl/CascadingClassLoadHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/simpl/RAMJobStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/simpl/RAMJobStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/simpl/SimpleThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/simpl/SimpleThreadPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/simpl/SimpleTimeBroker.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/simpl/SimpleTimeBroker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/simpl/ZeroSizeThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/simpl/ZeroSizeThreadPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/spi/JobFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/spi/JobFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/spi/JobStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/spi/JobStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/spi/MutableTrigger.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/spi/MutableTrigger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/spi/OperableTrigger.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/spi/OperableTrigger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/spi/SchedulerPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/spi/SchedulerPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/spi/ThreadExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/spi/ThreadExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/spi/ThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/spi/ThreadPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/C3p0PoolingConnectionProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/C3p0PoolingConnectionProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/HikariCpPoolingConnectionProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/HikariCpPoolingConnectionProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/JNDIConnectionProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/JNDIConnectionProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/PoolingConnectionProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/PoolingConnectionProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/PropertiesParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/PropertiesParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/StringKeyDirtyFlagMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/StringKeyDirtyFlagMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/weblogic/WeblogicConnectionProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/weblogic/WeblogicConnectionProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/xml/XMLSchedulingDataProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/xml/XMLSchedulingDataProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/terracotta/quartz/DefaultClusteredJobStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/terracotta/quartz/DefaultClusteredJobStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/crawl/a.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawl/a.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/crawl/c.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawl/c.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learnKotlin/a2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learnKotlin/a2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/RequestUtil.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/HttpUtil.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/value/StringValue.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/value/StringValue.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/META-INF/root.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/root.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/buc/BucKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/buc/BucKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kmeans/KKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kmeans/KKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/CSVUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/CSVUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/CSVUtilKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/CSVUtilKt.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,37 +118,89 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/util/FileUtil.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/java/util/HttpUtil.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-50">
-              <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+            <state relative-caret-position="133">
+              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+              <folding>
+                <element signature="n#!!block;n#setHeaderAsBrowser#0;n#!!block;n#Get#0;n#!!block;n#RequestUtil#0" />
+                <element signature="n#!!block;n#setHeaderAsBrowser#0" />
+                <element signature="n#!!block;n#returnResponse#2" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/bj/a.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/java/crawl/paDouBan.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="35" column="44" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+            <state relative-caret-position="525">
+              <caret line="28" column="54" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/out/bj_out.txt">
+        <entry file="file://$PROJECT_DIR$/src/main/java/crawl/paMaoYan/MovieItem.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+            <state relative-caret-position="-225">
+              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+              <folding>
+                <element signature="e#24#73#0" expanded="true" />
+              </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/test/a1.kt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data/in/bj_in.txt">
+        <entry file="file://$PROJECT_DIR$/src/main/java/test/MySQLDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="60" column="16" lean-forward="true" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
+            <state relative-caret-position="132">
+              <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/crawl/paMaoYan/Main.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#24#90#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/crawl/c.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/crawl/a.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="451">
+              <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar!/org/apache/http/util/EntityUtils.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="165" column="25" selection-start-line="165" selection-start-column="25" selection-end-line="165" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -68,8 +210,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Kotlin File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -85,22 +227,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/crawl/d/CrawlBase.java" />
-        <option value="$PROJECT_DIR$/src/main/java/crawl/d/DoRegex.java" />
-        <option value="$PROJECT_DIR$/src/main/java/crawl/d/CharsetUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/crawl/d/BaiduNewList.java" />
-        <option value="$PROJECT_DIR$/src/main/java/crawl/d/News.java" />
-        <option value="$PROJECT_DIR$/src/main/java/crawl/d/a" />
-        <option value="$PROJECT_DIR$/src/main/java/crawl/d/a.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/crawl/d/CrawlNews.java" />
-        <option value="$PROJECT_DIR$/src/main/java/crawl/ip/htmlparse/URLFecter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/crawl/ip/ipfilter/IPUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/crawl/ip/ipfilter/IPFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/crawl/ip/htmlparse/IPPool.java" />
-        <option value="$PROJECT_DIR$/src/main/java/crawl/ip/httpbrowser/MyHttpResponse.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/redisTest/RedisJava.java" />
-        <option value="$PROJECT_DIR$/src/main/java/redisTest/RedisJava.kt" />
         <option value="$PROJECT_DIR$/src/main/java/redisTest/a.kt" />
         <option value="$PROJECT_DIR$/src/main/resources/db-config.properties" />
         <option value="$PROJECT_DIR$/src/main/java/crawl/ip/database/RedisDB.java" />
@@ -133,16 +259,32 @@
         <option value="$PROJECT_DIR$/src/main/java/crawl/ip/timeutils/MyTimeJob.kt" />
         <option value="$PROJECT_DIR$/src/main/java/util/CsvUtil.kt" />
         <option value="$PROJECT_DIR$/src/main/java/value/StringValue.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/bj/a.kt" />
         <option value="$PROJECT_DIR$/data/out/bj_out.txt" />
         <option value="$PROJECT_DIR$/data/in/bj_in.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/bj/a.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/crawl/e.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/crawl/paMaoYan/myMovie.java" />
+        <option value="$PROJECT_DIR$/src/main/java/crawl/paMaoYan/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/crawl/paMaoYan/HTTPUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/crawl/paMaoYan/URLHandle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/crawl/paMaoYan/MovieParse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/crawl/paMaoYan/myMovie.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/crawl/paMaoYan/HTTPUtils.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/util/RequestUtil.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/crawl/paMaoYan/MovieParse.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/crawl/paMaoYan/URLHandle.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/crawl/c.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/util/HttpUtil.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/crawl/paMaoYan/Main.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/crawl/paMaoYan/MovieItem.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/test/MySQLDemo.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="950" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -152,6 +294,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -167,14 +310,7 @@
             <path>
               <item name="root" type="b2602c69:ProjectViewProjectNode" />
               <item name="root" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="in" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="root" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="root" type="b2602c69:ProjectViewProjectNode" />
@@ -208,6 +344,31 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="crawl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="root" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="crawl" type="462c0819:PsiDirectoryNode" />
+              <item name="paMaoYan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="root" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="root" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -232,32 +393,31 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557912241387" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/mysql-connector-java-8.0.16.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.5218391" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Users\zyh\IdeaProjects\root\src\main\resources" />
       <recent name="D:\Users\zyh\IdeaProjects\root\lib" />
+      <recent name="D:\Users\zyh\IdeaProjects\root\src\main\resources" />
       <recent name="D:\Users\zyh\IdeaProjects\root\lib\redis" />
       <recent name="D:\Users\zyh\IdeaProjects\root\src\main\java\crawl\ip" />
       <recent name="D:\Users\zyh\IdeaProjects\root" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\zyh\IdeaProjects\root\lib" />
+      <recent name="D:\Users\zyh\IdeaProjects\root\data\in" />
       <recent name="D:\Users\zyh\IdeaProjects\root\src\main\java\util" />
       <recent name="D:\Users\zyh\IdeaProjects\root\data" />
       <recent name="D:\Users\zyh\IdeaProjects\root\src\main\java" />
-      <recent name="D:\Users\zyh\IdeaProjects\root\src\main\util" />
-      <recent name="D:\Users\zyh\IdeaProjects\root" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -272,26 +432,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.bj.AKt">
-    <configuration name="MyTimeJob" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="crawl.ip.timeutils.MyTimeJob" />
+  <component name="RunManager" selected="Application.MySQLDemo">
+    <configuration name="MySQLDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.MySQLDemo" />
       <module name="root" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="crawl.ip.timeutils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RedisJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="redisTest.RedisJava" />
-      <module name="root" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="redisTest.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -312,6 +459,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="crawl.PaDouBanKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="root" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="crawl.PaDouBanKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="crawl.ip.timeutils.MyTimer" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="root" />
       <option name="VM_PARAMETERS" />
@@ -325,14 +485,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="redisTest.AKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="crawl.paMaoYan.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="root" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="redisTest.AKt" />
+      <option name="MAIN_CLASS_NAME" value="crawl.paMaoYan.MainKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -340,11 +500,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MySQLDemo" />
+        <item itemvalue="Kotlin.crawl.paMaoYan.MainKt" />
+        <item itemvalue="Kotlin.crawl.PaDouBanKt" />
         <item itemvalue="Kotlin.bj.AKt" />
         <item itemvalue="Kotlin.crawl.ip.timeutils.MyTimer" />
-        <item itemvalue="Application.MyTimeJob" />
-        <item itemvalue="Kotlin.redisTest.AKt" />
-        <item itemvalue="Application.RedisJava" />
       </list>
     </recent_temporary>
   </component>
@@ -478,7 +638,21 @@
       <option name="project" value="LOCAL" />
       <updated>1558018087658</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="add bj package">
+      <created>1558079959472</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1558079959472</updated>
+    </task>
+    <task id="LOCAL-00019" summary="add bj package">
+      <created>1558112937603</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1558112937603</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TodoView">
@@ -491,10 +665,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="781" height="830" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.27949062" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2647453" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -503,7 +676,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.16288953" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21489972" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3654391" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -560,253 +733,10 @@
     <MESSAGE value="change jedis 2.1 to 2.9" />
     <MESSAGE value="add ip.txt" />
     <MESSAGE value="add done ip package" />
-    <option name="LAST_COMMIT_MESSAGE" value="add done ip package" />
+    <MESSAGE value="add bj package" />
+    <option name="LAST_COMMIT_MESSAGE" value="add bj package" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/c.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1250">
-          <caret line="62" column="27" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/d/DoRegex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/d/CharsetUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.10.3/jsoup-1.10.3.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/d/CrawlListPageBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/RequestUtil.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2175">
-          <caret line="101" column="45" selection-start-line="101" selection-start-column="45" selection-end-line="101" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/d/CrawlBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-107">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding>
-            <element signature="e#5360#5389#0" expanded="true" />
-            <element signature="e#7108#7109#0" expanded="true" />
-            <element signature="e#7145#7146#0" expanded="true" />
-            <element signature="e#7273#7274#0" expanded="true" />
-            <element signature="e#7311#7312#0" expanded="true" />
-            <element signature="e#7683#7684#0" expanded="true" />
-            <element signature="e#7770#7771#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/d/BaiduNewList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/d/News.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1830#1831#0" expanded="true" />
-            <element signature="e#1856#1857#0" expanded="true" />
-            <element signature="e#1894#1895#0" expanded="true" />
-            <element signature="e#1924#1925#0" expanded="true" />
-            <element signature="e#1958#1959#0" expanded="true" />
-            <element signature="e#1988#1989#0" expanded="true" />
-            <element signature="e#2020#2021#0" expanded="true" />
-            <element signature="e#2048#2049#0" expanded="true" />
-            <element signature="e#2079#2080#0" expanded="true" />
-            <element signature="e#2106#2107#0" expanded="true" />
-            <element signature="e#2146#2147#0" expanded="true" />
-            <element signature="e#2178#2179#0" expanded="true" />
-            <element signature="e#2232#2233#0" expanded="true" />
-            <element signature="e#2274#2275#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/d/a.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/d/CrawlNews.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/redis/jedis-2.1.0.jar!/redis/clients/jedis/Jedis.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/redis-java-client--jedis-2.9.0-doc&amp;jar包&amp;source/jedis-2.9.0-sources.jar!/redis/clients/jedis/Jedis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/b.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/a/htmlparse/UrlFecter.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/files/java/jdk/jdk-11.0.1/lib/src.zip!/java.base/java/util/TimerTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/lib/quartz-2.4.0-SNAPSHOT.jar!/org/quartz/JobBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/redisTest/a.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/files/java/jdk/jdk-11.0.1/lib/src.zip!/java.base/java/util/ResourceBundle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="376" column="22" selection-start-line="376" selection-start-column="22" selection-end-line="376" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/QUICK-START.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db-config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/out/ip2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar!/org/apache/http/client/config/RequestConfig.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="249" column="37" selection-start-line="249" selection-start-column="37" selection-end-line="249" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/files/java/jdk/jdk-11.0.1/lib/src.zip!/java.base/java/util/Timer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="284" column="16" selection-start-line="284" selection-start-column="16" selection-end-line="284" selection-end-column="16" />
-          <folding>
-            <element signature="e#4831#4832#0" expanded="true" />
-            <element signature="e#4878#4879#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/files/java/jdk/jdk-11.0.1/lib/src.zip!/java.base/java/util/Calendar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="1783" column="22" selection-start-line="1783" selection-start-column="22" selection-end-line="1783" selection-end-column="22" />
-          <folding>
-            <element signature="e#71982#71983#0" expanded="true" />
-            <element signature="e#72032#72033#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/files/java/jdk/jdk-11.0.1/lib/src.zip!/java.base/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="1377" column="22" selection-start-line="1377" selection-start-column="22" selection-end-line="1377" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib/1.3.31/kotlin-stdlib-1.3.31-sources.jar!/kotlin/Collections.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="189" column="17" selection-start-line="189" selection-start-column="17" selection-end-line="189" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/buc/buc.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/a/mainmethon/major.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/a/httpbrowser/CreateUrl.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -947,31 +877,260 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/FileUtil.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-50">
-          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bj/a.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
+        <state relative-caret-position="850">
           <caret line="35" column="44" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/out/bj_out.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/in/bj_in.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="60" column="16" lean-forward="true" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
+        <state relative-caret-position="10775">
+          <caret line="431" selection-start-line="431" selection-end-line="431" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/out/bj_out.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/classes-dex2jar.jar!/cn/ewan/superdata/common/ISuperData.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/classes-dex2jar.jar!/cn/ewan/superdata/host/a/a.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/classes-dex2jar.jar!/cn/gov/pbc/tsm/client/mobile/android/bank/service/a.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-675">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/classes-dex2jar.jar!/android/app/IServiceConnection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/classes-dex2jar.jar!/android/util/Singleton.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/classes-dex2jar.jar!/bitter/jnibridge/JNIBridge.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/classes-dex2jar.jar!/cn/ewan/superdata/common/BuildConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/classes-dex2jar.jar!/cn/ewan/superdata/host/c/b.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/classes-dex2jar.jar!/com/alipay/a/a/a.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/classes-dex2jar.jar!/com/alipay/a/a/c.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/classes-dex2jar.jar!/cn/ewan/superdata/host/c/a.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/classes-dex2jar.jar!/cn/ewan/superdata/host/b/a.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/classes-dex2jar.jar!/com/alipay/a/a/d.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/FileUtil.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/paMaoYan/HTTPUtils.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar!/org/apache/http/impl/client/HttpClientBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="478" column="31" selection-start-line="478" selection-start-column="31" selection-end-line="478" selection-end-column="31" />
+          <folding>
+            <element signature="e#6989#6990#0" expanded="true" />
+            <element signature="e#7035#7036#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar!/org/apache/http/impl/client/HttpClients.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+          <folding>
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar!/org/apache/http/client/methods/HttpGet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar!/org/apache/http/impl/client/CloseableHttpClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="57" column="33" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar!/org/apache/commons/httpclient/HttpStatus.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/paMaoYan/URLHandle.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/paMaoYan/MovieParse.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar!/org/apache/http/util/EntityUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="165" column="25" selection-start-line="165" selection-start-column="25" selection-end-line="165" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/c.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/a.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/paDouBan.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="28" column="54" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/HttpUtil.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+          <folding>
+            <element signature="n#!!block;n#setHeaderAsBrowser#0;n#!!block;n#Get#0;n#!!block;n#RequestUtil#0" />
+            <element signature="n#!!block;n#setHeaderAsBrowser#0" />
+            <element signature="n#!!block;n#returnResponse#2" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/paMaoYan/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#24#90#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/paMaoYan/MovieItem.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+          <folding>
+            <element signature="e#24#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/a1.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/MySQLDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -1032,7 +1191,6 @@
             <option name="proportions">
               <list>
                 <option value="0.5218391" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

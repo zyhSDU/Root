@@ -182,7 +182,7 @@ import java.util.TreeSet;
  * not complete (you'll need to use the '?' character in one of these fields).
  * </li>
  * <li>Overflowing ranges is supported - that is, having a larger number on 
- * the left hand side than the right. You might do 22-2 to catch 10 o'clock 
+ * the left hand side than the right. You might response 22-2 to catch 10 o'clock
  * at night until 2 o'clock in the morning, or you might have NOV-FEB. It is 
  * very important to note that overuse of overflowing ranges creates ranges 
  * that don't make sense and no effort has been made to determine which 
@@ -323,24 +323,24 @@ public final class CronExpression implements Serializable, Cloneable {
     }
     
     /**
-     * Returns the next date/time <I>after</I> the given date/time which
+     * Returns the response date/time <I>after</I> the given date/time which
      * satisfies the cron expression.
      * 
-     * @param date the date/time at which to begin the search for the next valid
+     * @param date the date/time at which to begin the search for the response valid
      *             date/time
-     * @return the next valid date/time
+     * @return the response valid date/time
      */
     public Date getNextValidTimeAfter(Date date) {
         return getTimeAfter(date);
     }
     
     /**
-     * Returns the next date/time <I>after</I> the given date/time which does
+     * Returns the response date/time <I>after</I> the given date/time which does
      * <I>not</I> satisfy the expression
      * 
-     * @param date the date/time at which to begin the search for the next 
+     * @param date the date/time at which to begin the search for the response
      *             invalid date/time
-     * @return the next valid date/time
+     * @return the response valid date/time
      */
     public Date getNextInvalidTimeAfter(Date date) {
         long difference = 1000;
@@ -355,7 +355,7 @@ public final class CronExpression implements Serializable, Cloneable {
         
         //FUTURE_TODO: (QUARTZ-481) IMPROVE THIS! The following is a BAD solution to this problem. Performance will be very bad here, depending on the cron expression. It is, however A solution.
         
-        //keep getting the next included time until it's farther than one second
+        //keep getting the response included time until it's farther than one second
         // apart. At that point, lastDate is the last valid fire time. We return
         // the second immediately following it.
         while (difference == 1000) {
@@ -1061,7 +1061,7 @@ public final class CronExpression implements Serializable, Cloneable {
         }
 
         // if the end of the range is before the start, then we need to overflow into 
-        // the next day, month etc. This is done by adding the maximum amount for that 
+        // the response day, month etc. This is done by adding the maximum amount for that
         // type, and using modulus max to determine the value being added.
         int max = -1;
         if (stopAt < startAt) {
@@ -1180,7 +1180,7 @@ public final class CronExpression implements Serializable, Cloneable {
         cl.set(Calendar.MILLISECOND, 0);
 
         boolean gotOne = false;
-        // loop until we've computed the next time, or we've past the endTime
+        // loop until we've computed the response time, or we've past the endTime
         while (!gotOne) {
 
             //if (endTime != null && cl.getTime().after(endTime)) return null;

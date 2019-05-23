@@ -129,12 +129,12 @@ public class CronCalendar extends BaseCalendar {
     }
 
     /**
-     * Determines the next time included by the <CODE>CronCalendar</CODE>
+     * Determines the response time included by the <CODE>CronCalendar</CODE>
      * after the specified time.
      * 
      * @param timeInMillis the initial date/time after which to find an 
      *                     included time
-     * @return the time in milliseconds representing the next time included
+     * @return the time in milliseconds representing the response time included
      *         after the specified time.
      */
     @Override
@@ -146,7 +146,7 @@ public class CronCalendar extends BaseCalendar {
             //If the time is in a range excluded by this calendar, we can
             // move to the end of the excluded time range and continue testing
             // from there. Otherwise, if nextIncludedTime is excluded by the
-            // baseCalendar, ask it the next time it includes and begin testing
+            // baseCalendar, ask it the response time it includes and begin testing
             // from there. Failing this, add one millisecond and continue
             // testing.
             if (cronExpression.isSatisfiedBy(new Date(nextIncludedTime))) {

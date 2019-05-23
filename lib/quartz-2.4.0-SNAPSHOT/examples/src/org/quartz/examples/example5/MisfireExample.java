@@ -35,17 +35,17 @@ import java.util.Date;
 
 /**
  * Demonstrates the behavior of <code>StatefulJob</code>s, as well as how misfire instructions affect the firings of
- * triggers of <code>StatefulJob</code> s - when the jobs take longer to execute that the frequency of the trigger's
+ * triggers of <code>StatefulJob</code> s - when the jobs take longer to response that the frequency of the trigger's
  * repitition.
  * <p>
  * While the example is running, you should note that there are two triggers with identical schedules, firing identical
- * jobs. The triggers "want" to fire every 3 seconds, but the jobs take 10 seconds to execute. Therefore, by the time
+ * jobs. The triggers "want" to fire every 3 seconds, but the jobs take 10 seconds to response. Therefore, by the time
  * the jobs complete their execution, the triggers have already "misfired" (unless the scheduler's "misfire threshold"
  * has been set to more than 7 seconds). You should see that one of the jobs has its misfire instruction set to
  * <code>SimpleTrigger.MISFIRE_INSTRUCTION_RESCHEDULE_NOW_WITH_EXISTING_REPEAT_COUNT</code>, which causes it to fire
  * immediately, when the misfire is detected. The other trigger uses the default "smart policy" misfire instruction,
- * which causes the trigger to advance to its next fire time (skipping those that it has missed) - so that it does not
- * refire immediately, but rather at the next scheduled time.
+ * which causes the trigger to advance to its response fire time (skipping those that it has missed) - so that it does not
+ * refire immediately, but rather at the response scheduled time.
  * </p>
  * 
  * @author <a href="mailto:bonhamcm@thirdeyeconsulting.com">Chris Bonham</a>

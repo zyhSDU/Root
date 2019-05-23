@@ -1,6 +1,5 @@
 package util
 
-import com.sun.net.httpserver.Authenticator
 import org.apache.commons.httpclient.DefaultHttpMethodRetryHandler
 import org.apache.commons.httpclient.HttpClient
 import org.apache.commons.httpclient.HttpStatus
@@ -12,37 +11,28 @@ import org.apache.http.client.methods.HttpPost
 import org.apache.http.impl.client.HttpClients
 import org.apache.http.util.EntityUtils
 import page.Page
-import util.RequestUtil.httpClient
+import util.HttpUtil.httpClient
 import value.StringValue
-import java.rmi.activation.ActivateFailedException
 
-//整理httpClient
-object RequestUtil {
+object HttpUtil {
+
     val httpClient = HttpClients.createDefault()!!
 
     object Get {
-        fun setHeaderAsBrowser(httpGet: HttpGet) {
+        fun create(url: String): HttpGet {
+            return HttpGet(url).setHeader()
+        }
+
+        fun setHeader(httpGet: HttpGet): HttpGet {
             httpGet.setHeader("Accept", "text/html,application/xhtml+xml," + "application/xml;q=0.9,image/webp,*/*;q=0.8")
             httpGet.setHeader("Accept-Encoding", "gzip, deflate, sdch, br")
             httpGet.setHeader("Accept-Language", "zh-CN,zh;q=0.8")
             httpGet.setHeader("User-Agent", "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36" + " (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36")
-        }
-
-        fun returnHttpGetAsBrowser(url: String = StringValue.URL.baidu): HttpGet {
-            return HttpGet(url).setHeaderAsBrowser()
-        }
-
-        fun execute(url: String = StringValue.URL.baidu): CloseableHttpResponse? {
-            return HttpGet(url).execute()
-        }
-
-        fun returnEntity(url: String = StringValue.URL.baidu): String? {
-            val httpGet = returnHttpGetAsBrowser()
-            val closeableHttpResponse = httpGet.execute()
-            return closeableHttpResponse.returnEntity()
+            return httpGet
         }
     }
 
+    //???奇怪的东西
     fun sendRequestAndGetResponse(url: String): Page? {
         var page: Page? = null
         // 1.生成 HttpClient 对象并设置参数
@@ -71,34 +61,31 @@ object RequestUtil {
     }
 }
 
-fun HttpGet.setHeaderAsBrowser(): HttpGet {
-    RequestUtil.Get.setHeaderAsBrowser(this)
-    return this
+fun HttpGet.setHeader(): HttpGet {
+    return HttpUtil.Get.setHeader(this)
 }
 
-fun HttpGet.execute(): CloseableHttpResponse {
+fun HttpGet.response(): CloseableHttpResponse {
     return httpClient.execute(this)!!
 }
 
-fun CloseableHttpResponse.execute(success: () -> Unit , fail: () -> Unit = {}): Any {
+fun CloseableHttpResponse.ifSuccess(success:()->String,fail:()->Unit={}): String {
     return if (statusLine.statusCode == 200) {
-        println("CloseableHttpResponse.execute.success")
         success()
-    } else {
-        println("CloseableHttpResponse.execute.fail")
+    }else{
         fail()
+        ""
     }
 }
 
-fun CloseableHttpResponse.returnEntity(): String? {
-    return this.execute(
-            success = {
-                EntityUtils.toString(this.entity, "utf-8")
-            }
-    ) as String
+fun CloseableHttpResponse.entityString(): String {
+    return ifSuccess(success = {
+        EntityUtils.toString(entity, "utf-8")
+    },fail = {
+        EntityUtils.consume(entity)
+    })
 }
 
-
-fun HttpPost.execute(): CloseableHttpResponse {
+fun HttpPost.next(): CloseableHttpResponse {
     return httpClient.execute(this)!!
 }

@@ -568,14 +568,14 @@ public interface Scheduler {
     
     /**
      * Trigger the identified <code>{@link org.quartz.JobDetail}</code>
-     * (execute it now).
+     * (response it now).
      */
     void triggerJob(JobKey jobKey)
         throws SchedulerException;
 
     /**
      * Trigger the identified <code>{@link org.quartz.JobDetail}</code>
-     * (execute it now).
+     * (response it now).
      * 
      * @param data the (possibly <code>null</code>) JobDataMap to be 
      * associated with the trigger that fires the job immediately. 

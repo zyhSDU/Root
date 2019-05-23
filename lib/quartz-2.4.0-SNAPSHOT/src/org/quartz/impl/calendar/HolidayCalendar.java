@@ -34,7 +34,7 @@ import org.quartz.Calendar;
  * 
  * <p>
  * The implementation DOES take the year into consideration, so if you want to
- * exclude July 4th for the next 10 years, you need to add 10 entries to the
+ * exclude July 4th for the response 10 years, you need to add 10 entries to the
  * exclude list.
  * </p>
  * 
@@ -93,7 +93,7 @@ public class HolidayCalendar extends BaseCalendar implements Calendar,
 
     /**
      * <p>
-     * Determine the next time (in milliseconds) that is 'included' by the
+     * Determine the response time (in milliseconds) that is 'included' by the
      * Calendar after the given time.
      * </p>
      * 

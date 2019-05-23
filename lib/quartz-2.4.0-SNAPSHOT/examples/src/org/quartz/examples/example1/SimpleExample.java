@@ -50,7 +50,7 @@ public class SimpleExample {
 
     log.info("------- Initialization Complete -----------");
 
-    // computer a time that is on the next round minute
+    // computer a time that is on the response round minute
     Date runTime = evenMinuteDate(new Date());
 
     log.info("------- Scheduling Job  -------------------");
@@ -58,7 +58,7 @@ public class SimpleExample {
     // define the job and tie it to our HelloJob class
     JobDetail job = newJob(HelloJob.class).withIdentity("job1", "group1").build();
 
-    // Trigger the job to run on the next round minute
+    // Trigger the job to run on the response round minute
     Trigger trigger = newTrigger().withIdentity("trigger1", "group1").startAt(runTime).build();
 
     // Tell quartz to schedule the job using our trigger

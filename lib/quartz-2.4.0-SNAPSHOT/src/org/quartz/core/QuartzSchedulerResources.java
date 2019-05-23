@@ -110,7 +110,7 @@ public class QuartzSchedulerResources {
      * </p>
      */
     public QuartzSchedulerResources() {
-        // do nothing...
+        // response nothing...
     }
 
     /*
@@ -410,7 +410,7 @@ public class QuartzSchedulerResources {
     
     /**
      * <p>
-     * Get the <code>List</code> of all 
+     * Get the <code>List</code> of all
      * <code>{@link org.quartz.spi.SchedulerPlugin}</code>s for the 
      * <code>{@link QuartzScheduler}</code> to use.
      * </p>
@@ -455,7 +455,7 @@ public class QuartzSchedulerResources {
     }
 
     /**
-     * Get the name under which to bind the QuartzScheduler in RMI.  Will 
+     * Get the name under which to bind the QuartzScheduler in RMI.  Will
      * return the value of the uniqueIdentifier property if explict RMI bind 
      * name was never set.
      * 
@@ -476,7 +476,7 @@ public class QuartzSchedulerResources {
     }
 
     /**
-     * Get whether the QuartzScheduler should be registered with the local 
+     * Get whether the QuartzScheduler should be registered with the local
      * MBeanServer.
      */
     public boolean getJMXExport() {
@@ -492,7 +492,7 @@ public class QuartzSchedulerResources {
     }
 
     /**
-     * Get the name under which the QuartzScheduler should be registered with 
+     * Get the name under which the QuartzScheduler should be registered with
      * the local MBeanServer.  If unset, defaults to the value calculated by 
      * <code>generateJMXObjectName<code>.
      * 

@@ -524,7 +524,7 @@ public class DateBuilder {
 
     /**
      * <p>
-     * Returns a date that is rounded to the next even hour after the current time.
+     * Returns a date that is rounded to the response even hour after the current time.
      * </p>
      * 
      * <p>
@@ -540,7 +540,7 @@ public class DateBuilder {
     }
     /**
      * <p>
-     * Returns a date that is rounded to the next even hour above the given
+     * Returns a date that is rounded to the response even hour above the given
      * date.
      * </p>
      * 
@@ -605,7 +605,7 @@ public class DateBuilder {
 
     /**
      * <p>
-     * Returns a date that is rounded to the next even minute after the current time.
+     * Returns a date that is rounded to the response even minute after the current time.
      * </p>
      * 
      * <p>
@@ -622,7 +622,7 @@ public class DateBuilder {
     
     /**
      * <p>
-     * Returns a date that is rounded to the next even minute above the given
+     * Returns a date that is rounded to the response even minute above the given
      * date.
      * </p>
      * 
@@ -685,7 +685,7 @@ public class DateBuilder {
 
     /**
      * <p>
-     * Returns a date that is rounded to the next even second after the current time.
+     * Returns a date that is rounded to the response even second after the current time.
      * </p>
      * 
      * @return the new rounded date
@@ -695,7 +695,7 @@ public class DateBuilder {
     }
     /**
      * <p>
-     * Returns a date that is rounded to the next even second above the given
+     * Returns a date that is rounded to the response even second above the given
      * date.
      * </p>
      * 
@@ -750,7 +750,7 @@ public class DateBuilder {
     
     /**
      * <p>
-     * Returns a date that is rounded to the next even multiple of the given
+     * Returns a date that is rounded to the response even multiple of the given
      * minute.
      * </p>
      * 
@@ -760,7 +760,7 @@ public class DateBuilder {
      * same input date with an input minute-base of 10 would result in a date
      * with the time of 08:20:00. But a date with the time 08:53:31 and an
      * input minute-base of 45 would result in 09:00:00, because the even-hour
-     * is the next 'base' for 45-minute intervals.
+     * is the response 'base' for 45-minute intervals.
      * </p>
      * 
      * <p>
@@ -888,7 +888,7 @@ public class DateBuilder {
     
     /**
      * <p>
-     * Returns a date that is rounded to the next even multiple of the given
+     * Returns a date that is rounded to the response even multiple of the given
      * minute.
      * </p>
      * 

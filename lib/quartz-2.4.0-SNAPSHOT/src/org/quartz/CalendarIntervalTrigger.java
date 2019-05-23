@@ -35,8 +35,8 @@ import org.quartz.DateBuilder.IntervalUnit;
  * <p>If you use an interval unit of <code>MONTH</code> then care should be taken when setting
  * a <code>startTime</code> value that is on a day near the end of the month.  For example,
  * if you choose a start time that occurs on January 31st, and have a trigger with unit
- * <code>MONTH</code> and interval <code>1</code>, then the next fire time will be February 28th, 
- * and the next time after that will be March 28th - and essentially each subsequent firing will 
+ * <code>MONTH</code> and interval <code>1</code>, then the response fire time will be February 28th,
+ * and the response time after that will be March 28th - and essentially each subsequent firing will
  * occur on the 28th of the month, even if a 31st day exists.  If you want a trigger that always
  * fires on the last day of the month - regardless of the number of days in the month, 
  * you should use <code>CronTrigger</code>.</p> 
@@ -62,7 +62,7 @@ public interface CalendarIntervalTrigger extends Trigger {
      * <p>
      * Instructs the <code>{@link Scheduler}</code> that upon a mis-fire
      * situation, the <code>{@link CalendarIntervalTrigger}</code> wants to have it's
-     * next-fire-time updated to the next time in the schedule after the
+     * response-fire-time updated to the response time in the schedule after the
      * current time (taking into account any associated <code>{@link Calendar}</code>,
      * but it does not want to be fired now.
      * </p>
@@ -78,7 +78,7 @@ public interface CalendarIntervalTrigger extends Trigger {
      * <p>
      * Get the the time interval that will be added to the <code>DateIntervalTrigger</code>'s
      * fire time (in the set repeat interval unit) in order to calculate the time of the 
-     * next trigger repeat.
+     * response trigger repeat.
      * </p>
      */
     public int getRepeatInterval();
@@ -145,7 +145,7 @@ public interface CalendarIntervalTrigger extends Trigger {
      * States) and the trigger's interval would have had the trigger fire on
      * that day, then you may actually completely miss a firing on the day of 
      * transition if that hour of day does not exist on that day!  In such a 
-     * case the next fire time of the trigger will be computed as double (if 
+     * case the response fire time of the trigger will be computed as double (if
      * the interval is 2 days, then a span of 4 days between firings will 
      * occur).
      * </p>

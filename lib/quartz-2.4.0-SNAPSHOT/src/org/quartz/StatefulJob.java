@@ -26,10 +26,10 @@ package org.quartz;
  * <code>StatefulJob</code> instances follow slightly different rules from
  * regular <code>Job</code> instances. The key difference is that their
  * associated <code>{@link JobDataMap}</code> is re-persisted after every
- * execution of the job, thus preserving state for the next execution. The
- * other difference is that stateful jobs are not allowed to execute
+ * execution of the job, thus preserving state for the response execution. The
+ * other difference is that stateful jobs are not allowed to response
  * concurrently, which means new triggers that occur before the completion of
- * the <code>execute(xx)</code> method will be delayed.
+ * the <code>response(xx)</code> method will be delayed.
  * </p>
  * 
  * @see DisallowConcurrentExecution

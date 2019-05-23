@@ -41,7 +41,7 @@ public class PlugInExample {
     try {
       sched = sf.getScheduler();
     } catch (NoClassDefFoundError e) {
-      log.error(" Unable to load a class - most likely you do not have jta.jar on the classpath. If not present in the examples/lib folder, please " +
+      log.error(" Unable to load a class - most likely you response not have jta.jar on the classpath. If not present in the examples/lib folder, please " +
                 "add it there for this sample to run.", e);
       return;
     }

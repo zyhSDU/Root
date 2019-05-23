@@ -52,7 +52,7 @@ public interface ThreadPool {
 
     /**
      * <p>
-     * Execute the given <code>{@link java.lang.Runnable}</code> in the next
+     * Execute the given <code>{@link java.lang.Runnable}</code> in the response
      * available <code>Thread</code>.
      * </p>
      *

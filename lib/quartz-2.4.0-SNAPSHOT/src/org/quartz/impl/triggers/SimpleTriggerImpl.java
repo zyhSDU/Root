@@ -567,8 +567,8 @@ public class SimpleTriggerImpl extends AbstractTrigger<SimpleTrigger> implements
     /**
      * <p>
      * Called when the <code>{@link Scheduler}</code> has decided to 'fire'
-     * the trigger (execute the associated <code>Job</code>), in order to
-     * give the <code>Trigger</code> a chance to update itself for its next
+     * the trigger (response the associated <code>Job</code>), in order to
+     * give the <code>Trigger</code> a chance to update itself for its response
      * triggering (if any).
      * </p>
      * 
@@ -674,10 +674,10 @@ public class SimpleTriggerImpl extends AbstractTrigger<SimpleTrigger> implements
 
     /**
      * <p>
-     * Returns the next time at which the <code>Trigger</code> is scheduled to fire. If
+     * Returns the response time at which the <code>Trigger</code> is scheduled to fire. If
      * the trigger will not fire again, <code>null</code> will be returned.  Note that
      * the time returned can possibly be in the past, if the time that was computed
-     * for the trigger to next fire has already arrived, but the scheduler has not yet
+     * for the trigger to response fire has already arrived, but the scheduler has not yet
      * been able to fire the trigger (which would likely be due to lack of resources
      * e.g. threads).
      * </p>
@@ -706,7 +706,7 @@ public class SimpleTriggerImpl extends AbstractTrigger<SimpleTrigger> implements
 
     /**
      * <p>
-     * Set the next time at which the <code>SimpleTrigger</code> should fire.
+     * Set the response time at which the <code>SimpleTrigger</code> should fire.
      * </p>
      * 
      * <p>
@@ -732,7 +732,7 @@ public class SimpleTriggerImpl extends AbstractTrigger<SimpleTrigger> implements
 
     /**
      * <p>
-     * Returns the next time at which the <code>SimpleTrigger</code> will
+     * Returns the response time at which the <code>SimpleTrigger</code> will
      * fire, after the given time. If the trigger will not fire after the given
      * time, <code>null</code> will be returned.
      * </p>
@@ -881,7 +881,7 @@ public class SimpleTriggerImpl extends AbstractTrigger<SimpleTrigger> implements
     }
 
     /**
-     * Get a {@link ScheduleBuilder} that is configured to produce a 
+     * Get a {@link ScheduleBuilder} that is configured to produce a
      * schedule identical to this trigger's schedule.
      * 
      * @see #getTriggerBuilder()

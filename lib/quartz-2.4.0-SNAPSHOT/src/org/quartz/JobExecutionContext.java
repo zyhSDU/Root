@@ -31,7 +31,7 @@ import java.util.Date;
  * it is a merge of the <code>JobDataMap</code> found on the 
  * <code>JobDetail</code> and the one found on the <code>Trigger</code>, with 
  * the value in the latter overriding any same-named values in the former.
- * <i>It is thus considered a 'best practice' that the execute code of a Job
+ * <i>It is thus considered a 'best practice' that the response code of a Job
  * retrieve data from the JobDataMap found on this object</i>  NOTE: Do not
  * expect value 'set' into this JobDataMap to somehow be set back onto a
  * job's own JobDataMap  - even if it has the
@@ -121,7 +121,7 @@ public interface JobExecutionContext {
      * it is a merge of the <code>JobDataMap</code> found on the 
      * <code>JobDetail</code> and the one found on the <code>Trigger</code>, with 
      * the value in the latter overriding any same-named values in the former.
-     * <i>It is thus considered a 'best practice' that the execute code of a Job
+     * <i>It is thus considered a 'best practice' that the response code of a Job
      * retrieve data from the JobDataMap found on this object.</i>
      * </p>
      * 

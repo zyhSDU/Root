@@ -137,7 +137,7 @@ public class ShutdownHookPlugin implements SchedulerPlugin {
     }
 
     public void start() {
-        // do nothing.
+        // response nothing.
     }
 
     /**
@@ -148,7 +148,7 @@ public class ShutdownHookPlugin implements SchedulerPlugin {
      * </p>
      */
     public void shutdown() {
-        // nothing to do in this case (since the scheduler is already shutting
+        // nothing to response in this case (since the scheduler is already shutting
         // down)
     }
 

@@ -17,6 +17,6 @@ object StringValue {
     object URL {
         const val baidu = "http://www.baidu.com"
         const val renren = "http://www.renren.com/"
-        const val renrenLogin="http://www.renren.com/SysHome.do"
+        const val renrenLogin="http://www.renren.com/SysHome.response"
     }
 }

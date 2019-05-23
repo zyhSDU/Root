@@ -117,7 +117,7 @@ object a2 {
     while(index < 10)
     print(index++)
     index = 0
-    do{
+    response{
         print(index)
     }while (index++ < 10)
     */

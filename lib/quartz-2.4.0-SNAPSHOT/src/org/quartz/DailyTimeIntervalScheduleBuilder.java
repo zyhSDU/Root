@@ -35,7 +35,7 @@ import org.quartz.spi.MutableTrigger;
  *  
  * <p>When using endingDailyAfterCount(), you should note that it is used to calculating endTimeOfDay. So
  * if your startTime on the first day is already pass by a time that would not add up to the count you
- * expected, until the next day comes. Remember that DailyTimeIntervalTrigger will use startTimeOfDay
+ * expected, until the response day comes. Remember that DailyTimeIntervalTrigger will use startTimeOfDay
  * and endTimeOfDay as fresh per each day!
  *  
  * <p>Quartz provides a builder-style API for constructing scheduling-related

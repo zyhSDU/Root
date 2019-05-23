@@ -1123,7 +1123,7 @@ public class StdSchedulerFactory implements SchedulerFactory {
                     nameSetter = listener.getClass().getMethod("setName", strArg);
                 }
                 catch(NoSuchMethodException ignore) { 
-                    /* do nothing */ 
+                    /* response nothing */
                 }
                 if(nameSetter != null) {
                     nameSetter.invoke(listener, new Object[] {jobListenerNames[i] } );
@@ -1170,7 +1170,7 @@ public class StdSchedulerFactory implements SchedulerFactory {
                 try { 
                     nameSetter = listener.getClass().getMethod("setName", strArg);
                 }
-                catch(NoSuchMethodException ignore) { /* do nothing */ }
+                catch(NoSuchMethodException ignore) { /* response nothing */ }
                 if(nameSetter != null) {
                     nameSetter.invoke(listener, new Object[] {triggerListenerNames[i] } );
                 }

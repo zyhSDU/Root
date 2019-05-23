@@ -263,12 +263,12 @@ class DefaultClusteredJobStore implements ClusteredJobStore {
 
   @Override
   public void schedulerPaused() {
-    // do nothing
+    // response nothing
   }
 
   @Override
   public void schedulerResumed() {
-    // do nothing
+    // response nothing
   }
 
   private void evalOrphanedTrigger(TriggerWrapper tw, boolean newNode) {
@@ -278,7 +278,7 @@ class DefaultClusteredJobStore implements ClusteredJobStore {
 
     if (jobWrapper == null) {
       getLog().error("No job found for orphaned trigger: " + tw);
-      // even if it was deleted, there may be cleanup to do
+      // even if it was deleted, there may be cleanup to response
       jobFacade.removeBlockedJob(tw.getJobKey());
       return;
     }
@@ -371,7 +371,7 @@ class DefaultClusteredJobStore implements ClusteredJobStore {
   }
 
   /**
-   * The number of milliseconds by which a trigger must have missed its next-fire-time, in order for it to be considered
+   * The number of milliseconds by which a trigger must have missed its response-fire-time, in order for it to be considered
    * "misfired" and thus have its misfire instruction applied.
    * 
    * @param misfireThreshold
@@ -390,7 +390,7 @@ class DefaultClusteredJobStore implements ClusteredJobStore {
    */
   @Override
   public void shutdown() {
-    // nothing to do
+    // nothing to response
   }
 
   @Override
@@ -541,7 +541,7 @@ class DefaultClusteredJobStore implements ClusteredJobStore {
           }
         }
       }
-      // do bulk add...
+      // response bulk add...
       for (JobDetail job : triggersAndJobs.keySet()) {
         storeJob(job, true);
         for (Trigger trigger : triggersAndJobs.get(job)) {
@@ -855,7 +855,7 @@ class DefaultClusteredJobStore implements ClusteredJobStore {
    * @param replaceExisting If <code>true</code>, any <code>Calendar</code> existing in the <code>JobStore</code> with
    *        the same name & group should be over-written.
    * @param updateTriggers If <code>true</code>, any <code>Trigger</code>s existing in the <code>JobStore</code> that
-   *        reference an existing Calendar with the same name with have their next fire time re-computed with the new
+   *        reference an existing Calendar with the same name with have their response fire time re-computed with the new
    *        <code>Calendar</code>.
    * @throws ObjectAlreadyExistsException if a <code>Calendar</code> with the same name already exists, and
    *         replaceExisting is set to false.
@@ -1860,7 +1860,7 @@ class DefaultClusteredJobStore implements ClusteredJobStore {
               }
               signaler.signalSchedulingChange(0L);
             }
-          } else { // even if it was deleted, there may be cleanup to do
+          } else { // even if it was deleted, there may be cleanup to response
             jobFacade.removeBlockedJob(jobKey);
           }
 
@@ -2001,8 +2001,8 @@ class DefaultClusteredJobStore implements ClusteredJobStore {
       unlock();
     }
 
-    // nudge the local scheduler. This is a lazy way to do it. This should perhaps be conditionally happening and
-    // also passing a real next job time (as opposed to 0)
+    // nudge the local scheduler. This is a lazy way to response it. This should perhaps be conditionally happening and
+    // also passing a real response job time (as opposed to 0)
     signaler.signalSchedulingChange(0);
   }
 

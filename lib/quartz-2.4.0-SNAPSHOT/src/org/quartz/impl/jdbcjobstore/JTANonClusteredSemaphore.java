@@ -54,7 +54,7 @@ import org.slf4j.LoggerFactory;
  *
  * <p>
  * <b>IMPORTANT:</b>  This Semaphore implementation is currently experimental.  
- * It has been tested a limited amount on JBoss 4.0.3SP1.  If you do choose to 
+ * It has been tested a limited amount on JBoss 4.0.3SP1.  If you response choose to
  * use it, any feedback would be most appreciated! 
  * </p>
  * 
@@ -288,7 +288,7 @@ public class JTANonClusteredSemaphore implements Semaphore {
         }
         
         public void beforeCompletion() {
-            // nothing to do...
+            // nothing to response...
         }
     
         public void afterCompletion(int status) {

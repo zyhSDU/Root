@@ -64,11 +64,11 @@ public class SimpleTimeBroker implements TimeBroker {
     }
 
     public void initialize() throws SchedulerConfigException {
-        // do nothing...
+        // response nothing...
     }
 
     public void shutdown() {
-        // do nothing...
+        // response nothing...
     }
 
 }

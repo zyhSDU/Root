@@ -49,8 +49,8 @@ import org.quartz.TriggerUtils;
  * <p>If you use an interval unit of <code>MONTH</code> then care should be taken when setting
  * a <code>startTime</code> value that is on a day near the end of the month.  For example,
  * if you choose a start time that occurs on January 31st, and have a trigger with unit
- * <code>MONTH</code> and interval <code>1</code>, then the next fire time will be February 28th, 
- * and the next time after that will be March 28th - and essentially each subsequent firing will 
+ * <code>MONTH</code> and interval <code>1</code>, then the response fire time will be February 28th,
+ * and the response time after that will be March 28th - and essentially each subsequent firing will
  * occur on the 28th of the month, even if a 31st day exists.  If you want a trigger that always
  * fires on the last day of the month - regardless of the number of days in the month, 
  * you should use <code>CronTrigger</code>.</p> 
@@ -326,7 +326,7 @@ public class CalendarIntervalTriggerImpl extends AbstractTrigger<CalendarInterva
      * <p>
      * set the the time interval that will be added to the <code>DateIntervalTrigger</code>'s
      * fire time (in the set repeat interval unit) in order to calculate the time of the 
-     * next trigger repeat.
+     * response trigger repeat.
      * </p>
      * 
      * @exception IllegalArgumentException
@@ -411,7 +411,7 @@ public class CalendarIntervalTriggerImpl extends AbstractTrigger<CalendarInterva
      * States) and the trigger's interval would have had the trigger fire on
      * that day, then you may actually completely miss a firing on the day of 
      * transition if that hour of day does not exist on that day!  In such a 
-     * case the next fire time of the trigger will be computed as double (if 
+     * case the response fire time of the trigger will be computed as double (if
      * the interval is 2 days, then a span of 4 days between firings will 
      * occur).
      * </p>
@@ -499,8 +499,8 @@ public class CalendarIntervalTriggerImpl extends AbstractTrigger<CalendarInterva
     /**
      * <p>
      * Called when the <code>{@link Scheduler}</code> has decided to 'fire'
-     * the trigger (execute the associated <code>Job</code>), in order to
-     * give the <code>Trigger</code> a chance to update itself for its next
+     * the trigger (response the associated <code>Job</code>), in order to
+     * give the <code>Trigger</code> a chance to update itself for its response
      * triggering (if any).
      * </p>
      * 
@@ -609,10 +609,10 @@ public class CalendarIntervalTriggerImpl extends AbstractTrigger<CalendarInterva
 
     /**
      * <p>
-     * Returns the next time at which the <code>Trigger</code> is scheduled to fire. If
+     * Returns the response time at which the <code>Trigger</code> is scheduled to fire. If
      * the trigger will not fire again, <code>null</code> will be returned.  Note that
      * the time returned can possibly be in the past, if the time that was computed
-     * for the trigger to next fire has already arrived, but the scheduler has not yet
+     * for the trigger to response fire has already arrived, but the scheduler has not yet
      * been able to fire the trigger (which would likely be due to lack of resources
      * e.g. threads).
      * </p>
@@ -639,7 +639,7 @@ public class CalendarIntervalTriggerImpl extends AbstractTrigger<CalendarInterva
 
     /**
      * <p>
-     * Set the next time at which the <code>DateIntervalTrigger</code> should fire.
+     * Set the response time at which the <code>DateIntervalTrigger</code> should fire.
      * </p>
      * 
      * <p>
@@ -665,7 +665,7 @@ public class CalendarIntervalTriggerImpl extends AbstractTrigger<CalendarInterva
 
     /**
      * <p>
-     * Returns the next time at which the <code>DateIntervalTrigger</code> will
+     * Returns the response time at which the <code>DateIntervalTrigger</code> will
      * fire, after the given time. If the trigger will not fire after the given
      * time, <code>null</code> will be returned.
      * </p>
@@ -878,7 +878,7 @@ public class CalendarIntervalTriggerImpl extends AbstractTrigger<CalendarInterva
 
         // back up a second from end time
         Date fTime = new Date(getEndTime().getTime() - 1000L);
-        // find the next fire time after that
+        // find the response fire time after that
         fTime = getFireTimeAfter(fTime, true);
         
         // the the trigger fires at the end time, that's it!
@@ -948,7 +948,7 @@ public class CalendarIntervalTriggerImpl extends AbstractTrigger<CalendarInterva
     }
 
     /**
-     * Get a {@link ScheduleBuilder} that is configured to produce a 
+     * Get a {@link ScheduleBuilder} that is configured to produce a
      * schedule identical to this trigger's schedule.
      * 
      * @see #getTriggerBuilder()

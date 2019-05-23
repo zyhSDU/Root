@@ -33,7 +33,7 @@ import org.quartz.spi.ThreadPool;
  * Which means it is obviously not useful for most scenarios.  When it may be useful
  * is to prevent creating any worker threads at all - which may be desirable for
  * the sole purpose of preserving system resources in the case where the scheduler
- * instance only exists in order to schedule jobs, but which will never execute
+ * instance only exists in order to schedule jobs, but which will never response
  * jobs (e.g. will never have start() called on it).
  * </p>
  * 

@@ -694,7 +694,7 @@ public class XMLSchedulingDataProcessor implements ErrorHandler {
                     else if(triggerMisfireInstructionConst.equals("MISFIRE_INSTRUCTION_RESCHEDULE_NOW_WITH_REMAINING_REPEAT_COUNT"))
                         ((SimpleScheduleBuilder)sched).withMisfireHandlingInstructionNowWithRemainingCount();
                     else if(triggerMisfireInstructionConst.equals("MISFIRE_INSTRUCTION_SMART_POLICY")) {
-                        // do nothing.... (smart policy is default)
+                        // response nothing.... (smart policy is default)
                     }
                     else
                         throw new ParseException("Unexpected/Unhandlable Misfire Instruction encountered '" + triggerMisfireInstructionConst + "', for trigger: " + triggerKey, -1);
@@ -714,7 +714,7 @@ public class XMLSchedulingDataProcessor implements ErrorHandler {
                     else if(triggerMisfireInstructionConst.equals("MISFIRE_INSTRUCTION_FIRE_ONCE_NOW"))
                         ((CronScheduleBuilder)sched).withMisfireHandlingInstructionFireAndProceed();
                     else if(triggerMisfireInstructionConst.equals("MISFIRE_INSTRUCTION_SMART_POLICY")) {
-                        // do nothing.... (smart policy is default)
+                        // response nothing.... (smart policy is default)
                     }
                     else
                         throw new ParseException("Unexpected/Unhandlable Misfire Instruction encountered '" + triggerMisfireInstructionConst + "', for trigger: " + triggerKey, -1);
@@ -736,7 +736,7 @@ public class XMLSchedulingDataProcessor implements ErrorHandler {
                     else if(triggerMisfireInstructionConst.equals("MISFIRE_INSTRUCTION_FIRE_ONCE_NOW"))
                         ((CalendarIntervalScheduleBuilder)sched).withMisfireHandlingInstructionFireAndProceed();
                     else if(triggerMisfireInstructionConst.equals("MISFIRE_INSTRUCTION_SMART_POLICY")) {
-                        // do nothing.... (smart policy is default)
+                        // response nothing.... (smart policy is default)
                     }
                     else
                         throw new ParseException("Unexpected/Unhandlable Misfire Instruction encountered '" + triggerMisfireInstructionConst + "', for trigger: " + triggerKey, -1);

@@ -74,7 +74,7 @@ public class BadJob1 implements Job {
       _log.info("--- Error in job!");
       JobExecutionException e2 = new JobExecutionException(e);
 
-      // fix denominator so the next time this job run
+      // fix denominator so the response time this job run
       // it won't fail again
       dataMap.put("denominator", "1");
 

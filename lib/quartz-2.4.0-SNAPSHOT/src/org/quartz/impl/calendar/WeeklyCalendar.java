@@ -165,7 +165,7 @@ public class WeeklyCalendar extends BaseCalendar implements Calendar,
 
     /**
      * <p>
-     * Determine the next time (in milliseconds) that is 'included' by the
+     * Determine the response time (in milliseconds) that is 'included' by the
      * Calendar after the given time. Return the original value if timeStamp is
      * included. Return 0 if all days are excluded.
      * </p>

@@ -80,7 +80,7 @@ import java.text.MessageFormat;
  * <tr>
  * <td>6</td>
  * <td>Date</td>
- * <td>The next scheduled fire time.</td>
+ * <td>The response scheduled fire time.</td>
  * </tr>
  * <tr>
  * <td>7</td>
@@ -134,7 +134,7 @@ import java.text.MessageFormat;
  * <tr>
  * <td>6</td>
  * <td>Date</td>
- * <td>The next scheduled fire time.</td>
+ * <td>The response scheduled fire time.</td>
  * </tr>
  * <tr>
  * <td>7</td>
@@ -195,7 +195,7 @@ import java.text.MessageFormat;
  * <tr>
  * <td>6</td>
  * <td>Date</td>
- * <td>The next scheduled fire time.</td>
+ * <td>The response scheduled fire time.</td>
  * </tr>
  * <tr>
  * <td>7</td>
@@ -255,7 +255,7 @@ import java.text.MessageFormat;
  * <tr>
  * <td>6</td>
  * <td>Date</td>
- * <td>The next scheduled fire time.</td>
+ * <td>The response scheduled fire time.</td>
  * </tr>
  * <tr>
  * <td>7</td>
@@ -317,7 +317,7 @@ public class LoggingJobHistoryPlugin implements SchedulerPlugin, JobListener {
     }
 
     /**
-     * Get the message that is logged when a Job successfully completes its 
+     * Get the message that is logged when a Job successfully completes its
      * execution.
      */
     public String getJobSuccessMessage() {
@@ -325,7 +325,7 @@ public class LoggingJobHistoryPlugin implements SchedulerPlugin, JobListener {
     }
 
     /**
-     * Get the message that is logged when a Job fails its 
+     * Get the message that is logged when a Job fails its
      * execution.
      */
     public String getJobFailedMessage() {
@@ -333,7 +333,7 @@ public class LoggingJobHistoryPlugin implements SchedulerPlugin, JobListener {
     }
 
     /**
-     * Get the message that is logged when a Job is about to execute.
+     * Get the message that is logged when a Job is about to response.
      */
     public String getJobToBeFiredMessage() {
         return jobToBeFiredMessage;
@@ -362,7 +362,7 @@ public class LoggingJobHistoryPlugin implements SchedulerPlugin, JobListener {
     }
 
     /**
-     * Set the message that is logged when a Job is about to execute.
+     * Set the message that is logged when a Job is about to response.
      * 
      * @param jobToBeFiredMessage
      *          String in java.text.MessageFormat syntax.
@@ -414,7 +414,7 @@ public class LoggingJobHistoryPlugin implements SchedulerPlugin, JobListener {
     }
 
     public void start() {
-        // do nothing...
+        // response nothing...
     }
 
     /**
@@ -425,7 +425,7 @@ public class LoggingJobHistoryPlugin implements SchedulerPlugin, JobListener {
      * </p>
      */
     public void shutdown() {
-        // nothing to do...
+        // nothing to response...
     }
 
     /*

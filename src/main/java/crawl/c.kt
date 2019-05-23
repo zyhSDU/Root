@@ -7,9 +7,8 @@ import org.apache.http.client.methods.HttpPost
 import org.apache.http.impl.client.HttpClients
 import org.apache.http.message.BasicNameValuePair
 import org.apache.http.util.EntityUtils
-import util.RequestUtil
-import util.execute
-import util.setHeaderAsBrowser
+import util.*
+import value.StringValue
 import value.StringValue.URL.baidu
 import value.StringValue.URL.renrenLogin
 import java.util.*
@@ -38,7 +37,7 @@ fun main1() {
 
 fun main2() {
     val closeableHttpClient = HttpClients.createDefault()
-    val httpGet = RequestUtil.Get.returnHttpGetAsBrowser()
+    val httpGet = HttpUtil.Get.create(baidu)
     val closeableHttpResponse = closeableHttpClient.execute(httpGet)
     if (closeableHttpResponse.statusLine.statusCode == 200) {
         val entity = EntityUtils.toString(closeableHttpResponse.entity, "utf-8")
@@ -49,13 +48,15 @@ fun main2() {
 }
 
 fun main3() {
-    val closeableHttpResponse = HttpGet(baidu).setHeaderAsBrowser().execute()
-    closeableHttpResponse.execute({
-        val headers = closeableHttpResponse.allHeaders
+    val response = HttpGet(baidu).setHeader().response()
+    response.ifSuccess(success = {
+        val headers = response.allHeaders
         for (header in headers) {
             println(header.name + ": " + header.value)
         }
+        ""
     })
+
 }
 
 fun main4() {
@@ -72,7 +73,7 @@ fun main4() {
     //向对方服务器发送Post请求
     //将参数进行封装，提交到服务器端
     httpPost.entity = UrlEncodedFormEntity(nvps, "UTF8")
-    val httpResponse = httpPost.execute()
+    val httpResponse = httpPost.next()
 
     //如果模拟登录成功
     println(httpResponse.statusLine.statusCode)

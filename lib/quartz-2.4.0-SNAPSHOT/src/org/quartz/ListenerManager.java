@@ -243,7 +243,7 @@ public interface ListenerManager {
     public boolean removeTriggerListener(String name);
 
     /**
-     * Get a List containing all of the <code>{@link TriggerListener}</code>s 
+     * Get a List containing all of the <code>{@link TriggerListener}</code>s
      * in the <code>Scheduler</code>, in the order in which they were registered.
      */
     public List<TriggerListener> getTriggerListeners();

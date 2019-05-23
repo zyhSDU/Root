@@ -98,7 +98,7 @@ public interface SimpleTrigger extends Trigger {
      * <p>
      * Instructs the <code>{@link Scheduler}</code> that upon a mis-fire
      * situation, the <code>{@link SimpleTrigger}</code> wants to be
-     * re-scheduled to the next scheduled time after 'now' - taking into
+     * re-scheduled to the response scheduled time after 'now' - taking into
      * account any associated <code>{@link Calendar}</code>, and with the
      * repeat count set to what it would be, if it had not missed any firings.
      * </p>
@@ -114,7 +114,7 @@ public interface SimpleTrigger extends Trigger {
      * <p>
      * Instructs the <code>{@link Scheduler}</code> that upon a mis-fire
      * situation, the <code>{@link SimpleTrigger}</code> wants to be
-     * re-scheduled to the next scheduled time after 'now' - taking into
+     * re-scheduled to the response scheduled time after 'now' - taking into
      * account any associated <code>{@link Calendar}</code>, and with the
      * repeat count left unchanged.
      * </p>

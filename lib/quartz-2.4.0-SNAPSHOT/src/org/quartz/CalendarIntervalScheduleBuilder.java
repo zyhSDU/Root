@@ -320,7 +320,7 @@ public class CalendarIntervalScheduleBuilder extends ScheduleBuilder<CalendarInt
      * States) and the trigger's interval would have had the trigger fire on
      * that day, then you may actually completely miss a firing on the day of 
      * transition if that hour of day does not exist on that day!  In such a 
-     * case the next fire time of the trigger will be computed as double (if 
+     * case the response fire time of the trigger will be computed as double (if
      * the interval is 2 days, then a span of 4 days between firings will 
      * occur).
      * </p>

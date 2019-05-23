@@ -299,7 +299,7 @@ public class XMLSchedulingDataProcessorPlugin
      */
     @Override
     public void shutdown() {
-        // Since we have nothing to do, override base shutdown so don't
+        // Since we have nothing to response, override base shutdown so don't
         // get extranious UserTransactions.
     }
 

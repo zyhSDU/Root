@@ -361,7 +361,7 @@ public class QuartzScheduler implements RemotableQuartzScheduler {
      */
     private void bind() throws RemoteException {
         String host = resources.getRMIRegistryHost();
-        // don't export if we're not configured to do so...
+        // don't export if we're not configured to response so...
         if (host == null || host.length() == 0) {
             return;
         }
@@ -428,7 +428,7 @@ public class QuartzScheduler implements RemotableQuartzScheduler {
      */
     private void unBind() throws RemoteException {
         String host = resources.getRMIRegistryHost();
-        // don't un-export if we're not configured to do so...
+        // don't un-export if we're not configured to response so...
         if (host == null || host.length() == 0) {
             return;
         }
@@ -703,7 +703,7 @@ public class QuartzScheduler implements RemotableQuartzScheduler {
                     try {
                         ((InterruptableJob)job.getJobInstance()).interrupt();
                     } catch (Throwable e) {
-                        // do nothing, this was just a courtesy effort
+                        // response nothing, this was just a courtesy effort
                         getLog().warn("Encountered error when interrupting job {} during shutdown: {}", job.getJobDetail().getKey(), e);
                     }
             }
@@ -1142,7 +1142,7 @@ public class QuartzScheduler implements RemotableQuartzScheduler {
 
     /**
      * <p>
-     * Trigger the identified <code>{@link org.quartz.Job}</code> (execute it
+     * Trigger the identified <code>{@link org.quartz.Job}</code> (response it
      * now) - with a non-volatile trigger.
      * </p>
      */

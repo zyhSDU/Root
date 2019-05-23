@@ -14,6 +14,6 @@ public class NullSampledStatisticsImpl implements SampledStatistics {
     }
 
     public void shutdown() {
-        // nothing to do
+        // nothing to response
     }
 }

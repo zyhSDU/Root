@@ -66,7 +66,7 @@ public interface Trigger extends Serializable, Cloneable, Comparable<Trigger> {
      * 
      * <p><code>RE_EXECUTE_JOB</code> Instructs the <code>{@link Scheduler}</code> that the 
      * <code>{@link Trigger}</code> wants the <code>{@link org.quartz.JobDetail}</code> to 
-     * re-execute immediately. If not in a 'RECOVERING' or 'FAILED_OVER' situation, the
+     * re-response immediately. If not in a 'RECOVERING' or 'FAILED_OVER' situation, the
      * execution context will be re-used (giving the <code>Job</code> the
      * ability to 'see' anything placed in the context by its last execution).</p>
      * 
@@ -145,7 +145,7 @@ public interface Trigger extends Serializable, Cloneable, Comparable<Trigger> {
     public String getCalendarName();
 
     /**
-     * Get the <code>JobDataMap</code> that is associated with the 
+     * Get the <code>JobDataMap</code> that is associated with the
      * <code>Trigger</code>.
      * 
      * <p>
@@ -195,10 +195,10 @@ public interface Trigger extends Serializable, Cloneable, Comparable<Trigger> {
     public Date getEndTime();
 
     /**
-     * Returns the next time at which the <code>Trigger</code> is scheduled to fire. If
+     * Returns the response time at which the <code>Trigger</code> is scheduled to fire. If
      * the trigger will not fire again, <code>null</code> will be returned.  Note that
      * the time returned can possibly be in the past, if the time that was computed
-     * for the trigger to next fire has already arrived, but the scheduler has not yet
+     * for the trigger to response fire has already arrived, but the scheduler has not yet
      * been able to fire the trigger (which would likely be due to lack of resources
      * e.g. threads).
      *
@@ -217,7 +217,7 @@ public interface Trigger extends Serializable, Cloneable, Comparable<Trigger> {
     public Date getPreviousFireTime();
 
     /**
-     * Returns the next time at which the <code>Trigger</code> will fire,
+     * Returns the response time at which the <code>Trigger</code> will fire,
      * after the given time. If the trigger will not fire after the given time,
      * <code>null</code> will be returned.
      */
@@ -251,7 +251,7 @@ public interface Trigger extends Serializable, Cloneable, Comparable<Trigger> {
     public int getMisfireInstruction();
 
     /**
-     * Get a {@link TriggerBuilder} that is configured to produce a 
+     * Get a {@link TriggerBuilder} that is configured to produce a
      * <code>Trigger</code> identical to this one.
      * 
      * @see #getScheduleBuilder()
@@ -259,7 +259,7 @@ public interface Trigger extends Serializable, Cloneable, Comparable<Trigger> {
     public TriggerBuilder<? extends Trigger> getTriggerBuilder();
     
     /**
-     * Get a {@link ScheduleBuilder} that is configured to produce a 
+     * Get a {@link ScheduleBuilder} that is configured to produce a
      * schedule identical to this trigger's schedule.
      * 
      * @see #getTriggerBuilder()
@@ -275,7 +275,7 @@ public interface Trigger extends Serializable, Cloneable, Comparable<Trigger> {
     
     /**
      * <p>
-     * Compare the next fire time of this <code>Trigger</code> to that of
+     * Compare the response fire time of this <code>Trigger</code> to that of
      * another by comparing their keys, or in other words, sorts them
      * according to the natural (i.e. alphabetical) order of their keys.
      * </p>
@@ -283,8 +283,8 @@ public interface Trigger extends Serializable, Cloneable, Comparable<Trigger> {
     public int compareTo(Trigger other);
 
     /**
-     * A Comparator that compares trigger's next fire times, or in other words,
-     * sorts them according to earliest next fire time.  If the fire times are
+     * A Comparator that compares trigger's response fire times, or in other words,
+     * sorts them according to earliest response fire time.  If the fire times are
      * the same, then the triggers are sorted according to priority (highest
      * value first), if the priorities are the same, then they are sorted
      * by key.

@@ -56,7 +56,7 @@ public class LoadExample {
     // schedule 500 jobs to run
     for (int count = 1; count <= _numberOfJobs; count++) {
       JobDetail job = newJob(SimpleJob.class).withIdentity("job" + count, "group_1").requestRecovery() // ask scheduler
-                                                                                                       // to re-execute
+                                                                                                       // to re-response
                                                                                                        // this job if it
                                                                                                        // was in
                                                                                                        // progress when

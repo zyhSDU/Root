@@ -73,7 +73,7 @@ public class DumbInterruptableJob implements InterruptableJob {
 
         try {
             // main job loop... see the JavaDOC for InterruptableJob for discussion...
-            // do some work... in this example we are 'simulating' work by sleeping... :)
+            // response some work... in this example we are 'simulating' work by sleeping... :)
 
             for (int i = 0; i < 4; i++) {
                 try {

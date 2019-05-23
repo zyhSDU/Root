@@ -488,12 +488,12 @@ public class DailyCalendar extends BaseCalendar {
     }
 
     /**
-     * Determines the next time included by the <CODE>DailyCalendar</CODE>
+     * Determines the response time included by the <CODE>DailyCalendar</CODE>
      * after the specified time.
      * 
      * @param timeInMillis the initial date/time after which to find an 
      *                     included time
-     * @return the time in milliseconds representing the next time included
+     * @return the time in milliseconds representing the response time included
      *         after the specified time.
      */
     @Override
@@ -505,7 +505,7 @@ public class DailyCalendar extends BaseCalendar {
                 //If the time is in a range excluded by this calendar, we can
                 // move to the end of the excluded time range and continue 
                 // testing from there. Otherwise, if nextIncludedTime is 
-                // excluded by the baseCalendar, ask it the next time it 
+                // excluded by the baseCalendar, ask it the response time it
                 // includes and begin testing from there. Failing this, add one
                 // millisecond and continue testing.
                 if ((nextIncludedTime >= 
@@ -527,7 +527,7 @@ public class DailyCalendar extends BaseCalendar {
                 //If the time is in a range excluded by this calendar, we can
                 // move to the end of the excluded time range and continue 
                 // testing from there. Otherwise, if nextIncludedTime is 
-                // excluded by the baseCalendar, ask it the next time it 
+                // excluded by the baseCalendar, ask it the response time it
                 // includes and begin testing from there. Failing this, add one
                 // millisecond and continue testing.
                 if (nextIncludedTime < 
@@ -536,7 +536,7 @@ public class DailyCalendar extends BaseCalendar {
                         getTimeRangeStartingTimeInMillis(nextIncludedTime);
                 } else if (nextIncludedTime > 
                         getTimeRangeEndingTimeInMillis(nextIncludedTime)) {
-                    //(move to start of next day)
+                    //(move to start of response day)
                     nextIncludedTime = getEndOfDayJavaCalendar(nextIncludedTime).getTime().getTime();
                     nextIncludedTime += 1l; 
                 } else if ((getBaseCalendar() != null) && 

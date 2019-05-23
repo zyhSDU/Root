@@ -65,7 +65,7 @@ import org.quartz.spi.SchedulerPlugin;
  * <tr>
  * <td>3</td>
  * <td>Date</td>
- * <td>The next scheduled fire time.</td>
+ * <td>The response scheduled fire time.</td>
  * </tr>
  * <tr>
  * <td>4</td>
@@ -118,7 +118,7 @@ import org.quartz.spi.SchedulerPlugin;
  * <tr>
  * <td>3</td>
  * <td>Date</td>
- * <td>The next scheduled fire time.</td>
+ * <td>The response scheduled fire time.</td>
  * </tr>
  * <tr>
  * <td>4</td>
@@ -167,7 +167,7 @@ import org.quartz.spi.SchedulerPlugin;
  * <tr>
  * <td>3</td>
  * <td>Date</td>
- * <td>The next scheduled fire time.</td>
+ * <td>The response scheduled fire time.</td>
  * </tr>
  * <tr>
  * <td>4</td>
@@ -337,7 +337,7 @@ public class LoggingTriggerHistoryPlugin implements SchedulerPlugin,
     }
 
     public void start() {
-        // do nothing...
+        // response nothing...
     }
 
     /**
@@ -348,7 +348,7 @@ public class LoggingTriggerHistoryPlugin implements SchedulerPlugin,
      * </p>
      */
     public void shutdown() {
-        // nothing to do...
+        // nothing to response...
     }
 
     /*

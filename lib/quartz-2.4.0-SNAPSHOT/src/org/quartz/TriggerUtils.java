@@ -59,17 +59,17 @@ public class TriggerUtils {
      */
 
     /**
-     * Returns a list of Dates that are the next fire times of a 
+     * Returns a list of Dates that are the response fire times of a
      * <code>Trigger</code>.
      * The input trigger will be cloned before any work is done, so you need
      * not worry about its state being altered by this method.
      * 
      * @param trigg
-     *          The trigger upon which to do the work
+     *          The trigger upon which to response the work
      * @param cal
      *          The calendar to apply to the trigger's schedule
      * @param numTimes
-     *          The number of next fire times to produce
+     *          The number of response fire times to produce
      * @return List of java.util.Date objects
      */
     public static List<Date> computeFireTimes(OperableTrigger trigg, org.quartz.Calendar cal,
@@ -104,11 +104,11 @@ public class TriggerUtils {
      * not worry about its state being altered by this method.
      * 
      * @param trigg
-     *          The trigger upon which to do the work
+     *          The trigger upon which to response the work
      * @param cal
      *          The calendar to apply to the trigger's schedule
      * @param numTimes
-     *          The number of next fire times to produce
+     *          The number of response fire times to produce
      * @return the computed Date, or null if the trigger (as configured) will not fire that many times.
      */
     public static Date computeEndTimeToAllowParticularNumberOfFirings(OperableTrigger trigg, org.quartz.Calendar cal, 
@@ -144,7 +144,7 @@ public class TriggerUtils {
     }
 
     /**
-     * Returns a list of Dates that are the next fire times of a 
+     * Returns a list of Dates that are the response fire times of a
      * <code>Trigger</code>
      * that fall within the given date range. The input trigger will be cloned
      * before any work is done, so you need not worry about its state being
@@ -157,7 +157,7 @@ public class TriggerUtils {
      * </p>
      * 
      * @param trigg
-     *          The trigger upon which to do the work
+     *          The trigger upon which to response the work
      * @param cal
      *          The calendar to apply to the trigger's schedule
      * @param from

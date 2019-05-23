@@ -119,7 +119,7 @@ public interface JobDetail extends Serializable, Cloneable {
     public Object clone();
     
     /**
-     * Get a {@link JobBuilder} that is configured to produce a 
+     * Get a {@link JobBuilder} that is configured to produce a
      * <code>JobDetail</code> identical to this one.
      */
     public JobBuilder getJobBuilder();

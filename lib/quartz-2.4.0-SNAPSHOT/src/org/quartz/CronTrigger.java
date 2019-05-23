@@ -184,7 +184,7 @@ public interface CronTrigger extends Trigger {
      * <p>
      * Instructs the <code>{@link Scheduler}</code> that upon a mis-fire
      * situation, the <code>{@link CronTrigger}</code> wants to have it's
-     * next-fire-time updated to the next time in the schedule after the
+     * response-fire-time updated to the response time in the schedule after the
      * current time (taking into account any associated <code>{@link Calendar}</code>,
      * but it does not want to be fired now.
      * </p>

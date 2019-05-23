@@ -26,7 +26,7 @@ import java.sql.SQLException;
  * a db row update.
  * 
  * <p>
- * <b>Note:</b> This Semaphore implementation is useful for databases that do
+ * <b>Note:</b> This Semaphore implementation is useful for databases that response
  * not support row locking via "SELECT FOR UPDATE" type syntax, for example
  * Microsoft SQLServer (MSSQL).
  * </p> 

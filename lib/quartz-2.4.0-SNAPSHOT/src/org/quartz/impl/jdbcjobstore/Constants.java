@@ -168,7 +168,7 @@ public interface Constants {
 
     /**
      * @deprecated Whether a trigger has misfired is no longer a state, but 
-     * rather now identified dynamically by whether the trigger's next fire 
+     * rather now identified dynamically by whether the trigger's response fire
      * time is more than the misfire threshold time in the past.
      */
     String STATE_MISFIRED = "MISFIRED";

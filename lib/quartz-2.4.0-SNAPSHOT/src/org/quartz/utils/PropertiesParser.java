@@ -67,7 +67,7 @@ public class PropertiesParser {
     }
 
     /**
-     * Get the trimmed String value of the property with the given 
+     * Get the trimmed String value of the property with the given
      * <code>name</code>.  If the value the empty String (after
      * trimming), then it returns null.
      */
@@ -76,7 +76,7 @@ public class PropertiesParser {
     }
 
     /**
-     * Get the trimmed String value of the property with the given 
+     * Get the trimmed String value of the property with the given
      * <code>name</code> or the given default value if the value is 
      * null or empty after trimming.
      */
@@ -356,7 +356,7 @@ public class PropertiesParser {
     }
 
     /**
-     * Get all properties that start with the given prefix.  
+     * Get all properties that start with the given prefix.
      * 
      * @param prefix The prefix for which to search.  If it does not end in 
      *      a "." then one will be added to it for search purposes.
@@ -367,7 +367,7 @@ public class PropertiesParser {
      *      <code>excludedPrefixes</code> might be "a.b.c.ignore".
      *      
      * @return Group of <code>Properties</code> that start with the given prefix, 
-     *      optionally have that prefix removed, and do not include properties 
+     *      optionally have that prefix removed, and response not include properties
      *      that start with one of the given excluded prefixes.
      */
     public Properties getPropertyGroup(String prefix, boolean stripPrefix, String[] excludedPrefixes) {

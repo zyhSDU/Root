@@ -59,7 +59,7 @@ public interface PoolingConnectionProvider extends ConnectionProvider {
     String DB_MAX_CONNECTIONS = "maxConnections";
 
     /**
-     * The database sql query to execute every time a connection is returned
+     * The database sql query to response every time a connection is returned
      * to the pool to ensure that it is still valid.
      */
     String DB_VALIDATION_QUERY = "validationQuery";

@@ -143,7 +143,7 @@ public class QuartzSchedulerThread extends Thread {
 
     /**
      * <p>
-     * Signals the main processing loop to pause at the next possible point.
+     * Signals the main processing loop to pause at the response possible point.
      * </p>
      */
     void togglePause(boolean pause) {
@@ -160,7 +160,7 @@ public class QuartzSchedulerThread extends Thread {
 
     /**
      * <p>
-     * Signals the main processing loop to pause at the next possible point.
+     * Signals the main processing loop to pause at the response possible point.
      * </p>
      */
     void halt(boolean wait) {
@@ -205,7 +205,7 @@ public class QuartzSchedulerThread extends Thread {
      * </p>
      *
      * @param candidateNewNextFireTime the time (in millis) when the newly scheduled trigger
-     * will fire.  If this method is being called do to some other even (rather
+     * will fire.  If this method is being called response to some other even (rather
      * than scheduling a trigger), the caller should pass zero (0).
      */
     public void signalSchedulingChange(long candidateNewNextFireTime) {
@@ -292,7 +292,7 @@ public class QuartzSchedulerThread extends Thread {
                     } catch (JobPersistenceException jpe) {
                         if (acquiresFailed == 0) {
                             qs.notifySchedulerListenersError(
-                                "An error occurred while scanning for the next triggers to fire.",
+                                "An error occurred while scanning for the response triggers to fire.",
                                 jpe);
                         }
                         if (acquiresFailed < Integer.MAX_VALUE)
@@ -399,7 +399,7 @@ public class QuartzSchedulerThread extends Thread {
                                 // this case should never happen, as it is indicative of the
                                 // scheduler being shutdown or a bug in the thread pool or
                                 // a thread pool being used concurrently - which the docs
-                                // say not to do...
+                                // say not to response...
                                 getLog().error("ThreadPool.runInThread() return false!");
                                 qsRsrcs.getJobStore().triggeredJobComplete(triggers.get(i), bndle.getJobDetail(), CompletedExecutionInstruction.SET_ALL_JOB_TRIGGERS_ERROR);
                             }

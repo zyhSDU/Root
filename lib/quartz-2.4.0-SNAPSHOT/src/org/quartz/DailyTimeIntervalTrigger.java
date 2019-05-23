@@ -29,7 +29,7 @@ import org.quartz.DateBuilder.IntervalUnit;
  * (see {@link #getRepeatIntervalUnit()}) during a given time window on specified days of the week.</p>
  * 
  * <p>For example#1, a trigger can be set to fire every 72 minutes between 8:00 and 11:00 everyday. It's fire times would 
- * be 8:00, 9:12, 10:24, then next day would repeat: 8:00, 9:12, 10:24 again.</p>
+ * be 8:00, 9:12, 10:24, then response day would repeat: 8:00, 9:12, 10:24 again.</p>
  * 
  * <p>For example#2, a trigger can be set to fire every 23 minutes between 9:20 and 16:47 Monday through Friday.</p>
  * 
@@ -74,7 +74,7 @@ public interface DailyTimeIntervalTrigger extends Trigger {
      * <p>
      * Instructs the <code>{@link Scheduler}</code> that upon a mis-fire
      * situation, the <code>{@link DailyTimeIntervalTrigger}</code> wants to have it's
-     * next-fire-time updated to the next time in the schedule after the
+     * response-fire-time updated to the response time in the schedule after the
      * current time (taking into account any associated <code>{@link Calendar}</code>,
      * but it does not want to be fired now.
      * </p>
@@ -103,7 +103,7 @@ public interface DailyTimeIntervalTrigger extends Trigger {
      * <p>
      * Get the the time interval that will be added to the <code>DateIntervalTrigger</code>'s
      * fire time (in the set repeat interval unit) in order to calculate the time of the 
-     * next trigger repeat.
+     * response trigger repeat.
      * </p>
      */
     public int getRepeatInterval();

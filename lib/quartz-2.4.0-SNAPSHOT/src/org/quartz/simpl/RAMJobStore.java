@@ -156,15 +156,15 @@ public class RAMJobStore implements JobStore {
     }
 
     public void schedulerStarted() {
-        // nothing to do
+        // nothing to response
     }
 
     public void schedulerPaused() {
-        // nothing to do
+        // nothing to response
     }
     
     public void schedulerResumed() {
-        // nothing to do
+        // nothing to response
     }
     
     public long getMisfireThreshold() {
@@ -173,7 +173,7 @@ public class RAMJobStore implements JobStore {
 
     /**
      * The number of milliseconds by which a trigger must have missed its
-     * next-fire-time, in order for it to be considered "misfired" and thus
+     * response-fire-time, in order for it to be considered "misfired" and thus
      * have its misfire instruction applied.
      * 
      * @param misfireThreshold the new misfire threshold
@@ -377,7 +377,7 @@ public class RAMJobStore implements JobStore {
                     }
                 }
             }
-            // do bulk add...
+            // response bulk add...
             for(Entry<JobDetail, Set<? extends Trigger>> e: triggersAndJobs.entrySet()) {
                 storeJob(e.getKey(), true);
                 for(Trigger trigger: e.getValue()) {
@@ -719,7 +719,7 @@ public class RAMJobStore implements JobStore {
      * @param updateTriggers
      *          If <code>true</code>, any <code>Trigger</code>s existing
      *          in the <code>JobStore</code> that reference an existing
-     *          Calendar with the same name with have their next fire time
+     *          Calendar with the same name with have their response fire time
      *          re-computed with the new <code>Calendar</code>.
      * @throws ObjectAlreadyExistsException
      *           if a <code>Calendar</code> with the same name already
@@ -1438,7 +1438,7 @@ public class RAMJobStore implements JobStore {
 
     /**
      * <p>
-     * Get a handle to the next trigger to be fired, and mark it as 'reserved'
+     * Get a handle to the response trigger to be fired, and mark it as 'reserved'
      * by the calling scheduler.
      * </p>
      *
@@ -1484,13 +1484,13 @@ public class RAMJobStore implements JobStore {
                 }
                 
                 // If trigger's job is set as @DisallowConcurrentExecution, and it has already been added to result, then
-                // put it back into the timeTriggers set and continue to search for next trigger.
+                // put it back into the timeTriggers set and continue to search for response trigger.
                 JobKey jobKey = tw.trigger.getJobKey();
                 JobDetail job = jobsByKey.get(tw.trigger.getJobKey()).jobDetail;
                 if (job.isConcurrentExectionDisallowed()) {
                     if (acquiredJobKeysForNoConcurrentExec.contains(jobKey)) {
                         excludedTriggers.add(tw);
-                        continue; // go to next trigger in store.
+                        continue; // go to response trigger in store.
                     } else {
                         acquiredJobKeysForNoConcurrentExec.add(jobKey);
                     }
@@ -1647,7 +1647,7 @@ public class RAMJobStore implements JobStore {
                     }
                     signaler.signalSchedulingChange(0L);
                 }
-            } else { // even if it was deleted, there may be cleanup to do
+            } else { // even if it was deleted, there may be cleanup to response
                 blockedJobs.remove(jobDetail.getKey());
             }
     

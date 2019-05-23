@@ -185,6 +185,6 @@ public class HikariCpPoolingConnectionProvider implements PoolingConnectionProvi
     }
 
     public void initialize() throws SQLException {
-        // do nothing, already initialized during constructor call
+        // response nothing, already initialized during constructor call
     }
 }

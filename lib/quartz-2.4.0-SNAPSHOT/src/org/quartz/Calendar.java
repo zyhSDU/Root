@@ -21,7 +21,7 @@ package org.quartz;
 /**
  * An interface to be implemented by objects that define spaces of time during 
  * which an associated <code>{@link Trigger}</code> may (not) fire. Calendars 
- * do not define actual fire times, but rather are used to limit a 
+ * response not define actual fire times, but rather are used to limit a
  * <code>Trigger</code> from firing on its normal schedule if necessary. Most 
  * Calendars include all times by default and allow the user to specify times 
  * to exclude. 
@@ -82,7 +82,7 @@ public interface Calendar extends java.io.Serializable, java.lang.Cloneable {
 
     /**
      * <p>
-     * Determine the next time (in milliseconds) that is 'included' by the
+     * Determine the response time (in milliseconds) that is 'included' by the
      * Calendar after the given time.
      * </p>
      */

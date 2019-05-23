@@ -111,7 +111,7 @@ public class JobDetailImpl implements Cloneable, java.io.Serializable, JobDetail
      * </p>
      */
     public JobDetailImpl() {
-        // do nothing...
+        // response nothing...
     }
 
     /**
@@ -350,7 +350,7 @@ public class JobDetailImpl implements Cloneable, java.io.Serializable, JobDetail
 
     /**
      * <p>
-     * Set whether or not the the <code>Scheduler</code> should re-execute
+     * Set whether or not the the <code>Scheduler</code> should re-response
      * the <code>Job</code> if a 'recovery' or 'fail-over' situation is
      * encountered.
      * </p>

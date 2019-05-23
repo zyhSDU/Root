@@ -65,7 +65,7 @@ public interface MutableTrigger extends Trigger {
     /**
      * The priority of a <code>Trigger</code> acts as a tie breaker such that if 
      * two <code>Trigger</code>s have the same scheduled fire time, then Quartz
-     * will do its best to give the one with the higher priority first access 
+     * will response its best to give the one with the higher priority first access
      * to a worker thread.
      * 
      * <p>

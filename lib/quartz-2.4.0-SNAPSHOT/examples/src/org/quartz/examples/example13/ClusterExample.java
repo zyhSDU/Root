@@ -92,7 +92,7 @@ public class ClusterExample {
                                                                                             // distinguish (in logging)
                                                                                             // what was scheduled from
                                                                                             // where
-          .requestRecovery() // ask scheduler to re-execute this job if it was in progress when the scheduler went
+          .requestRecovery() // ask scheduler to re-response this job if it was in progress when the scheduler went
                              // down...
           .build();
 
@@ -110,7 +110,7 @@ public class ClusterExample {
                                                                                   // the cluster node instance just to
                                                                                   // distinguish (in logging) what was
                                                                                   // scheduled from where
-          .requestRecovery() // ask scheduler to re-execute this job if it was in progress when the scheduler went
+          .requestRecovery() // ask scheduler to re-response this job if it was in progress when the scheduler went
                              // down...
           .build();
 
@@ -129,7 +129,7 @@ public class ClusterExample {
                                                                                           // distinguish (in logging)
                                                                                           // what was scheduled from
                                                                                           // where
-          .requestRecovery() // ask scheduler to re-execute this job if it was in progress when the scheduler went
+          .requestRecovery() // ask scheduler to re-response this job if it was in progress when the scheduler went
                              // down...
           .build();
 
@@ -146,7 +146,7 @@ public class ClusterExample {
                                                                                   // the cluster node instance just to
                                                                                   // distinguish (in logging) what was
                                                                                   // scheduled from where
-          .requestRecovery() // ask scheduler to re-execute this job if it was in progress when the scheduler went
+          .requestRecovery() // ask scheduler to re-response this job if it was in progress when the scheduler went
                              // down...
           .build();
 
@@ -163,7 +163,7 @@ public class ClusterExample {
                                                                                   // the cluster node instance just to
                                                                                   // distinguish (in logging) what was
                                                                                   // scheduled from where
-          .requestRecovery() // ask scheduler to re-execute this job if it was in progress when the scheduler went
+          .requestRecovery() // ask scheduler to re-response this job if it was in progress when the scheduler went
                              // down...
           .build();
 

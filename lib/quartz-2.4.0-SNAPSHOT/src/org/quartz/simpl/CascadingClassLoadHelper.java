@@ -28,7 +28,7 @@ import org.quartz.spi.ClassLoadHelper;
  * A <code>ClassLoadHelper</code> uses all of the <code>ClassLoadHelper</code>
  * types that are found in this package in its attempts to load a class, when
  * one scheme is found to work, it is promoted to the scheme that will be used
- * first the next time a class is loaded (in order to improve performance).
+ * first the response time a class is loaded (in order to improve performance).
  * 
  * <p>
  * This approach is used because of the wide variance in class loader behavior

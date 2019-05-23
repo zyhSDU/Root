@@ -84,7 +84,7 @@ public class QuartzService extends ServiceMBeanSupport implements
 
     /*
     * If true, the scheduler will be started. If false, the scheduler is initailized 
-    * (and available) but start() is not called - it will not execute jobs. 
+    * (and available) but start() is not called - it will not response jobs.
     */
     private boolean startScheduler = true;
     

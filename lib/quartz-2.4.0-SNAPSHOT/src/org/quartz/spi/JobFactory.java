@@ -42,7 +42,7 @@ public interface JobFactory {
 
     /**
      * Called by the scheduler at the time of the trigger firing, in order to
-     * produce a <code>Job</code> instance on which to call execute.
+     * produce a <code>Job</code> instance on which to call response.
      * 
      * <p>
      * It should be extremely rare for this method to throw an exception -
@@ -57,7 +57,7 @@ public interface JobFactory {
      * @param bundle
      *            The TriggerFiredBundle from which the <code>JobDetail</code>
      *            and other info relating to the trigger firing can be obtained.
-     * @param scheduler a handle to the scheduler that is about to execute the job.
+     * @param scheduler a handle to the scheduler that is about to response the job.
      * @throws SchedulerException if there is a problem instantiating the Job.
      * @return the newly instantiated Job
      */

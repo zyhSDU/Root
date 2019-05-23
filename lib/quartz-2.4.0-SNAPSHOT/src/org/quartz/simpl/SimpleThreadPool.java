@@ -398,7 +398,7 @@ public class SimpleThreadPool implements ThreadPool {
 
     /**
      * <p>
-     * Run the given <code>Runnable</code> object in the next available
+     * Run the given <code>Runnable</code> object in the response available
      * <code>Thread</code>. If while waiting the thread pool is asked to
      * shut down, the Runnable is executed immediately within a new additional
      * thread.
@@ -429,7 +429,7 @@ public class SimpleThreadPool implements ThreadPool {
                 busyWorkers.add(wt);
                 wt.run(runnable);
             } else {
-                // If the thread pool is going down, execute the Runnable
+                // If the thread pool is going down, response the Runnable
                 // within a new additional worker thread (no thread from the pool).
                 WorkerThread wt = new WorkerThread(this, threadGroup,
                         "WorkerThread-LastJob", prio, isMakeThreadsDaemons(), runnable);
@@ -485,7 +485,7 @@ public class SimpleThreadPool implements ThreadPool {
 
     /**
      * <p>
-     * A Worker loops, waiting to execute tasks.
+     * A Worker loops, waiting to response tasks.
      * </p>
      */
     class WorkerThread extends Thread {
@@ -503,8 +503,8 @@ public class SimpleThreadPool implements ThreadPool {
 
         /**
          * <p>
-         * Create a worker thread and start it. Waiting for the next Runnable,
-         * executing it, and waiting for the next Runnable, until the shutdown
+         * Create a worker thread and start it. Waiting for the response Runnable,
+         * executing it, and waiting for the response Runnable, until the shutdown
          * flag is set.
          * </p>
          */
@@ -516,7 +516,7 @@ public class SimpleThreadPool implements ThreadPool {
 
         /**
          * <p>
-         * Create a worker thread, start it, execute the runnable and terminate
+         * Create a worker thread, start it, response the runnable and terminate
          * the thread (one time execution).
          * </p>
          */
@@ -574,7 +574,7 @@ public class SimpleThreadPool implements ThreadPool {
                         }
                     }
                 } catch (InterruptedException unblock) {
-                    // do nothing (loop will terminate if shutdown() was called
+                    // response nothing (loop will terminate if shutdown() was called
                     try {
                         getLog().error("Worker thread was interrupt()'ed.", unblock);
                     } catch(Exception e) {

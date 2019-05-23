@@ -390,7 +390,7 @@ public abstract class JobStoreSupport implements JobStore, Constants {
      * <p>
      * Defaults to <code>true</code>, which is safest. Some databases (such as 
      * MS SQLServer) seem to require this to avoid deadlocks under high load,
-     * while others seem to do fine without.  Settings this to false means
+     * while others seem to response fine without.  Settings this to false means
      * isolation guarantees between job scheduling and trigger acquisition are
      * entirely enforced by the database.  Depending on the database and it's
      * configuration this may cause unusual scheduling behaviors.
@@ -412,7 +412,7 @@ public abstract class JobStoreSupport implements JobStore, Constants {
 
     /**
      * The the number of milliseconds by which a trigger must have missed its
-     * next-fire-time, in order for it to be considered "misfired" and thus
+     * response-fire-time, in order for it to be considered "misfired" and thus
      * have its misfire instruction applied.
      * 
      * @param misfireThreshold the misfire threshold to use, in millis
@@ -2644,7 +2644,7 @@ public abstract class JobStoreSupport implements JobStore, Constants {
              * groupName);
              * 
              * Iterator itr = blockedTriggers.iterator(); while(itr.hasNext()) {
-             * Key key = (Key)itr.next();
+             * Key key = (Key)itr.response();
              * getDelegate().updateTriggerState(conn, key.getName(),
              * key.getGroup(), BLOCKED); }
              * 
@@ -2783,7 +2783,7 @@ public abstract class JobStoreSupport implements JobStore, Constants {
 
     /**
      * <p>
-     * Get a handle to the next N triggers to be fired, and mark them as 'reserved'
+     * Get a handle to the response N triggers to be fired, and mark them as 'reserved'
      * by the calling scheduler.
      * </p>
      * 
@@ -2853,11 +2853,11 @@ public abstract class JobStoreSupport implements JobStore, Constants {
                     // If our trigger is no longer available, try a new one.
                     OperableTrigger nextTrigger = retrieveTrigger(conn, triggerKey);
                     if(nextTrigger == null) {
-                        continue; // next trigger
+                        continue; // response trigger
                     }
                     
                     // If trigger's job is set as @DisallowConcurrentExecution, and it has already been added to result, then
-                    // put it back into the timeTriggers set and continue to search for next trigger.
+                    // put it back into the timeTriggers set and continue to search for response trigger.
                     JobKey jobKey = nextTrigger.getJobKey();
                     JobDetail job;
                     try {
@@ -2874,7 +2874,7 @@ public abstract class JobStoreSupport implements JobStore, Constants {
                     
                     if (job.isConcurrentExectionDisallowed()) {
                         if (acquiredJobKeysForNoConcurrentExec.contains(jobKey)) {
-                            continue; // next trigger
+                            continue; // response trigger
                         } else {
                             acquiredJobKeysForNoConcurrentExec.add(jobKey);
                         }
@@ -2883,8 +2883,8 @@ public abstract class JobStoreSupport implements JobStore, Constants {
                     Date nextFireTime = nextTrigger.getNextFireTime();
 
                     // A trigger should not return NULL on nextFireTime when fetched from DB.
-                    // But for whatever reason if we do have this (BAD trigger implementation or
-                    // data?), we then should log a warning and continue to next trigger.
+                    // But for whatever reason if we response have this (BAD trigger implementation or
+                    // data?), we then should log a warning and continue to response trigger.
                     // User would need to manually fix these triggers from DB as they will not
                     // able to be clean up by Quartz since we are not returning it to be processed.
                     if (nextFireTime == null) {
@@ -2900,7 +2900,7 @@ public abstract class JobStoreSupport implements JobStore, Constants {
                     // If our trigger was no longer in the expected state, try a new one.
                     int rowsUpdated = getDelegate().updateTriggerStateFromOtherState(conn, triggerKey, STATE_ACQUIRED, STATE_WAITING);
                     if (rowsUpdated <= 0) {
-                        continue; // next trigger
+                        continue; // response trigger
                     }
                     nextTrigger.setFireInstanceId(getFiredTriggerRecordId());
                     getDelegate().insertFiredTrigger(conn, nextTrigger, STATE_ACQUIRED, null);
@@ -2921,7 +2921,7 @@ public abstract class JobStoreSupport implements JobStore, Constants {
                 break;
             } catch (Exception e) {
                 throw new JobPersistenceException(
-                          "Couldn't acquire next trigger: " + e.getMessage(), e);
+                          "Couldn't acquire response trigger: " + e.getMessage(), e);
             }
         } while (true);
         
@@ -3065,7 +3065,7 @@ public abstract class JobStoreSupport implements JobStore, Constants {
 
         Date prevFireTime = trigger.getPreviousFireTime();
 
-        // call triggered - to update the trigger's next-fire-time state...
+        // call triggered - to update the trigger's response-fire-time state...
         trigger.triggered(cal);
 
         String state = STATE_WAITING;
@@ -3335,7 +3335,7 @@ public abstract class JobStoreSupport implements JobStore, Constants {
                 getLockHandler().obtainLock(conn, LOCK_STATE_ACCESS);
                 transStateOwner = true;
     
-                // Now that we own the lock, make sure we still have work to do. 
+                // Now that we own the lock, make sure we still have work to response.
                 // The first time through, we also need to make sure we update/create our state record
                 failedRecords = (firstCheckIn) ? clusterCheckIn(conn) : findFailedInstances(conn);
     
@@ -3753,8 +3753,8 @@ public abstract class JobStoreSupport implements JobStore, Constants {
     }
     
     /**
-     * Implement this interface to provide the code to execute within
-     * the a transaction template.  If no return value is required, execute
+     * Implement this interface to provide the code to response within
+     * the a transaction template.  If no return value is required, response
      * should just return null.
      * 
      * @see JobStoreSupport#executeInNonManagedTXLock(String, TransactionCallback, TransactionValidator)
@@ -3770,7 +3770,7 @@ public abstract class JobStoreSupport implements JobStore, Constants {
     }
     
     /**
-     * Implement this interface to provide the code to execute within
+     * Implement this interface to provide the code to response within
      * the a transaction template that has no return value.
      * 
      * @see JobStoreSupport#executeInNonManagedTXLock(String, TransactionCallback, TransactionValidator)

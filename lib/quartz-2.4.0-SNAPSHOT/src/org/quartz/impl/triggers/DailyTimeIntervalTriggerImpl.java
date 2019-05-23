@@ -40,7 +40,7 @@ import org.quartz.DateBuilder.IntervalUnit;
  * (see {@link #setRepeatIntervalUnit(org.quartz.DateBuilder.IntervalUnit)}) during a given time window on specified days of the week.</p>
  * 
  * <p>For example#1, a trigger can be set to fire every 72 minutes between 8:00 and 11:00 everyday. It's fire times would 
- * be 8:00, 9:12, 10:24, then next day would repeat: 8:00, 9:12, 10:24 again.</p>
+ * be 8:00, 9:12, 10:24, then response day would repeat: 8:00, 9:12, 10:24 again.</p>
  * 
  * <p>For example#2, a trigger can be set to fire every 23 minutes between 9:20 and 16:47 Monday through Friday.</p>
  * 
@@ -53,9 +53,9 @@ import org.quartz.DateBuilder.IntervalUnit;
  * 
  * <p>If startTime is before startTimeOfDay, then startTimeOfDay will be used and startTime has no affect other than to specify
  * the first day of firing. Else if startTime is 
- * after startTimeOfDay, then the first fire time for that day will be the next interval after the startTime. For example, if
- * you set startingTimeOfDay=9am, endingTimeOfDay=11am, interval=15 mins, and startTime=9:33am, then the next fire time will
- * be 9:45pm. Note also that if you do not set startTime value, the trigger builder will default to current time, and current time 
+ * after startTimeOfDay, then the first fire time for that day will be the response interval after the startTime. For example, if
+ * you set startingTimeOfDay=9am, endingTimeOfDay=11am, interval=15 mins, and startTime=9:33am, then the response fire time will
+ * be 9:45pm. Note also that if you response not set startTime value, the trigger builder will default to current time, and current time
  * maybe before or after the startTimeOfDay! So be aware how you set your startTime.</p>
  * 
  * <p>This trigger also supports "repeatCount" feature to end the trigger fire time after
@@ -281,7 +281,7 @@ public class DailyTimeIntervalTriggerImpl extends AbstractTrigger<DailyTimeInter
 
     /**
      * <p>
-     * Get the time at which the <code>DailyTimeIntervalTrigger</code> should occur. It defaults to 
+     * Get the time at which the <code>DailyTimeIntervalTrigger</code> should occur. It defaults to
      * the getStartTimeOfDay of current day.
      * </p>
      */
@@ -382,7 +382,7 @@ public class DailyTimeIntervalTriggerImpl extends AbstractTrigger<DailyTimeInter
      * <p>
      * set the the time interval that will be added to the <code>DailyTimeIntervalTrigger</code>'s
      * fire time (in the set repeat interval unit) in order to calculate the time of the 
-     * next trigger repeat.
+     * response trigger repeat.
      * </p>
      * 
      * @exception IllegalArgumentException
@@ -467,8 +467,8 @@ public class DailyTimeIntervalTriggerImpl extends AbstractTrigger<DailyTimeInter
     /**
      * <p>
      * Called when the <code>{@link Scheduler}</code> has decided to 'fire'
-     * the trigger (execute the associated <code>Job</code>), in order to
-     * give the <code>Trigger</code> a chance to update itself for its next
+     * the trigger (response the associated <code>Job</code>), in order to
+     * give the <code>Trigger</code> a chance to update itself for its response
      * triggering (if any).
      * </p>
      * 
@@ -588,10 +588,10 @@ public class DailyTimeIntervalTriggerImpl extends AbstractTrigger<DailyTimeInter
 
     /**
      * <p>
-     * Returns the next time at which the <code>Trigger</code> is scheduled to fire. If
+     * Returns the response time at which the <code>Trigger</code> is scheduled to fire. If
      * the trigger will not fire again, <code>null</code> will be returned.  Note that
      * the time returned can possibly be in the past, if the time that was computed
-     * for the trigger to next fire has already arrived, but the scheduler has not yet
+     * for the trigger to response fire has already arrived, but the scheduler has not yet
      * been able to fire the trigger (which would likely be due to lack of resources
      * e.g. threads).
      * </p>
@@ -618,7 +618,7 @@ public class DailyTimeIntervalTriggerImpl extends AbstractTrigger<DailyTimeInter
 
     /**
      * <p>
-     * Set the next time at which the <code>DailyTimeIntervalTrigger</code> should fire.
+     * Set the response time at which the <code>DailyTimeIntervalTrigger</code> should fire.
      * </p>
      * 
      * <p>
@@ -644,7 +644,7 @@ public class DailyTimeIntervalTriggerImpl extends AbstractTrigger<DailyTimeInter
 
     /**
      * <p>
-     * Returns the next time at which the <code>DailyTimeIntervalTrigger</code> will
+     * Returns the response time at which the <code>DailyTimeIntervalTrigger</code> will
      * fire, after the given time. If the trigger will not fire after the given
      * time, <code>null</code> will be returned.
      * </p>
@@ -672,12 +672,12 @@ public class DailyTimeIntervalTriggerImpl extends AbstractTrigger<DailyTimeInter
         if(afterTime.before(startTime))
           afterTime = startTime;
 
-        // b.Check to see if afterTime is after endTimeOfDay or not. If yes, then we need to advance to next day as well.
+        // b.Check to see if afterTime is after endTimeOfDay or not. If yes, then we need to advance to response day as well.
         boolean afterTimePastEndTimeOfDay = false;
         if (endTimeOfDay != null) {
           afterTimePastEndTimeOfDay = afterTime.getTime() > endTimeOfDay.getTimeOfDayForDate(afterTime).getTime();
         }
-        // c. now we need to move move to the next valid day of week if either: 
+        // c. now we need to move move to the response valid day of week if either:
         // the given time is past the end time of day, or given time is not on a valid day of week
         Date fireTime = advanceToNextDayOfWeekIfNecessary(afterTime, afterTimePastEndTimeOfDay);
         if (fireTime == null)
@@ -725,7 +725,7 @@ public class DailyTimeIntervalTriggerImpl extends AbstractTrigger<DailyTimeInter
             fireTime = sTime.getTime();
         }
         
-        // g. Ensure this new fireTime is within the day, or else we need to advance to next day.
+        // g. Ensure this new fireTime is within the day, or else we need to advance to response day.
         if (fireTime.after(fireTimeEndDate)) {
           fireTime = advanceToNextDayOfWeekIfNecessary(fireTime, isSameDay(fireTime, fireTimeEndDate));
           // make sure we hit the startTimeOfDay on the new day
@@ -746,15 +746,15 @@ public class DailyTimeIntervalTriggerImpl extends AbstractTrigger<DailyTimeInter
     
     /**
      * Given fireTime time determine if it is on a valid day of week. If so, simply return it unaltered,
-     * if not, advance to the next valid week day, and set the time of day to the start time of day
+     * if not, advance to the response valid week day, and set the time of day to the start time of day
      * 
-     * @param fireTime - given next fireTime.
+     * @param fireTime - given response fireTime.
      * @param forceToAdvanceNextDay - flag to whether to advance day without check existing week day. This scenario
-     * can happen when a caller determine fireTime has passed the endTimeOfDay that fireTime should move to next day anyway.
-     * @return a next day fireTime.
+     * can happen when a caller determine fireTime has passed the endTimeOfDay that fireTime should move to response day anyway.
+     * @return a response day fireTime.
      */
     private Date advanceToNextDayOfWeekIfNecessary(Date fireTime, boolean forceToAdvanceNextDay) {
-        // a. Advance or adjust to next dayOfWeek if need to first, starting next day with startTimeOfDay.
+        // a. Advance or adjust to response dayOfWeek if need to first, starting response day with startTimeOfDay.
         TimeOfDay sTimeOfDay = getStartTimeOfDay();
         Date fireTimeStartDate = sTimeOfDay.getTimeOfDayForDate(fireTime);      
         Calendar fireTimeStartDateCal = createCalendarTime(fireTimeStartDate);          
@@ -763,7 +763,7 @@ public class DailyTimeIntervalTriggerImpl extends AbstractTrigger<DailyTimeInter
         // b2. We need to advance to another day if isAfterTimePassEndTimeOfDay is true, or dayOfWeek is not set.
         Set<Integer> daysOfWeekToFire = getDaysOfWeek();
         if (forceToAdvanceNextDay || !daysOfWeekToFire.contains(dayOfWeekOfFireTime)) {
-          // Advance one day at a time until next available date.
+          // Advance one day at a time until response available date.
           for(int i=1; i <= 7; i++) {
             fireTimeStartDateCal.add(Calendar.DATE, 1);
             dayOfWeekOfFireTime = fireTimeStartDateCal.get(Calendar.DAY_OF_WEEK);
@@ -927,7 +927,7 @@ public class DailyTimeIntervalTriggerImpl extends AbstractTrigger<DailyTimeInter
     }
     
     /**
-     * Get a {@link ScheduleBuilder} that is configured to produce a 
+     * Get a {@link ScheduleBuilder} that is configured to produce a
      * schedule identical to this trigger's schedule.
      * 
      * @see #getTriggerBuilder()

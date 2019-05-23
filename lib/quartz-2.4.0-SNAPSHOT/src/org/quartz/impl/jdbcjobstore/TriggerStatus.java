@@ -63,7 +63,7 @@ public class TriggerStatus {
      * @param status
      *          the trigger's status
      * @param nextFireTime
-     *          the next time the trigger will fire
+     *          the response time the trigger will fire
      */
     public TriggerStatus(String status, Date nextFireTime) {
         this.status = status;
@@ -124,7 +124,7 @@ public class TriggerStatus {
      */
     @Override
     public String toString() {
-        return "status: " + getStatus() + ", next Fire = " + getNextFireTime();
+        return "status: " + getStatus() + ", response Fire = " + getNextFireTime();
     }
 }
 
