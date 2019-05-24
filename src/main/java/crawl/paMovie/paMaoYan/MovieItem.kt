@@ -6,8 +6,9 @@ import java.util.ArrayList
 class MovieItem {
     var movieRank = ""//电影排名
     var movieName = ""//电影名
-    var releaseTime = ""//评分
+    var releaseTime = ""
     var star: List<String>? = null//主演
+    var link =""
 
     companion object {
         fun getListFromEntity(entity: String): List<MovieItem> {
@@ -26,6 +27,7 @@ class MovieItem {
                     movie.star = listOf("")
                 }
                 movie.releaseTime = element.select("p.releasetime").text()
+                movie.link = "https://maoyan.com/"+element.select("a.image-link").attr("href")
                 data.add(movie)
             }
             return data
