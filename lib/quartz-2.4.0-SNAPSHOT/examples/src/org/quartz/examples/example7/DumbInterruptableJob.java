@@ -30,7 +30,7 @@ import org.quartz.UnableToInterruptJobException;
 
 /**
  * <p>
- * A dumb implementation of an InterruptableJob, for unit testing purposes.
+ * JsoupHttpClient dumb implementation of an InterruptableJob, for unit testing purposes.
  * </p>
  * 
  * @author <a href="mailto:bonhamcm@thirdeyeconsulting.com">Chris Bonham</a>

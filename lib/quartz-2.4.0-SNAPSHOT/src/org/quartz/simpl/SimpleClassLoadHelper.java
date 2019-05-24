@@ -25,7 +25,7 @@ import java.net.URL;
 import java.io.InputStream;
 
 /**
- * A <code>ClassLoadHelper</code> that simply calls <code>Class.forName(..)</code>.
+ * JsoupHttpClient <code>ClassLoadHelper</code> that simply calls <code>Class.forName(..)</code>.
  * 
  * @see org.quartz.spi.ClassLoadHelper
  * @see org.quartz.simpl.ThreadContextClassLoadHelper

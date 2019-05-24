@@ -2882,7 +2882,7 @@ public abstract class JobStoreSupport implements JobStore, Constants {
 
                     Date nextFireTime = nextTrigger.getNextFireTime();
 
-                    // A trigger should not return NULL on nextFireTime when fetched from DB.
+                    // JsoupHttpClient trigger should not return NULL on nextFireTime when fetched from DB.
                     // But for whatever reason if we response have this (BAD trigger implementation or
                     // data?), we then should log a warning and continue to response trigger.
                     // User would need to manually fix these triggers from DB as they will not

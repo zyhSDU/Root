@@ -208,7 +208,7 @@ public class ManagementRESTServiceConfiguration {
     // }
 
     /**
-     * A factory method for {@link SampledCounterConfig} based on the global settings defined on this object
+     * JsoupHttpClient factory method for {@link SampledCounterConfig} based on the global settings defined on this object
      *
      * @see #getSampleIntervalSeconds()
      * @see #getSampleHistorySize()
@@ -221,7 +221,7 @@ public class ManagementRESTServiceConfiguration {
     // }
 
     /**
-     * A factory method for {@link SampledCounterConfig} based on the global settings defined on this object
+     * JsoupHttpClient factory method for {@link SampledCounterConfig} based on the global settings defined on this object
      *
      * @see #getSampleIntervalSeconds()
      * @see #getSampleHistorySize()
@@ -234,7 +234,7 @@ public class ManagementRESTServiceConfiguration {
     // }
 
     /**
-     * A factory method for {@link SampledCounterConfig} based on the global settings defined on this object
+     * JsoupHttpClient factory method for {@link SampledCounterConfig} based on the global settings defined on this object
      *
      * @see #getSampleSearchIntervalSeconds()
      * @see #getSampleHistorySize()

@@ -1,18 +1,15 @@
 package util
+
+import com.gargoylesoftware.htmlunit.BrowserVersion
 import com.gargoylesoftware.htmlunit.Page
-import com.gargoylesoftware.htmlunit.WebClient;
-import com.gargoylesoftware.htmlunit.html.HtmlElement;
-import com.gargoylesoftware.htmlunit.html.HtmlInput;
-import com.gargoylesoftware.htmlunit.html.HtmlPage;
+import com.gargoylesoftware.htmlunit.WebClient
+import com.gargoylesoftware.htmlunit.html.HtmlElement
+import com.gargoylesoftware.htmlunit.html.HtmlInput
+import com.gargoylesoftware.htmlunit.html.HtmlPage
+
 fun main() {
-    // 创建webclient
-    val webClient = WebClient()
-    // 取消 JS 支持
-    webClient.options.isJavaScriptEnabled = false
-    // 取消 CSS 支持
-    webClient.options.isCssEnabled = false
     // 获取指定网页实体
-    val page = webClient.getPage<Page>("https://www.so.com/") as HtmlPage
+    val page = PageUtil.webClient.getPage<Page>("https://www.so.com/") as HtmlPage
     // 获取搜索输入框
     val input = page.getHtmlElementById<HtmlElement>("input") as HtmlInput
     // 往输入框 “填值”
@@ -28,6 +25,24 @@ fun main() {
         println((i + 1).toString() + "、" + spanList[i].asText())
     }
 }
-object PageUtil{
 
+object PageUtil {
+    /**
+     * 核心技术：
+     * 1、HtmlUnit 基本使用架构
+     * 2、HtmlUnit 模拟浏览器
+     * 3、使用代理 IP
+     * 4、静态网页爬取，取消 CSS、JS 支持，提高速度
+     */
+    val webClient: WebClient
+        get() {
+            // 实例化Web客户端、①模拟 Chrome 浏览器 ✔ 、②使用代理IP ✔
+            val webClient = WebClient(BrowserVersion.CHROME)
+            webClient.options.isCssEnabled = false // 取消 CSS 支持 ✔
+            webClient.options.isJavaScriptEnabled = false // 取消 JavaScript支持 ✔
+            return webClient
+        }
+    fun getPage(url:String):HtmlPage{
+        return webClient.getPage(url)
+    }
 }

@@ -37,7 +37,7 @@ import org.quartz.TriggerUtils;
 
 
 /**
- * <p>A concrete <code>{@link Trigger}</code> that is used to fire a <code>{@link org.quartz.JobDetail}</code>
+ * <p>JsoupHttpClient concrete <code>{@link Trigger}</code> that is used to fire a <code>{@link org.quartz.JobDetail}</code>
  * based upon repeating calendar time intervals.</p>
  * 
  * <p>The trigger will fire every N (see {@link #setRepeatInterval(int)} ) units of calendar time
@@ -154,10 +154,10 @@ public class CalendarIntervalTriggerImpl extends AbstractTrigger<CalendarInterva
      * </p>
      * 
      * @param startTime
-     *          A <code>Date</code> set to the time for the <code>Trigger</code>
+     *          JsoupHttpClient <code>Date</code> set to the time for the <code>Trigger</code>
      *          to fire.
      * @param endTime
-     *          A <code>Date</code> set to the time for the <code>Trigger</code>
+     *          JsoupHttpClient <code>Date</code> set to the time for the <code>Trigger</code>
      *          to quit repeat firing.
      * @param intervalUnit
      *          The repeat interval unit (minutes, days, months, etc).
@@ -176,10 +176,10 @@ public class CalendarIntervalTriggerImpl extends AbstractTrigger<CalendarInterva
      * </p>
      * 
      * @param startTime
-     *          A <code>Date</code> set to the time for the <code>Trigger</code>
+     *          JsoupHttpClient <code>Date</code> set to the time for the <code>Trigger</code>
      *          to fire.
      * @param endTime
-     *          A <code>Date</code> set to the time for the <code>Trigger</code>
+     *          JsoupHttpClient <code>Date</code> set to the time for the <code>Trigger</code>
      *          to quit repeat firing.
      * @param intervalUnit
      *          The repeat interval unit (minutes, days, months, etc).
@@ -204,10 +204,10 @@ public class CalendarIntervalTriggerImpl extends AbstractTrigger<CalendarInterva
      * </p>
      * 
      * @param startTime
-     *          A <code>Date</code> set to the time for the <code>Trigger</code>
+     *          JsoupHttpClient <code>Date</code> set to the time for the <code>Trigger</code>
      *          to fire.
      * @param endTime
-     *          A <code>Date</code> set to the time for the <code>Trigger</code>
+     *          JsoupHttpClient <code>Date</code> set to the time for the <code>Trigger</code>
      *          to quit repeat firing.
      * @param intervalUnit
      *          The repeat interval unit (minutes, days, months, etc).

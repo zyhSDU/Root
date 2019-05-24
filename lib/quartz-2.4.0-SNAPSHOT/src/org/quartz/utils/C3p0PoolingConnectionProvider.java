@@ -28,7 +28,7 @@ import com.mchange.v2.c3p0.ComboPooledDataSource;
 
 /**
  * <p>
- * A <code>ConnectionProvider</code> implementation that creates its own
+ * JsoupHttpClient <code>ConnectionProvider</code> implementation that creates its own
  * pool of connections.
  * </p>
  *

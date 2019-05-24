@@ -19,12 +19,12 @@ class IpMessage : Serializable {
     var ipType: String? = null
     var ipSpeed: String? = null
 
-    override fun toString(): String {
-        return "$ipAddress:$ipPort"
-    }
-
     companion object {
         //关于这个UID希望大家可以下去自己查一查
         private const val serialVersionUID = 1L
+    }
+
+    override fun toString(): String {
+        return "IpMessage(ipAddress=$ipAddress, ipPort=$ipPort, ipType=$ipType, ipSpeed=$ipSpeed)"
     }
 }

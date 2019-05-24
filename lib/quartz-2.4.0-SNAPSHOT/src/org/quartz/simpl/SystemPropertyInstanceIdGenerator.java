@@ -47,7 +47,7 @@ public class SystemPropertyInstanceIdGenerator implements InstanceIdGenerator {
   }
   
   /**
-   * A String of text to prepend (add to the beginning) to the instanceId 
+   * JsoupHttpClient String of text to prepend (add to the beginning) to the instanceId
    * found in the system property.
    */
   public String getPrepend() {
@@ -55,7 +55,7 @@ public class SystemPropertyInstanceIdGenerator implements InstanceIdGenerator {
   }
 
   /**
-   * A String of text to prepend (add to the beginning) to the instanceId 
+   * JsoupHttpClient String of text to prepend (add to the beginning) to the instanceId
    * found in the system property.
    * 
    * @param prepend the value to prepend, or null if none is desired.
@@ -65,7 +65,7 @@ public class SystemPropertyInstanceIdGenerator implements InstanceIdGenerator {
   }
     
   /**
-   * A String of text to postpend (add to the end) to the instanceId 
+   * JsoupHttpClient String of text to postpend (add to the end) to the instanceId
    * found in the system property.
    */
   public String getPostpend() {
@@ -73,7 +73,7 @@ public class SystemPropertyInstanceIdGenerator implements InstanceIdGenerator {
   }
 
   /**
-   * A String of text to postpend (add to the end) to the instanceId 
+   * JsoupHttpClient String of text to postpend (add to the end) to the instanceId
    * found in the system property.
    * 
    * @param postpend the value to postpend, or null if none is desired.

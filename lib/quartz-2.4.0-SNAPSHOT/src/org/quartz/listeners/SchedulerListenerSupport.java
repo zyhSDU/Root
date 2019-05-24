@@ -25,7 +25,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * A helpful abstract base class for implementors of 
+ * JsoupHttpClient helpful abstract base class for implementors of
  * <code>{@link org.quartz.SchedulerListener}</code>.
  * 
  * <p>

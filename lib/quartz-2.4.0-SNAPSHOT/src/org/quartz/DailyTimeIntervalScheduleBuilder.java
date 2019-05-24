@@ -27,7 +27,7 @@ import org.quartz.impl.triggers.DailyTimeIntervalTriggerImpl;
 import org.quartz.spi.MutableTrigger;
 
 /**
- * A {@link ScheduleBuilder} implementation that build schedule for DailyTimeIntervalTrigger.
+ * JsoupHttpClient {@link ScheduleBuilder} implementation that build schedule for DailyTimeIntervalTrigger.
  * 
  * <p>This builder provide an extra convenient method for you to set the trigger's endTimeOfDay. You may
  * use either endingDailyAt() or endingDailyAfterCount() to set the value. The later will auto calculate
@@ -77,7 +77,7 @@ public class DailyTimeIntervalScheduleBuilder extends ScheduleBuilder<DailyTimeI
     private int misfireInstruction = CalendarIntervalTrigger.MISFIRE_INSTRUCTION_SMART_POLICY;
     
     /**
-     * A set of all days of the week.
+     * JsoupHttpClient set of all days of the week.
      * 
      * The set contains all values between {@link java.util.Calendar#SUNDAY} and {@link java.util.Calendar#SATURDAY} 
      * (the integers from 1 through 7). 
@@ -85,7 +85,7 @@ public class DailyTimeIntervalScheduleBuilder extends ScheduleBuilder<DailyTimeI
     public static final Set<Integer> ALL_DAYS_OF_THE_WEEK;
     
     /** 
-     * A set of the business days of the week (for locales similar to the USA).
+     * JsoupHttpClient set of the business days of the week (for locales similar to the USA).
      * 
      * The set contains all values between {@link java.util.Calendar#MONDAY} and {@link java.util.Calendar#FRIDAY} 
      * (the integers from 2 through 6). 
@@ -93,7 +93,7 @@ public class DailyTimeIntervalScheduleBuilder extends ScheduleBuilder<DailyTimeI
     public static final Set<Integer> MONDAY_THROUGH_FRIDAY;
     
     /**
-     * A set of the weekend days of the week (for locales similar to the USA).
+     * JsoupHttpClient set of the weekend days of the week (for locales similar to the USA).
      * 
      * The set contains {@link java.util.Calendar#SATURDAY} and {@link java.util.Calendar#SUNDAY} 
      */

@@ -17,8 +17,6 @@ import java.io.IOException
 object IpUtils {
     fun ipIsAble(ipMessages1: MutableList<IpMessage>) {
         val httpClient = HttpClients.createDefault()
-        var response: CloseableHttpResponse? = null
-
         var i = 0
         while (i < ipMessages1.size) {
             val ip = ipMessages1[i].ipAddress
@@ -35,19 +33,13 @@ object IpUtils {
             httpGet.setHeader("User-Agent", "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit" + "/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36")
 
             try {
-                response = httpClient!!.execute(httpGet)
+               httpClient!!.execute(httpGet)
             } catch (e: IOException) {
                 println("不可用代理已删除" + ipMessages1[i].ipAddress + ": " + ipMessages1[i].ipPort)
                 ipMessages1.remove(ipMessages1[i])
                 i--
             }
             i++
-        }
-        try {
-            httpClient?.close()
-            response?.close()
-        } catch (e: IOException) {
-            e.printStackTrace()
         }
     }
 }

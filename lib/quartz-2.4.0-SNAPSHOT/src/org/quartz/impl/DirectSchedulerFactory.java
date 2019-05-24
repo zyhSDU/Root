@@ -41,7 +41,7 @@ import org.slf4j.LoggerFactory;
 
 /**
  * <p>
- * A singleton implementation of <code>{@link org.quartz.SchedulerFactory}</code>.
+ * JsoupHttpClient singleton implementation of <code>{@link org.quartz.SchedulerFactory}</code>.
  * </p>
  *
  * <p>

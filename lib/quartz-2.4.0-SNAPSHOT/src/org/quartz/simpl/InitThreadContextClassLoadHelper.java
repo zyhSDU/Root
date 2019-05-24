@@ -23,7 +23,7 @@ import java.net.URL;
 import java.io.InputStream;
 
 /**
- * A <code>ClassLoadHelper</code> that uses either the context class loader
+ * JsoupHttpClient <code>ClassLoadHelper</code> that uses either the context class loader
  * of the thread that initialized Quartz.
  * 
  * @see org.quartz.spi.ClassLoadHelper

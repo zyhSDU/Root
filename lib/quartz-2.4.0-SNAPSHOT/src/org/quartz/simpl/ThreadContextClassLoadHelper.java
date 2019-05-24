@@ -23,7 +23,7 @@ import java.net.URL;
 import java.io.InputStream;
 
 /**
- * A <code>ClassLoadHelper</code> that uses either the current thread's
+ * JsoupHttpClient <code>ClassLoadHelper</code> that uses either the current thread's
  * context class loader (<code>Thread.currentThread().getContextClassLoader().loadClass( .. )</code>).
  * 
  * @see org.quartz.spi.ClassLoadHelper

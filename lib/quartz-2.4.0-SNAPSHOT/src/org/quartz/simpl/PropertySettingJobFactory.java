@@ -35,7 +35,7 @@ import org.quartz.spi.TriggerFiredBundle;
 
 
 /**
- * A JobFactory that instantiates the Job instance (using the default no-arg
+ * JsoupHttpClient JobFactory that instantiates the Job instance (using the default no-arg
  * constructor, or more specifically: <code>class.newInstance()</code>), and
  * then attempts to set all values from the <code>SchedulerContext</code> and
  * the <code>JobExecutionContext</code>'s merged <code>JobDataMap</code> onto 

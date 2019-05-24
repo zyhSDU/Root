@@ -31,7 +31,7 @@ import java.util.Date;
 
 /**
  * <p>
- * A job dumb job that will throw a job execution exception
+ * JsoupHttpClient job dumb job that will throw a job execution exception
  * </p>
  * 
  * @author Bill Kratzer

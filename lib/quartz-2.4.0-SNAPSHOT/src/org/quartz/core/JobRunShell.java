@@ -42,7 +42,7 @@ import org.slf4j.LoggerFactory;
  * </p>
  *
  * <p>
- * A <code>JobRunShell</code> instance is created by a <code>JobRunShellFactory</code>
+ * JsoupHttpClient <code>JobRunShell</code> instance is created by a <code>JobRunShellFactory</code>
  * on behalf of the <code>QuartzSchedulerThread</code> which then runs the
  * shell in a thread from the configured <code>ThreadPool</code> when the
  * scheduler determines that a <code>Job</code> has been triggered.

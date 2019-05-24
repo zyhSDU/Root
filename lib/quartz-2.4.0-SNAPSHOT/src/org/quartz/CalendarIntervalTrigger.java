@@ -23,7 +23,7 @@ import java.util.TimeZone;
 import org.quartz.DateBuilder.IntervalUnit;
 
 /**
- * A concrete <code>{@link Trigger}</code> that is used to fire a <code>{@link org.quartz.JobDetail}</code>
+ * JsoupHttpClient concrete <code>{@link Trigger}</code> that is used to fire a <code>{@link org.quartz.JobDetail}</code>
  * based upon repeating calendar time intervals.
  * 
  * <p>The trigger will fire every N (see {@link #getRepeatInterval()} ) units of calendar time

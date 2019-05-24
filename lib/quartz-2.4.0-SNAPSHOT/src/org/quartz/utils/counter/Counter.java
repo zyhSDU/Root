@@ -17,7 +17,7 @@
 package org.quartz.utils.counter;
 
 /**
- * A simple counter
+ * JsoupHttpClient simple counter
  * 
  * @author <a href="mailto:asanoujam@terracottatech.com">Abhishek Sanoujam</a>
  * 

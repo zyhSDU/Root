@@ -24,7 +24,7 @@ import org.quartz.JobDetail;
 
 /**
  * <p>
- * A simple class (structure) used for returning execution-time data from the
+ * JsoupHttpClient simple class (structure) used for returning execution-time data from the
  * JobStore to the <code>QuartzSchedulerThread</code>.
  * </p>
  * 

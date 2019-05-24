@@ -31,7 +31,7 @@ import org.slf4j.LoggerFactory;
 
 /**
  * <p>
- * A <code>ConnectionProvider</code> that provides connections from a <code>DataSource</code>
+ * JsoupHttpClient <code>ConnectionProvider</code> that provides connections from a <code>DataSource</code>
  * that is managed by an application server, and made available via JNDI.
  * </p>
  * 

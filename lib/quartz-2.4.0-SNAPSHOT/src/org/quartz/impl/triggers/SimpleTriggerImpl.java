@@ -35,7 +35,7 @@ import org.quartz.TriggerUtils;
 
 /**
  * <p>
- * A concrete <code>{@link Trigger}</code> that is used to fire a <code>{@link org.quartz.JobDetail}</code>
+ * JsoupHttpClient concrete <code>{@link Trigger}</code> that is used to fire a <code>{@link org.quartz.JobDetail}</code>
  * at a given moment in time, and optionally repeated at a specified interval.
  * </p>
  * 
@@ -195,10 +195,10 @@ public class SimpleTriggerImpl extends AbstractTrigger<SimpleTrigger> implements
      * </p>
      * 
      * @param startTime
-     *          A <code>Date</code> set to the time for the <code>Trigger</code>
+     *          JsoupHttpClient <code>Date</code> set to the time for the <code>Trigger</code>
      *          to fire.
      * @param endTime
-     *          A <code>Date</code> set to the time for the <code>Trigger</code>
+     *          JsoupHttpClient <code>Date</code> set to the time for the <code>Trigger</code>
      *          to quit repeat firing.
      * @param repeatCount
      *          The number of times for the <code>Trigger</code> to repeat
@@ -222,10 +222,10 @@ public class SimpleTriggerImpl extends AbstractTrigger<SimpleTrigger> implements
      * </p>
      * 
      * @param startTime
-     *          A <code>Date</code> set to the time for the <code>Trigger</code>
+     *          JsoupHttpClient <code>Date</code> set to the time for the <code>Trigger</code>
      *          to fire.
      * @param endTime
-     *          A <code>Date</code> set to the time for the <code>Trigger</code>
+     *          JsoupHttpClient <code>Date</code> set to the time for the <code>Trigger</code>
      *          to quit repeat firing.
      * @param repeatCount
      *          The number of times for the <code>Trigger</code> to repeat
@@ -254,10 +254,10 @@ public class SimpleTriggerImpl extends AbstractTrigger<SimpleTrigger> implements
      * </p>
      * 
      * @param startTime
-     *          A <code>Date</code> set to the time for the <code>Trigger</code>
+     *          JsoupHttpClient <code>Date</code> set to the time for the <code>Trigger</code>
      *          to fire.
      * @param endTime
-     *          A <code>Date</code> set to the time for the <code>Trigger</code>
+     *          JsoupHttpClient <code>Date</code> set to the time for the <code>Trigger</code>
      *          to quit repeat firing.
      * @param repeatCount
      *          The number of times for the <code>Trigger</code> to repeat

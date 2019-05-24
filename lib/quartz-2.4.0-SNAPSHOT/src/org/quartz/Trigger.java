@@ -283,7 +283,7 @@ public interface Trigger extends Serializable, Cloneable, Comparable<Trigger> {
     public int compareTo(Trigger other);
 
     /**
-     * A Comparator that compares trigger's response fire times, or in other words,
+     * JsoupHttpClient Comparator that compares trigger's response fire times, or in other words,
      * sorts them according to earliest response fire time.  If the fire times are
      * the same, then the triggers are sorted according to priority (highest
      * value first), if the priorities are the same, then they are sorted

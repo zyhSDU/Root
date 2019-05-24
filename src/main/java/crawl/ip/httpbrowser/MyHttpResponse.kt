@@ -7,6 +7,7 @@ import org.apache.http.client.methods.HttpGet
 import org.apache.http.impl.client.HttpClients
 import org.apache.http.util.EntityUtils
 import java.io.IOException
+import java.lang.Exception
 
 /**
  * Created by paranoid on 17-4-10.
@@ -41,20 +42,14 @@ object MyHttpResponse {
         httpGet.setHeader("Upgrade-Insecure-Requests", "1")
         httpGet.setHeader("User-Agent", "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 " + "(KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36")
 
+        //客户端执行httpGet方法，返回响应
         try {
-            //客户端执行httpGet方法，返回响应
             val httpResponse = httpClient.execute(httpGet)
-
             //得到服务响应状态码
             if (httpResponse.statusLine.statusCode == 200) {
                 entity = EntityUtils.toString(httpResponse.entity, "utf-8")
             }
-
-            httpResponse.close()
-            httpClient.close()
-        } catch (e: ClientProtocolException) {
-            entity = null
-        } catch (e: IOException) {
+        } catch (e: Exception) {
             entity = null
         }
 
@@ -81,20 +76,13 @@ object MyHttpResponse {
         httpGet.setHeader("Upgrade-Insecure-Requests", "1")
         httpGet.setHeader("User-Agent", "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 " + "(KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36")
 
-        try {
-            //客户端执行httpGet方法，返回响应
-            val httpResponse = httpClient.execute(httpGet)
-            //得到服务响应状态码
-            if (httpResponse.statusLine.statusCode == 200) {
-                entity = EntityUtils.toString(httpResponse.entity, "utf-8")
-            }
-            httpResponse.close()
-            httpClient.close()
-        } catch (e: ClientProtocolException) {
-            e.printStackTrace()
-        } catch (e: IOException) {
-            e.printStackTrace()
+        //客户端执行httpGet方法，返回响应
+        val httpResponse = httpClient.execute(httpGet)
+        //得到服务响应状态码
+        if (httpResponse.statusLine.statusCode == 200) {
+            entity = EntityUtils.toString(httpResponse.entity, "utf-8")
         }
+
         return entity
     }
 }

@@ -28,7 +28,7 @@ import org.quartz.JobKey;
 
 /**
  * <p>
- * A dumb implementation of Job, for unittesting purposes.
+ * JsoupHttpClient dumb implementation of Job, for unittesting purposes.
  * </p>
  * 
  * @author James House

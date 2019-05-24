@@ -22,7 +22,7 @@ import java.util.Set;
 import org.quartz.DateBuilder.IntervalUnit;
 
 /**
- * A <code>{@link Trigger}</code> that is used to fire a <code>{@link org.quartz.JobDetail}</code>
+ * JsoupHttpClient <code>{@link Trigger}</code> that is used to fire a <code>{@link org.quartz.JobDetail}</code>
  * based upon daily repeating time intervals.
  * 
  * <p>The trigger will fire every N (see {@link #getRepeatInterval()} ) seconds, minutes or hours

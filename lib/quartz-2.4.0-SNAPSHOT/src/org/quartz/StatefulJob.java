@@ -19,7 +19,7 @@
 package org.quartz;
 
 /**
- * A marker interface for <code>{@link org.quartz.JobDetail}</code> s that
+ * JsoupHttpClient marker interface for <code>{@link org.quartz.JobDetail}</code> s that
  * wish to have their state maintained between executions.
  * 
  * <p>

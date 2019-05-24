@@ -32,7 +32,7 @@ import org.quartz.utils.Key;
  * This is the main interface of a Quartz Scheduler.
  * 
  * <p>
- * A <code>Scheduler</code> maintains a registry of <code>{@link org.quartz.JobDetail}</code>s
+ * JsoupHttpClient <code>Scheduler</code> maintains a registry of <code>{@link org.quartz.JobDetail}</code>s
  * and <code>{@link Trigger}</code>s. Once registered, the <code>Scheduler</code>
  * is responsible for executing <code>Job</code> s when their associated
  * <code>Trigger</code> s fire (when their scheduled time arrives).
@@ -40,7 +40,7 @@ import org.quartz.utils.Key;
  * 
  * <p>
  * <code>Scheduler</code> instances are produced by a <code>{@link SchedulerFactory}</code>.
- * A scheduler that has already been created/initialized can be found and used
+ * JsoupHttpClient scheduler that has already been created/initialized can be found and used
  * through the same factory that produced it. After a <code>Scheduler</code>
  * has been created, it is in "stand-by" mode, and must have its 
  * <code>start()</code> method called before it will fire any <code>Job</code>s.
@@ -118,13 +118,13 @@ public interface Scheduler {
      */
 
     /**
-     * A (possibly) useful constant that can be used for specifying the group
+     * JsoupHttpClient (possibly) useful constant that can be used for specifying the group
      * that <code>Job</code> and <code>Trigger</code> instances belong to.
      */
     String DEFAULT_GROUP = Key.DEFAULT_GROUP;
 
     /**
-     * A constant <code>Trigger</code> group name used internally by the
+     * JsoupHttpClient constant <code>Trigger</code> group name used internally by the
      * scheduler - clients should not use the value of this constant
      * ("RECOVERING_JOBS") for the name of a <code>Trigger</code>'s group.
      *
@@ -133,7 +133,7 @@ public interface Scheduler {
     String DEFAULT_RECOVERY_GROUP = "RECOVERING_JOBS";
 
     /**
-     * A constant <code>Trigger</code> group name used internally by the
+     * JsoupHttpClient constant <code>Trigger</code> group name used internally by the
      * scheduler - clients should not use the value of this constant
      * ("FAILED_OVER_JOBS") for the name of a <code>Trigger</code>'s group.
      *
@@ -143,7 +143,7 @@ public interface Scheduler {
 
 
     /**
-     * A constant <code>JobDataMap</code> key that can be used to retrieve the
+     * JsoupHttpClient constant <code>JobDataMap</code> key that can be used to retrieve the
      * name of the original <code>Trigger</code> from a recovery trigger's
      * data map in the case of a job recovering after a failed scheduler
      * instance.
@@ -153,7 +153,7 @@ public interface Scheduler {
     String FAILED_JOB_ORIGINAL_TRIGGER_NAME =  "QRTZ_FAILED_JOB_ORIG_TRIGGER_NAME";
 
     /**
-     * A constant <code>JobDataMap</code> key that can be used to retrieve the
+     * JsoupHttpClient constant <code>JobDataMap</code> key that can be used to retrieve the
      * group of the original <code>Trigger</code> from a recovery trigger's
      * data map in the case of a job recovering after a failed scheduler
      * instance.
@@ -163,7 +163,7 @@ public interface Scheduler {
     String FAILED_JOB_ORIGINAL_TRIGGER_GROUP =  "QRTZ_FAILED_JOB_ORIG_TRIGGER_GROUP";
 
     /**
-     * A constant <code>JobDataMap</code> key that can be used to retrieve the
+     * JsoupHttpClient constant <code>JobDataMap</code> key that can be used to retrieve the
      * fire time of the original <code>Trigger</code> from a recovery
      * trigger's data map in the case of a job recovering after a failed scheduler
      * instance.  
@@ -177,7 +177,7 @@ public interface Scheduler {
     String FAILED_JOB_ORIGINAL_TRIGGER_FIRETIME_IN_MILLISECONDS =  "QRTZ_FAILED_JOB_ORIG_TRIGGER_FIRETIME_IN_MILLISECONDS_AS_STRING";
 
     /**
-     * A constant <code>JobDataMap</code> key that can be used to retrieve the
+     * JsoupHttpClient constant <code>JobDataMap</code> key that can be used to retrieve the
      * scheduled fire time of the original <code>Trigger</code> from a recovery
      * trigger's data map in the case of a job recovering after a failed scheduler
      * instance.  

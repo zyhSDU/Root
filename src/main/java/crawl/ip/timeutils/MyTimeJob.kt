@@ -1,15 +1,13 @@
 package crawl.ip.timeutils
 
-import crawl.ip.ipModel.IpMessage
 import crawl.ip.database.MyRedis
 import crawl.ip.htmlparse.IpPool
 import crawl.ip.htmlparse.IpThread
 import crawl.ip.htmlparse.UrlFetcher
 import crawl.ip.ipFilter.IpFilter
 import crawl.ip.ipFilter.IpUtils
-
-import java.util.ArrayList
-import java.util.TimerTask
+import crawl.ip.ipModel.IpMessage
+import java.util.*
 
 /**
  * ip代理池里面最少保存200个代理ip
@@ -59,18 +57,11 @@ class MyTimeJob : TimerTask() {
         }
 
         for (thread in threads) {
-            try {
-                thread.join()
-            } catch (e: InterruptedException) {
-                e.printStackTrace()
-            }
+            thread.join()
         }
 
         for (ipMessage in ipMessages) {
-            println(ipMessage.ipAddress)
-            println(ipMessage.ipPort)
-            println(ipMessage.ipType)
-            println(ipMessage.ipSpeed)
+            println(ipMessage)
         }
 
         //将爬取下来的ip信息写进Redis数据库中(List集合)

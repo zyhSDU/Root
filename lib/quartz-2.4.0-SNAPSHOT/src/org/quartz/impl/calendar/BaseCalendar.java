@@ -47,7 +47,7 @@ public class BaseCalendar implements Calendar, Serializable, Cloneable {
 
     static final long serialVersionUID = 3106623404629760239L;
 
-    // <p>A optional base calendar.</p>
+    // <p>JsoupHttpClient optional base calendar.</p>
     private Calendar baseCalendar;
 
     private String description;
@@ -229,9 +229,9 @@ public class BaseCalendar implements Calendar, Serializable, Cloneable {
      * This calculation will take the <code>BaseCalendar</code>
      * time zone into account if it is not <code>null</code>.
      *
-     * @param timeInMillis A time containing the desired date for the
+     * @param timeInMillis JsoupHttpClient time containing the desired date for the
      *                     start-of-day time
-     * @return A <code>{@link java.util.Calendar}</code> set to the start of
+     * @return JsoupHttpClient <code>{@link java.util.Calendar}</code> set to the start of
      *         the given day.
      */
     protected java.util.Calendar getStartOfDayJavaCalendar(long timeInMillis) {
@@ -250,7 +250,7 @@ public class BaseCalendar implements Calendar, Serializable, Cloneable {
      *
      * @param timeInMillis a time containing the desired date for the
      *                     end-of-day time.
-     * @return A <code>{@link java.util.Calendar}</code> set to the end of
+     * @return JsoupHttpClient <code>{@link java.util.Calendar}</code> set to the end of
      *         the given day.
      */
     protected java.util.Calendar getEndOfDayJavaCalendar(long timeInMillis) {

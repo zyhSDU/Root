@@ -29,7 +29,7 @@ import org.quartz.impl.StdSchedulerFactory;
 
 /**
  * <p>
- * A ServletContextListner that can be used to initialize Quartz.
+ * JsoupHttpClient ServletContextListner that can be used to initialize Quartz.
  * </p>
  *
  * <p>
@@ -91,7 +91,7 @@ import org.quartz.impl.StdSchedulerFactory;
  * "false". The default is "true", which means the scheduler is started.
  * </p>
  *
- * A StdSchedulerFactory instance is stored into the ServletContext. You can gain access
+ * JsoupHttpClient StdSchedulerFactory instance is stored into the ServletContext. You can gain access
  * to the factory from a ServletContext instance like this:
  * <br>
  * <pre>

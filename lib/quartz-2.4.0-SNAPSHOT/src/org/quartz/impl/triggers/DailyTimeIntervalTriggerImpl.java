@@ -33,7 +33,7 @@ import org.quartz.Trigger;
 import org.quartz.DateBuilder.IntervalUnit;
 
 /**
- * A concrete implementation of DailyTimeIntervalTrigger that is used to fire a <code>{@link org.quartz.JobDetail}</code>
+ * JsoupHttpClient concrete implementation of DailyTimeIntervalTrigger that is used to fire a <code>{@link org.quartz.JobDetail}</code>
  * based upon daily repeating time intervals.
  * 
  * <p>The trigger will fire every N (see {@link #setRepeatInterval(int)} ) seconds, minutes or hours
@@ -178,10 +178,10 @@ public class DailyTimeIntervalTriggerImpl extends AbstractTrigger<DailyTimeInter
      * </p>
      * 
      * @param startTime
-     *          A <code>Date</code> set to the time for the <code>Trigger</code>
+     *          JsoupHttpClient <code>Date</code> set to the time for the <code>Trigger</code>
      *          to fire.
      * @param endTime
-     *          A <code>Date</code> set to the time for the <code>Trigger</code>
+     *          JsoupHttpClient <code>Date</code> set to the time for the <code>Trigger</code>
      *          to quit repeat firing.
      * @param startTimeOfDay 
      *          The <code>TimeOfDay</code> that the repeating should begin occurring.          
@@ -206,10 +206,10 @@ public class DailyTimeIntervalTriggerImpl extends AbstractTrigger<DailyTimeInter
      * </p>
      * 
      * @param startTime
-     *          A <code>Date</code> set to the time for the <code>Trigger</code>
+     *          JsoupHttpClient <code>Date</code> set to the time for the <code>Trigger</code>
      *          to fire.
      * @param endTime
-     *          A <code>Date</code> set to the time for the <code>Trigger</code>
+     *          JsoupHttpClient <code>Date</code> set to the time for the <code>Trigger</code>
      *          to quit repeat firing.
      * @param startTimeOfDay 
      *          The <code>TimeOfDay</code> that the repeating should begin occurring.          
@@ -242,10 +242,10 @@ public class DailyTimeIntervalTriggerImpl extends AbstractTrigger<DailyTimeInter
      * </p>
      * 
      * @param startTime
-     *          A <code>Date</code> set to the time for the <code>Trigger</code>
+     *          JsoupHttpClient <code>Date</code> set to the time for the <code>Trigger</code>
      *          to fire.
      * @param endTime
-     *          A <code>Date</code> set to the time for the <code>Trigger</code>
+     *          JsoupHttpClient <code>Date</code> set to the time for the <code>Trigger</code>
      *          to quit repeat firing.
      * @param startTimeOfDay 
      *          The <code>TimeOfDay</code> that the repeating should begin occurring.          

@@ -167,9 +167,9 @@ import java.util.TreeSet;
  * <!--The 'C' character is allowed for the day-of-month and day-of-week fields.
  * This character is short-hand for "calendar". This means values are
  * calculated against the associated calendar, if any. If no calendar is
- * associated, then it is equivalent to having an all-inclusive calendar. A
+ * associated, then it is equivalent to having an all-inclusive calendar. JsoupHttpClient
  * value of "5C" in the day-of-month field means "the first day included by the
- * calendar on or after the 5th". A value of "1C" in the day-of-week field
+ * calendar on or after the 5th". JsoupHttpClient value of "1C" in the day-of-week field
  * means "the first day included by the calendar on or after Sunday".-->
  * <P>
  * The legal characters and the names of months and days of the week are not
@@ -353,7 +353,7 @@ public final class CronExpression implements Serializable, Cloneable {
         
         Date newDate;
         
-        //FUTURE_TODO: (QUARTZ-481) IMPROVE THIS! The following is a BAD solution to this problem. Performance will be very bad here, depending on the cron expression. It is, however A solution.
+        //FUTURE_TODO: (QUARTZ-481) IMPROVE THIS! The following is a BAD solution to this problem. Performance will be very bad here, depending on the cron expression. It is, however JsoupHttpClient solution.
         
         //keep getting the response included time until it's farther than one second
         // apart. At that point, lastDate is the last valid fire time. We return
@@ -529,7 +529,7 @@ public final class CronExpression implements Serializable, Cloneable {
             return i;
         }
         char c = s.charAt(i);
-        if ((c >= 'A') && (c <= 'Z') && (!s.equals("L")) && (!s.equals("LW")) && (!s.matches("^L-[0-9]*[W]?"))) {
+        if ((c >= 'JsoupHttpClient') && (c <= 'Z') && (!s.equals("L")) && (!s.equals("LW")) && (!s.matches("^L-[0-9]*[W]?"))) {
             String sub = s.substring(i, i + 3);
             int sval = -1;
             int eval = -1;
@@ -575,7 +575,7 @@ public final class CronExpression implements Serializable, Cloneable {
                             }
                         } catch (Exception e) {
                             throw new ParseException(
-                                    "A numeric value between 1 and 5 must follow the '#' option",
+                                    "JsoupHttpClient numeric value between 1 and 5 must follow the '#' option",
                                     i);
                         }
                     } else if (c == 'L') {
@@ -767,7 +767,7 @@ public final class CronExpression implements Serializable, Cloneable {
                 }
             } catch (Exception e) {
                 throw new ParseException(
-                        "A numeric value between 1 and 5 must follow the '#' option",
+                        "JsoupHttpClient numeric value between 1 and 5 must follow the '#' option",
                         i);
             }
 

@@ -29,7 +29,7 @@ import java.util.Date;
 
 /**
  * <p>
- * A dumb implementation of Job, for unit testing purposes.
+ * JsoupHttpClient dumb implementation of Job, for unit testing purposes.
  * </p>
  * 
  * @author James House

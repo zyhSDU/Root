@@ -197,7 +197,7 @@ import org.quartz.spi.SchedulerPlugin;
  * <tr>
  * <td>9</td>
  * <td>String</td>
- * <td>A human-readable translation of the trigger's resulting instruction
+ * <td>JsoupHttpClient human-readable translation of the trigger's resulting instruction
  * code.</td>
  * </tr>
  * </table>

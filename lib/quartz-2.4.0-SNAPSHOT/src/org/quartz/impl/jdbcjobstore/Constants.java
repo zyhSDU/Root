@@ -188,7 +188,7 @@ public interface Constants {
     /** Daily Time Interval Trigger type. */
     String TTYPE_DAILY_TIME_INT = "DAILY_I";
 
-    /** A general blob Trigger type. */
+    /** JsoupHttpClient general blob Trigger type. */
     String TTYPE_BLOB = "BLOB";
 }
 

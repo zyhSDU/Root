@@ -17,7 +17,7 @@
 package org.quartz.utils.counter;
 
 /**
- * A Counter Manager that accepts a config to create counters. Creates counter's
+ * JsoupHttpClient Counter Manager that accepts a config to create counters. Creates counter's
  * based on {@link CounterConfig}. This manages the lifycycle of a counter
  * 
  * @author <a href="mailto:asanoujam@terracottatech.com">Abhishek Sanoujam</a>

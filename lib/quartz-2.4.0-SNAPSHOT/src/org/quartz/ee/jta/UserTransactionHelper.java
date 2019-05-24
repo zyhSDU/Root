@@ -32,7 +32,7 @@ import org.slf4j.LoggerFactory;
 
 /**
  * <p>
- * A helper for obtaining a handle to a UserTransaction...
+ * JsoupHttpClient helper for obtaining a handle to a UserTransaction...
  * </p>
  * <p>
  * To ensure proper cleanup of the InitalContext used to create/lookup

@@ -19,7 +19,7 @@ package org.quartz.utils.counter.sampled;
 import java.io.Serializable;
 
 /**
- * A counter value at a particular time instance
+ * JsoupHttpClient counter value at a particular time instance
  * 
  * @author <a href="mailto:asanoujam@terracottatech.com">Abhishek Sanoujam</a>
  * @since 1.8

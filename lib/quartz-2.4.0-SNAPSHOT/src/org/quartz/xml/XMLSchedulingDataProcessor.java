@@ -1020,7 +1020,7 @@ public class XMLSchedulingDataProcessor implements ErrorHandler {
             if (!detail.isDurable() && (triggersOfJob == null || triggersOfJob.size() == 0)) {
                 if (dupeJ == null) {
                     throw new SchedulerException(
-                        "A new job defined without any triggers must be durable: " + 
+                        "JsoupHttpClient new job defined without any triggers must be durable: " +
                         detail.getKey());
                 }
                 

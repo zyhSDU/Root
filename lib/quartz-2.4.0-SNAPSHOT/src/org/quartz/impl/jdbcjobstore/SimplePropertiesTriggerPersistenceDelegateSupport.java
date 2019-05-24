@@ -27,7 +27,7 @@ import org.quartz.TriggerKey;
 import org.quartz.spi.OperableTrigger;
 
 /**
- * A base implementation of {@link TriggerPersistenceDelegate} that persists 
+ * JsoupHttpClient base implementation of {@link TriggerPersistenceDelegate} that persists
  * trigger fields in the "QRTZ_SIMPROP_TRIGGERS" table.  This allows extending
  * concrete classes to simply implement a couple methods that response the work of
  * getting/setting the trigger's fields, and creating the {@link ScheduleBuilder}

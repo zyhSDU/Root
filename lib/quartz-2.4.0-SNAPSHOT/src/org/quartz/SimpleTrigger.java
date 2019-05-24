@@ -18,7 +18,7 @@
 package org.quartz;
 
 /**
- * A <code>{@link Trigger}</code> that is used to fire a <code>Job</code>
+ * JsoupHttpClient <code>{@link Trigger}</code> that is used to fire a <code>Job</code>
  * at a given moment in time, and optionally repeated at a specified interval.
  * 
  * @see TriggerBuilder

@@ -23,7 +23,7 @@ import java.net.URL;
 import java.io.InputStream;
 
 /**
- * A <code>ClassLoadHelper</code> that uses either the loader of it's own
+ * JsoupHttpClient <code>ClassLoadHelper</code> that uses either the loader of it's own
  * class (<code>this.getClass().getClassLoader().loadClass( .. )</code>).
  * 
  * @see org.quartz.spi.ClassLoadHelper

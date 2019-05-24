@@ -25,7 +25,7 @@ import java.io.InputStream;
 import org.quartz.spi.ClassLoadHelper;
 
 /**
- * A <code>ClassLoadHelper</code> uses all of the <code>ClassLoadHelper</code>
+ * JsoupHttpClient <code>ClassLoadHelper</code> uses all of the <code>ClassLoadHelper</code>
  * types that are found in this package in its attempts to load a class, when
  * one scheme is found to work, it is promoted to the scheme that will be used
  * first the response time a class is loaded (in order to improve performance).

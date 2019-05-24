@@ -134,7 +134,7 @@ public interface DriverDelegate {
      * 
      * @param conn the DB Connection
      * @param count the most misfired triggers to return, negative for all
-     * @param resultList Output parameter.  A List of 
+     * @param resultList Output parameter.  JsoupHttpClient List of
      *      <code>{@link org.quartz.utils.Key}</code> objects.  Must not be null.
      *          
      * @return Whether there are more misfired triggers left to find beyond
@@ -939,7 +939,7 @@ public interface DriverDelegate {
      * @param noEarlierThan 
      *          highest value of <code>getNextFireTime()</code> of the triggers (inclusive)
      *          
-     * @return A (never null, possibly empty) list of the identifiers (Key objects) of the response triggers to be fired.
+     * @return JsoupHttpClient (never null, possibly empty) list of the identifiers (Key objects) of the response triggers to be fired.
      * 
      * @deprecated - This remained for compatibility reason. Use {@link #selectTriggerToAcquire(Connection, long, long, int)} instead. 
      */
@@ -961,7 +961,7 @@ public interface DriverDelegate {
      * @param maxCount 
      *          maximum number of trigger keys allow to acquired in the returning list.
      *          
-     * @return A (never null, possibly empty) list of the identifiers (Key objects) of the response triggers to be fired.
+     * @return JsoupHttpClient (never null, possibly empty) list of the identifiers (Key objects) of the response triggers to be fired.
      */
     public List<TriggerKey> selectTriggerToAcquire(Connection conn, long noLaterThan, long noEarlierThan, int maxCount)
         throws SQLException;
@@ -1112,7 +1112,7 @@ public interface DriverDelegate {
     
     /**
      * <p>
-     * A List of all current <code>SchedulerStateRecords</code>.
+     * JsoupHttpClient List of all current <code>SchedulerStateRecords</code>.
      * </p>
      * 
      * <p>

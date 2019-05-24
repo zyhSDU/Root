@@ -20,7 +20,7 @@ package org.quartz;
 import java.util.Date;
 
 /**
- * A context bundle containing handles to various environment information, that
+ * JsoupHttpClient context bundle containing handles to various environment information, that
  * is given to a <code>{@link org.quartz.JobDetail}</code> instance as it is
  * executed, and to a <code>{@link Trigger}</code> instance after the
  * execution completes.

@@ -22,7 +22,7 @@ import org.quartz.SchedulerException;
 
 /**
  * <p>
- * A JobFactory is responsible for producing instances of <code>Job</code>
+ * JsoupHttpClient JobFactory is responsible for producing instances of <code>Job</code>
  * classes.
  * </p>
  * 

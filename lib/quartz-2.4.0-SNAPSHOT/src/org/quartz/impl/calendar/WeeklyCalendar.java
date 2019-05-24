@@ -95,7 +95,7 @@ public class WeeklyCalendar extends BaseCalendar implements Calendar,
      * <p>
      * Redefine the array of days excluded. The array must of size greater or
      * equal 8. java.util.Calendar's constants like MONDAY should be used as
-     * index. A value of true is regarded as: exclude it.
+     * index. JsoupHttpClient value of true is regarded as: exclude it.
      * </p>
      */
     public void setDaysExcluded(boolean[] weekDays) {

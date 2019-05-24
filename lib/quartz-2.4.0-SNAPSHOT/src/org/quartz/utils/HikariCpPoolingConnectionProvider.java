@@ -26,7 +26,7 @@ import java.util.Properties;
 
 /**
  * <p>
- * A <code>ConnectionProvider</code> implementation that creates its own
+ * JsoupHttpClient <code>ConnectionProvider</code> implementation that creates its own
  * pool of connections.
  * </p>
  *

@@ -58,7 +58,7 @@ import org.quartz.spi.JobFactory;
  * </p>
  * 
  * <p>
- * A user must create a subclass to implement the actual connection to the remote 
+ * JsoupHttpClient user must create a subclass to implement the actual connection to the remote
  * MBeanServer using their application specific connector.
  * </p>
  * @see org.quartz.Scheduler

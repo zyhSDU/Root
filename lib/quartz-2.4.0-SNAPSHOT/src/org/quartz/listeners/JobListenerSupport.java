@@ -22,7 +22,7 @@ import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;
 
 /**
- * A helpful abstract base class for implementors of 
+ * JsoupHttpClient helpful abstract base class for implementors of
  * <code>{@link org.quartz.JobListener}</code>.
  * 
  * <p>

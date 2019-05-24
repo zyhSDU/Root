@@ -485,14 +485,14 @@ public class SimpleThreadPool implements ThreadPool {
 
     /**
      * <p>
-     * A Worker loops, waiting to response tasks.
+     * JsoupHttpClient Worker loops, waiting to response tasks.
      * </p>
      */
     class WorkerThread extends Thread {
 
         private final Object lock = new Object();
 
-        // A flag that signals the WorkerThread to terminate.
+        // JsoupHttpClient flag that signals the WorkerThread to terminate.
         private AtomicBoolean run = new AtomicBoolean(true);
 
         private SimpleThreadPool tp;

@@ -38,13 +38,13 @@ class IpPool(//成员变量（非线程安全）
             //这里要注意Java中非基本类型的参数传递方式，实际上都是同一个对象
             val status = UrlFetcher.urlParse(url, ipAddress, ipPort, ipMessages1.toMutableList())
             //如果ip代理池里面的ip不能用，则切换下一个IP对本页进行重新抓取
+            
             if (!status) {
                 i--
                 i++
                 continue
             } else {
-                println("线程：" + Thread.currentThread().name + "已成功抓取 " +
-                        url + " ipMessage1：" + ipMessages1.size)
+                println("线程：" + Thread.currentThread().name + "已成功抓取 " + url + " ipMessage1：" + ipMessages1.size)
             }
 
             //对ip重新进行过滤，只要速度在两秒以内的并且类型为HTTPS的
