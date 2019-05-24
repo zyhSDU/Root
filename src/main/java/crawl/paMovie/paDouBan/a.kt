@@ -1,10 +1,7 @@
-package crawl.paDouBan
+package crawl.paMovie.paDouBan
 
 import org.jsoup.Jsoup
-import util.HttpUtil
 import util.MySQLUtil
-import util.response
-import java.util.*
 
 fun main() {
     val connection = MySQLUtil.connection

@@ -6,9 +6,15 @@ import java.io.File
 import java.util.ArrayList
 
 fun main() {
-    a2.a3()
+    a3.a1()
 }
 
+object a3{
+    fun a1(){
+        val split = "主演：翁虹,冯雷,温心".split("：")[1].split(",")
+        println(split)
+    }
+}
 object a2{
     fun a1(){
         var i = 0

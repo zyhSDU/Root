@@ -1,15 +1,15 @@
-package crawl.paMaoYan
+package crawl.paMovie.paMaoYan
 
 import org.jsoup.Jsoup
 import java.util.ArrayList
 
 class MovieItem {
-    var movieRank=""//电影排名
-    var movieName=""//电影名
-    var releaseTime=""//评分
-    var star:List<String>?=null//主演
+    var movieRank = ""//电影排名
+    var movieName = ""//电影名
+    var releaseTime = ""//评分
+    var star: List<String>? = null//主演
 
-    companion object{
+    companion object {
         fun getListFromEntity(entity: String): List<MovieItem> {
             val data = ArrayList<MovieItem>()
             //采用Jsoup解析
@@ -20,7 +20,11 @@ class MovieItem {
                 val movie = MovieItem()
                 movie.movieRank = element.select("i.board-index").text()//带有class属性的p元素
                 movie.movieName = element.select("p.name").text()
-                movie.star = element.select("p.star").text().split("：")[1].split(",")
+                try {
+                    movie.star = element.select("p.star").text().split("：")[1].split(",")
+                } catch (e: Exception) {
+                    movie.star = listOf("")
+                }
                 movie.releaseTime = element.select("p.releasetime").text()
                 data.add(movie)
             }

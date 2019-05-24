@@ -1,4 +1,4 @@
-package crawl.paDouBan
+package crawl.paMovie.paDouBan
 
 class MovieItem {
     var title = ""  // 电影名称

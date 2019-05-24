@@ -2,90 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa01d114-9c47-4dc2-a5db-f7cadec776dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/ip2/database/MyRedis.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/ip2/database/RedisDB.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/ip2/htmlparse/IpPool.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/ip2/htmlparse/IpThread.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/ip2/htmlparse/UrlFetcher.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/ip2/httpbrowser/MyHttpResponse.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/ip2/ipFilter/IpFilter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/ip2/ipFilter/IpUtils.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/ip2/ipModel/IpMessage.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/ip2/ipModel/SerializeUtil.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/ip2/timeutils/MyTimeJob.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/ip2/timeutils/MyTimer.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/ip2/timeutils/TimeUpdate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/paDouBan/b.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/JsoupHttpClient.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example12/SimpleJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example12/SimpleJob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example13/SimpleRecoveryJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example13/SimpleRecoveryJob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example15/SimpleRecoveryJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example15/SimpleRecoveryJob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example5/StatefulDumbJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example5/StatefulDumbJob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example6/BadJob1.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example6/BadJob1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example6/BadJob2.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example6/BadJob2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example7/DumbInterruptableJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/examples/src/org/quartz/examples/example7/DumbInterruptableJob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/CronExpression.html" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/javadoc/org/quartz/CronExpression.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/CalendarIntervalTrigger.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/CalendarIntervalTrigger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/CronExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/CronExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/DailyTimeIntervalScheduleBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/DailyTimeIntervalScheduleBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/DailyTimeIntervalTrigger.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/DailyTimeIntervalTrigger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/JobExecutionContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/JobExecutionContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/Scheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/Scheduler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/SimpleTrigger.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/SimpleTrigger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/StatefulJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/StatefulJob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/Trigger.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/Trigger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/core/JobRunShell.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/core/JobRunShell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/core/QuartzSchedulerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/core/QuartzSchedulerThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/ee/jta/UserTransactionHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/ee/jta/UserTransactionHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/ee/servlet/QuartzInitializerListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/ee/servlet/QuartzInitializerListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/ee/servlet/QuartzInitializerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/ee/servlet/QuartzInitializerServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/DirectSchedulerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/DirectSchedulerFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/RemoteMBeanScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/RemoteMBeanScheduler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/SchedulerDetailsSetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/SchedulerDetailsSetter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/calendar/BaseCalendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/calendar/BaseCalendar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/calendar/HolidayCalendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/calendar/HolidayCalendar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/calendar/WeeklyCalendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/calendar/WeeklyCalendar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/DriverDelegate.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/DriverDelegate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/JobStoreSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/JobStoreSupport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/SimplePropertiesTriggerPersistenceDelegateSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/SimplePropertiesTriggerPersistenceDelegateSupport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/StdJDBCDelegate.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/jdbcjobstore/StdJDBCDelegate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/triggers/CalendarIntervalTriggerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/triggers/CalendarIntervalTriggerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/triggers/CronTriggerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/triggers/CronTriggerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/triggers/DailyTimeIntervalTriggerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/triggers/DailyTimeIntervalTriggerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/triggers/SimpleTriggerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/impl/triggers/SimpleTriggerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/listeners/JobListenerSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/listeners/JobListenerSupport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/listeners/SchedulerListenerSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/listeners/SchedulerListenerSupport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/listeners/TriggerListenerSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/listeners/TriggerListenerSupport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/management/ManagementRESTServiceConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/management/ManagementRESTServiceConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/plugins/history/LoggingTriggerHistoryPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/plugins/history/LoggingTriggerHistoryPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/simpl/CascadingClassLoadHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/simpl/CascadingClassLoadHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/simpl/InitThreadContextClassLoadHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/simpl/InitThreadContextClassLoadHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/simpl/LoadingLoaderClassLoadHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/simpl/LoadingLoaderClassLoadHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/simpl/PropertySettingJobFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/simpl/PropertySettingJobFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/simpl/SimpleClassLoadHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/simpl/SimpleClassLoadHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/simpl/SimpleThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/simpl/SimpleThreadPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/simpl/SystemPropertyInstanceIdGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/simpl/SystemPropertyInstanceIdGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/simpl/ThreadContextClassLoadHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/simpl/ThreadContextClassLoadHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/spi/JobFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/spi/JobFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/spi/TriggerFiredBundle.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/spi/TriggerFiredBundle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/C3p0PoolingConnectionProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/C3p0PoolingConnectionProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/HikariCpPoolingConnectionProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/HikariCpPoolingConnectionProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/JNDIConnectionProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/JNDIConnectionProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/counter/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/counter/Counter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/counter/CounterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/counter/CounterImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/counter/CounterManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/counter/CounterManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/counter/sampled/TimeStampedCounterValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/utils/counter/sampled/TimeStampedCounterValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/xml/XMLSchedulingDataProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quartz-2.4.0-SNAPSHOT/src/org/quartz/xml/XMLSchedulingDataProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/crawl/ip/htmlparse/IpPool.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawl/ip/htmlparse/IpPool.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/crawl/ip/httpbrowser/MyHttpResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawl/ip/httpbrowser/MyHttpResponse.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/crawl/ip/ipFilter/IpUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawl/ip/ipFilter/IpUtils.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/crawl/ip/ipModel/IpMessage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawl/ip/ipModel/IpMessage.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/crawl/ip/timeutils/MyTimeJob.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawl/ip/timeutils/MyTimeJob.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/CharsetDetector.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/CharsetDetector.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/PageUtil.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/PageUtil.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/RegexRule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/RegexRule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/crawl/paMaoYan/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawl/paMaoYan/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/crawl/paMaoYan/MovieItem.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawl/paMaoYan/MovieItem.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/a1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/a1.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -101,106 +21,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip2/ipFilter/IpFilter.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip2/database/MyRedis.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/java/crawl/paDouBan/MovieItem.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="175">
-              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-              <folding>
-                <element signature="e#28#101#0" expanded="true" />
-              </folding>
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip2/database/RedisDB.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/java/crawl/paDouBan/b.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="175">
-              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+              <caret line="7" column="84" selection-start-line="7" selection-start-column="84" selection-end-line="7" selection-end-column="84" />
               <folding>
-                <element signature="e#28#79#0" expanded="true" />
+                <element signature="e#24#98#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip2/htmlparse/IpPool.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/java/test/a1.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="38" column="37" lean-forward="true" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+            <state relative-caret-position="150">
+              <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
               <folding>
-                <element signature="e#29#160#0" expanded="true" />
+                <element signature="n#!!block;n#a1#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip2/ipModel/IpMessage.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip2/httpbrowser/MyHttpResponse.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/java/crawl/paMaoYan/Main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="28" column="56" lean-forward="true" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip2/timeutils/MyTimeJob.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="90">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
               <folding>
-                <element signature="e#29#322#0" expanded="true" />
+                <element signature="e#24#90#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip2/htmlparse/IpThread.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip2/htmlparse/UrlFetcher.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-              <folding>
-                <element signature="e#29#130#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip2/timeutils/MyTimer.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -227,7 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/data/in/bj_in.txt" />
         <option value="$PROJECT_DIR$/src/main/java/crawl/e.kt" />
         <option value="$PROJECT_DIR$/src/main/java/crawl/paMaoYan/myMovie.java" />
         <option value="$PROJECT_DIR$/src/main/java/crawl/paMaoYan/Main.java" />
@@ -240,8 +99,6 @@
         <option value="$PROJECT_DIR$/src/main/java/crawl/paMaoYan/MovieParse.kt" />
         <option value="$PROJECT_DIR$/src/main/java/crawl/paMaoYan/URLHandle.kt" />
         <option value="$PROJECT_DIR$/src/main/java/crawl/c.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/crawl/paMaoYan/Main.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/crawl/paMaoYan/MovieItem.kt" />
         <option value="$PROJECT_DIR$/src/main/java/test/MySQLDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/MySQLDemo.kt" />
         <option value="$PROJECT_DIR$/src/main/java/crawl/paDouBan/paDouBan.kt" />
@@ -250,7 +107,6 @@
         <option value="$PROJECT_DIR$/src/main/java/crawl/paDouBan/a.kt" />
         <option value="$PROJECT_DIR$/src/main/java/util/HttpUtil.kt" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/test/a1.kt" />
         <option value="$PROJECT_DIR$/src/main/java/test/A.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/JsoupHttpClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/PageUtil.kt" />
@@ -278,6 +134,10 @@
         <option value="$PROJECT_DIR$/src/main/java/crawl/ip2/ipFilter/IpFilter.kt" />
         <option value="$PROJECT_DIR$/src/main/java/crawl/ip2/timeutils/MyTimeJob.kt" />
         <option value="$PROJECT_DIR$/src/main/java/crawl/ip2/htmlparse/UrlFetcher.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/crawl/ip2/a" />
+        <option value="$PROJECT_DIR$/src/main/java/crawl/paMaoYan/Main.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/test/a1.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/crawl/paMaoYan/MovieItem.kt" />
       </list>
     </option>
   </component>
@@ -346,144 +206,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="crawl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="root" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="crawl" type="462c0819:PsiDirectoryNode" />
-              <item name="ip" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="root" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="crawl" type="462c0819:PsiDirectoryNode" />
-              <item name="ip" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="root" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="crawl" type="462c0819:PsiDirectoryNode" />
-              <item name="ip" type="462c0819:PsiDirectoryNode" />
-              <item name="htmlparse" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="root" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="crawl" type="462c0819:PsiDirectoryNode" />
-              <item name="ip" type="462c0819:PsiDirectoryNode" />
-              <item name="httpbrowser" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="root" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="crawl" type="462c0819:PsiDirectoryNode" />
-              <item name="ip" type="462c0819:PsiDirectoryNode" />
-              <item name="ipFilter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="root" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="crawl" type="462c0819:PsiDirectoryNode" />
-              <item name="ip" type="462c0819:PsiDirectoryNode" />
-              <item name="ipModel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="root" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="crawl" type="462c0819:PsiDirectoryNode" />
-              <item name="ip" type="462c0819:PsiDirectoryNode" />
-              <item name="timeutils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="root" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="crawl" type="462c0819:PsiDirectoryNode" />
-              <item name="ip2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="root" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="crawl" type="462c0819:PsiDirectoryNode" />
-              <item name="ip2" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="root" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="crawl" type="462c0819:PsiDirectoryNode" />
-              <item name="ip2" type="462c0819:PsiDirectoryNode" />
-              <item name="htmlparse" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="root" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="crawl" type="462c0819:PsiDirectoryNode" />
-              <item name="ip2" type="462c0819:PsiDirectoryNode" />
-              <item name="httpbrowser" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="root" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="crawl" type="462c0819:PsiDirectoryNode" />
-              <item name="ip2" type="462c0819:PsiDirectoryNode" />
-              <item name="ipFilter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="root" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="crawl" type="462c0819:PsiDirectoryNode" />
-              <item name="ip2" type="462c0819:PsiDirectoryNode" />
-              <item name="ipModel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="root" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="crawl" type="462c0819:PsiDirectoryNode" />
-              <item name="ip2" type="462c0819:PsiDirectoryNode" />
-              <item name="timeutils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="root" type="b2602c69:ProjectViewProjectNode" />
@@ -590,7 +312,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.crawl.ip2.timeutils.MyTimer">
+  <component name="RunManager" selected="Kotlin.crawl.paMovie.paMaoYan.MainKt">
     <configuration name="TimeUpdate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="crawl.ip.timeutils.TimeUpdate" />
       <module name="root" />
@@ -630,27 +352,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="crawl.paDouBan.BKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="crawl.paMovie.paMaoYan.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="root" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="crawl.paDouBan.BKt" />
+      <option name="MAIN_CLASS_NAME" value="crawl.paMovie.paMaoYan.MainKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test.JsoupHttpClientKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="test.A1Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="root" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="test.JsoupHttpClientKt" />
+      <option name="MAIN_CLASS_NAME" value="test.A1Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -658,11 +380,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.crawl.paMovie.paMaoYan.MainKt" />
+        <item itemvalue="Kotlin.test.A1Kt" />
         <item itemvalue="Kotlin.crawl.ip2.timeutils.MyTimer" />
         <item itemvalue="Kotlin.crawl.ip.timeutils.MyTimer" />
         <item itemvalue="Application.TimeUpdate" />
-        <item itemvalue="Kotlin.test.JsoupHttpClientKt" />
-        <item itemvalue="Kotlin.crawl.paDouBan.BKt" />
       </list>
     </recent_temporary>
   </component>
@@ -831,7 +553,14 @@
       <option name="project" value="LOCAL" />
       <updated>1558608525863</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="add package ip2">
+      <created>1558690668873</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1558690668873</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TodoView">
@@ -856,7 +585,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.16288953" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.13172804" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.43767706" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -864,7 +593,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3286119" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.42634562" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.5127479" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -917,26 +646,10 @@
     <MESSAGE value="connect mysql" />
     <MESSAGE value="add MySQLUtil" />
     <MESSAGE value="add PageUtil&#10;use htmlunit" />
-    <option name="LAST_COMMIT_MESSAGE" value="add PageUtil&#10;use htmlunit" />
+    <MESSAGE value="add package ip2" />
+    <option name="LAST_COMMIT_MESSAGE" value="add package ip2" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/paMaoYan/MovieItem.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-          <folding>
-            <element signature="e#24#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/files/java/jdk/jdk-11.0.1/lib/src.zip!/java.base/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="311" column="27" selection-start-line="311" selection-start-column="27" selection-end-line="311" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/files/java/jdk/jdk-11.0.1/lib/src.zip!/java.sql/java/sql/DriverManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3235">
@@ -948,13 +661,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="1385" column="27" selection-start-line="1385" selection-start-column="27" selection-end-line="1385" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/paDouBan/MovieItem.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -1044,23 +750,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/paMaoYan/Main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#24#90#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/paDouBan/a.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/net/sourceforge/htmlunit/htmlunit/2.32/htmlunit-2.32.jar!/com/gargoylesoftware/htmlunit/html/HtmlElement.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1072,16 +761,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="1069" column="36" selection-start-line="1069" selection-start-column="36" selection-end-line="1069" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/a1.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-          <folding>
-            <element signature="n#!!block;n#a1#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1101,16 +780,6 @@
           <caret line="14" column="78" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="78" />
           <folding>
             <element signature="e#14#88#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/paDouBan/b.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="84" selection-start-line="7" selection-start-column="84" selection-end-line="7" selection-end-column="84" />
-          <folding>
-            <element signature="e#24#98#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1322,8 +991,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip2/httpbrowser/MyHttpResponse.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="28" column="56" lean-forward="true" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
+        <state relative-caret-position="212">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip2/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="43" selection-start-column="43" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/paDouBan/MovieItem.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/a1.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          <folding>
+            <element signature="n#!!block;n#a1#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/paMaoYan/MovieItem.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/paDouBan/a.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="12" column="52" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/paDouBan/b.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="84" selection-start-line="7" selection-start-column="84" selection-end-line="7" selection-end-column="84" />
+          <folding>
+            <element signature="e#24#98#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/paMaoYan/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#24#90#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

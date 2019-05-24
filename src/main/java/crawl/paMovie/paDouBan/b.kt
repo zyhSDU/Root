@@ -1,4 +1,4 @@
-package crawl.paDouBan
+package crawl.paMovie.paDouBan
 
 import com.gargoylesoftware.htmlunit.html.HtmlElement
 import util.PageUtil
