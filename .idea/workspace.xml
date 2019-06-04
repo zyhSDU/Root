@@ -2,14 +2,473 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa01d114-9c47-4dc2-a5db-f7cadec776dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/paMovie/MovieItem.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/paMovie/main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/crawl/paMovie/paDouBan/main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/nlp_lang_1_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/nlp-lang-1.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/web/a/Shujuku.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/web/a/TypeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/web/a/TypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/web/a/TypeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/web/a/types.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/web/b/Employ.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/web/b/EmployAdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/web/b/GetServlet.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/web/b/input.jsp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/web/c/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/web/c/welcome.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/web/d/SimpleHttpServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/word2vec/com/ansj/vec/domain/HiddenNeuron.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/word2vec/com/ansj/vec/domain/Neuron.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/word2vec/com/ansj/vec/domain/WordEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/word2vec/com/ansj/vec/domain/WordNeuron.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/word2vec/com/ansj/vec/util/Haffman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/word2vec/com/ansj/vec/util/MapCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/word2vec/com/ansj/vec/util/WordKmeans.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/word2vec/coms/Learn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/word2vec/coms/Word2VEC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/word2vec/coms/Word2VecTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/bigramdict.dic" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/core.dic" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/crf.model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/nature/nature.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/nature/nature.table" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/nature_class_suffix.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/numberLibrary.dic" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/person/foreign.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/person/person.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/person/person_split.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/crawl/paMovie/paDouBan/a.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/crawl/paMovie/paDouBan/b.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawl/paMovie/paDouBan/b.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/crawl/paMovie/paMaoYan/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawl/paMovie/paMaoYan/main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/crawl/paMovie/paMaoYan/MovieItem.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawl/paMovie/paMaoYan/MovieItem.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/%E5%B0%8Fhimmngbird%E5%AE%89%E5%9C%B0%E6%96%AF%E5%B1%B1%E7%9A%84-%E5%AE%9D%E7%9F%B3%E5%9D%90%E5%88%86%E6%94%AF%E6%9C%89%E7%BA%A2%E8%89%B2%E8%8A%B1%E8%83%8C%E6%99%AF-67935419.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/0023ae9897010d5de2532c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/002564bc674510b8f3f310.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/003SLRs8gy6K5bzcwA4ec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/005vBXYVly1fyfhft44jyj308p04wwh8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/0065yodYzy6Sc07njVP05&amp;690" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/0188db5c7f2c9da801217ce694f455.jpg@260w_195h_1c_1e_1o_100sh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/01a48c5ca42b90a801214168c7fa3f.jpg@260w_195h_1c_1e_1o_100sh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/01e0e45cbd4ceda8012141682651c1.jpg@260w_195h_1c_1e_1o_100sh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/053ce352ee7446ee95e1bafce182e9d8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/07-12-14-17-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/07081627_4946_s_170x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/0825db65c2180d2b3bcf37c0e42f681a.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/09081740_8686_s_170x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/09081741_1008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/091850civkuhlv6niljjv2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/091850ofppk49vuuusw77u.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/094242_44210457.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/0Q1352012N.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/0c3b56f6-9201-4d24-b6dc-af5571ffa374_size39_w550_h350.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/0f895a3cb1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/1-14060R22Z7-50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/1-140G11F543560.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/1024552.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/103561910.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/1048479008-1_w_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/1098797.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/11-little-blue-bird.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/1105915_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/11120584.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/111357_54934710.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/111358_23239404.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/11644615253388804.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/11813180_998269.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/12043409229-59-lp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/1210325700e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/122890954.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/1240402732027_mthumb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/127754150.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/1282871663370_1282871663370_r.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/1288606_145105_1_lit.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/129440896.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/12E7384E-02B3-4C65-BA28-4646D39F2839_550_412.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/1319523385100.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/1319523385261.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/135545843.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/13596_P_1405557821363.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/1367549805370.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/1371542519754.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/1388628048_mfile_52c4c85182fce.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/1389759846227_StephenBird_202088.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/1400483332722.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/1400580624843.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/1401849_image039.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/1407297287667052.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/141118465.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/141234586.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/1420601573.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/1436736.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/1437032064976223.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/143742800_1555927372348_255x255.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/14496274874655.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/14496274900234.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/1456476933_fMyOcD.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/1477491202190158.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/1477636978_Kt6nht.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/1477723352_l1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/1478939310_l1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/147917822609068361.JPEG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/1487086083_l3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/149890242.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/1524883352733_1416389_origin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/15307055_70620_thumb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/1532681440311.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/1557222318885085233.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/1565773_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/1567316.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/1600x1198_188dcb22a63da91d8fe79c532c3310c7.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/1604088_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/1608374.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/1608378.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/1611725716745893851.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/1617753_04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/1625213112.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/162715901.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/163135739.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/1666331862227111441.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/168300310.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/171261696.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/1726697_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/17568ab3755749e763734211d2ba97c9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/177761366.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/178250141.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/17df2363b8dbe58f72f2d53fec1e7430acdd5a15430a8-0AnvU1_fw658" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/1848591_maipai.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/1901123_20110507115103.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/19100903_4498.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/19100903_7495.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/19100903_8152.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/19100903_9750.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/191531044.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/191531055.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/19455345_08295265931.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/196_102300_c8bd3_lit.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/1976bluebird.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/1_d8ad8a30f106a05280524be6442e2cd6_con.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/1cf66cfd39985a7b0fde44b87d93d44d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/2008323191924.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/20111101171144370.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/20120223034411257.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/20120319115157_5aLXK.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/20120606173105_vwJwP.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/20120701100031_Lsvzk.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/20120711133121_5YjjV.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/2014-05-12_11_10_13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/20140210-c1c2920b81d65b0b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/20140210161800_NiKLc.thumb.700_0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/20140211102708516.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/2014021132695811.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/2014021218540473e22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/2014021511532657.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/20140227115018_ziU3W.thumb.700_0.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/20140418083145304.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/20140520085747230.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/201406292114173141.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/20140703175031_NArZe.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/2014071621270591392.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/20140728155426_XdXKP.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/201408091246067bb52.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/20140918145317_5000.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/20141219113811_GrxQQ.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/20141225110121550.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/2014219165043.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/20150116044623480.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/20150308230704_3KmYM.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/20150319015225713.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/20150429055726939.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/2015060106013043.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/20150919131355_8ASue.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/20151230094109_0468.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/2015961311352.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/20160209150832_P4Fjx.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/20160527090241_4881.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/20160528200919_tVBUS.thumb.700_0.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/20160622232222_3YGWM.thumb.700_0.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/20161110032839163.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/20161110032839381.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/20180603131418_27047.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/20190314124505_3d1ce2b79033edc9122ca086cee8899d_2_mwpm_03200403.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/20190314124505_3d1ce2b79033edc9122ca086cee8899d_2_mwpm_03201609.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/20190315141116_7863b3bd1d7e1e968c4bc2c6b9799a60_3_mwpm_03201609.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/2019050522_e8c84ffd4d6f4e9d871727e941d61f78_0370_cover_mwpm_03201609.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/20190505230616_6f662e77adfd3ae54727593aa724d728_3_mwpm_03201609.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/21109002_21109002_1368978625251.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/211452118.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/213474904.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/219655642.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/220px-Cephalopterus_penduligerIbisV1-1859-p003AA.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/22597.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/22775117532.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/22832144830.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/2288268.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/23223075-1_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/2400SSS-Z.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/2510193842323280324.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/2589904108350999047_320x320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/267874a8ba2848f0d29bf5a7269fbea2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/26901860839cdee9dd8285eeadb47bc6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/2733865893491918855_320x320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/2734036.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/278248301.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/281195267.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/281554340.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/2820097791681549824.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/283445301548057130.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/2845022697_f2d7e5a7e2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/2Q0491c4Q.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/2_101019130610_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/2_1514354428_3110.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/2a2e02ba659ae7e80c4b37149285fc49.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/2b17f7f244ba7b2beefee112fbaa0ef477e71e88516ca-LQ8z09_fw658" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/2b5a0c822f4912b5b125b3de6c0016670440064b14f34-fL8aAe_fw78" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/2bead7fee470f5ec4d51b081ef67707a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/2daa4525-029d-4966-bf04-226af82b775d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/2f47a58f17d64d65219c0749afd78b85d7938d542312f-OzrFGz_fw658" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/31772497.jpg.450.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/3388602.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/34515507242056153.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/350277263.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/36-1-320x180.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/362654993.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/363568046.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/36984_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/36984_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/391310971.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/3d8f10dbe4ba940f63b4d978c79830e5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/3e7eb6cd-1d23-4292-a233-66fa3ae8386e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/3fe2d8695f589d68c94d2233ad538d14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/40352792.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/405340.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/4192781841275906.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/41sHB%2B1fF3L._AA160_.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/42b780ebfe94442b98d453d0e703cc65_b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/4379671863_94ea911359.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/43_455373_6f3e978613a2d0f.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/444324.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/445633688B4877D64EF2811A9287B950.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/4497567401_fed86c70e0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/471eb177g717fa41ff8ca&amp;690" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/481653244.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/48374.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/4841596_screen568x56884.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/484281389b32442dbf6f357fd17cf26a_550_412.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/485b3919e821161d812a63.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/486679639.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/49127013gda7b87a69401&amp;690" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/4e5686b1gc9e40ba8d6ff&amp;690" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/4ee93f62h99a66b59c33f&amp;690&amp;690" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/4fedd01c-28da-4b6f-bfd1-52403044908c_490x490.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/4ff8c10465b1f355824a71a3979b3a62.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/500x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/500x375_81326.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/512x512bb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/524516b1e24f9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/5432143138443f074cb9d77f2014111401275957382.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/5436048aN6fb39a28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/556433164.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/59237ac85406e9bf33628ce9202afddd51126514.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/5ad404c5N44387182.jpg%21cc_350x449.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/602709569.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/61a757be82809b5d2ddcc16aee8760df.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/61f4144bhd6e8c6aaaed2&amp;690" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/634592843490463134.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/635309181745899063.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/652249Z.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/653fa1d95a381e60fd9e3e5e6c6e0c4d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/65b2e16b0b09cd6375f2376a23398862.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/7021354321959.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/7395404622.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/764778327976.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/771759_29b254848-ba26-4e31-9bf7-fc34b9f03273.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/7814997912.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/7916522202895561575.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/7b851ce2-7a39-4271-a7c3-04aa34630cf5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/828254.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/83322bc1-1dab-4052-9ca6-61d59389a458" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/83EDRNIF_2.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/85636d21fe0037a7d42ec2b2bf38527f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/86131f8e2013c83d811380a416d76044.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/866170256_1087902.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/88aea4c48de49984bd5fc394d2659a85.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/8d02f037-9c4f-4824-8dde-f47532781a08.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/8dRd-fxnzanh0347710.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/92455_orig.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/9309612-1_e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/93febb86gw1eozeck5ijsj208r05rmx7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/9798_P_1412402879860.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/98682459.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/98ad63a0383763fde93583cc7c059ce1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/99400083.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/99936254.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/9Y14WDyS.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/9d0129668b14c4fa7e873bc60bad0b23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/9f92096683b1a605.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/C200761202634589657_Bird_Cage.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/China_wooden_bird_house20081229953238.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/Creative-promotion-gift-alibaba-keychain-Bird-House.png_300x300.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/D52589D8B5BFCBCCCBB28A991A.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/D52597F5BF9398C9E7B0819F1E.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/D5259AFE9481E2CDE1A7C3A512.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/D5259DFBBC9FE6CC828B8A9A28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/D525A0FBEDA599CA838B819C1A.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/D525A1BD9681E6D5C0F48BAF.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/D525B5E7B2C1C1B283F088B516.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/D525BAC28AB4FFECD8AEB9AF38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/D525DBCEEEC79DE5FBA7CFBB.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/D525DEBD9A86C4EEF5B2C2A728.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/Dove%20bird%20from%20sky%20Samsung%20Galaxy%20Note%203%20Wallpaper.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/E2E87832D757D54BFCDB0E50A955D98E.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/FlappyBird-624x445.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/H0MT78YJ7QQ7_20140929033445-CITY2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/Img307686222.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/Img66367_middle.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/J031034203_BIRD-REPEATER-OPENWORK_AMBIANCE.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/K6ug2M7S.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/Middle1%20%282%29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/O1CN011fQV7ncaElhLYS4_%21%210-item_pic.jpg_250x250.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/O1CN01O9WGg91GcXBIZBhFA_%21%210-item_pic.jpg_250x250.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/O1CN01o7Y1al1C6h9uqiQ0m_%21%210-item_pic.jpg_250x250.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/PEACEBIRD-HL1120065980-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/Red-Angry-Bird.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/SXRB201501290805000399220889292.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/T11EQAFcFgXXXXXXXX_%21%210-item_pic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/T1atfZFpXbXXXXXXXX_%21%210-item_pic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/T1hJVTBy_v1RCvBVdK_400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/TB13UVnGXXXXXa1XpXXXXXXXXXX_%21%210-item_pic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/TB1nlDLGXXXXXa9XXXXXXXXXXXX_%21%210-item_pic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/TB2YIC_guGSBuNjSspbXXciipXa_%21%211728420012.jpg_250x250.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/The-gift-with-bird-decoration-globe-crystal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/U10013P1TS1442572187_45669.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/U10013P1TS1442572188_14840.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/W020130725504788401719.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/Wooden-Resin-Metal-Birdhouse.jpg_350x350.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/a21vod656129828305.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/a28b-hhhczfc1633847.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/a3a60c88b63e87293c1d970d81fedfc7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/a8td1k1010420058323.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/abbd2f1ec7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/abefe399e37e4b478cdc2d82d2d7cef7_th.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/alccc4055712408_q1_1-1_336x596.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/angry-bird-usb-flash-drive-angry-bird-gifts-usb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/angry-bird_yellow_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/angry.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/anti-bird-netting.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/anti_bird_net.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/anti_bird_netting.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/anti_insect_bird_net.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/anti_worm_anti_bird_biaxially_stretched_mesh_machine.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/axm_02068131-77f2-4cf5-80e4-642530a99853.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/axm_4368b314-d917-4c23-8165-76381c637eb6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/axm_4aa4713e-4ae6-4ec6-8812-b2c7a01ab149.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/axm_594fef71-2093-4595-a9ec-eb33eb4fd4ed.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/b200811171023224249.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/b284fb166d3af4b4375f0bdc0941a1ce30f2924c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/b4832e3f970a6e248f072dbc2ff08f00.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/b8ac6f27ada2154901a902.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/baea894a67c810e3152.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/bertoia_bird_chair_ottoman_by_harry_bertoia.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/bird.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/bird190110a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/bird_6400_ventilator_air_oxygen_blender_for_sale.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/bird_feeder.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/bird_feeder_gl14100.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/bird_food.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/bird_house_t03b9605.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/bird_houses.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/bird_netting_hail_net.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/birdcage_bird_house_garden_strong_style_color_b82220_decor_strong.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/birdcage_metal_birdcage_bird_house.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/birds%E5%B5%8C%E5%A5%97%E8%95%A8-44429110.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/bki-20131220151119-1214208421.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/bluerbird-fulva-30641542.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/c1b8b1999c6119124036f1ff78ce74d1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/c1cbc12620b3291d888e42ce29a2d6ef.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/c235078ddb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/c72c42881bb5f8c3b677c032f93ce5b6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/c758e3c1dd00c17b8161f3378223f2cd7fba954c34d7f-yxiRrG_fw78" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/c89cdcab74f812d840a801.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/cement_bird_perch_for_budgies_cockatiels_lovebirds.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/d3551b157d7ac17da31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/d3553d3dd17abcc1971.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/d4678da743f1d6b77441b1f6a6cc346d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/d843362.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/dad20ff4c56e3e5e781.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/df45e37e797752b1229b18a889d07692.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/df8c8c8f88234c19bec1e57b1f2c7594.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/e0046fb5ddf365154e99b200626f7e9f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/e17e7a136a3057be60f13309868fbf78.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/e7ccc6d4jw1edlanxznzsj20cs0tcdhi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/e9ab91c0c81107b8a252a9d7d1944937.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/ea7c9d2a75.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/ed7a33865f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/f0a6fb14cefa4e95c59440713b7ce180.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/fae5fb4ab6ee4b01aed81adb8589ec73.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/fc57550a24904cb4d835e13103d94e3a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/fdfe08777d058e0af7496da92a97be20a045ee84.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/ffa6aedfe2269a9208d59a298955fe0d4538b6cc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/galvanized_steel_wall_spike_bird_spike_anti_climb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/gift_mobile_phone_ornament_angry_bird.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/hs_angry_bird_pattern_usb_thumb_drive_4gb_spotted_pig.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/icon1024x1024.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/icon175x175.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/img201402141054070790_info547X280.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/jbird2002112963_p1_1-0_347x683.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/k6586321.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/large.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/li6CVQkMFxUxI.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/li8LlbyqfmGfM.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/liMaCM3CWOzLY.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/liWcvdj6Npcl.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/liangf30412008618115719310.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/little_yellow_chicken_bird_cartoon_costume_mascot_plush_cartoon_mascot_character_birds.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/little_yellow_chicken_bird_cartoon_mascot_costume_plush_cartoon_mascot_character_birds.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/logo20170511_262.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/mzl.cdxdlgwf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/n_v1bj3gzsbxtxxfrqsxrvsq_750_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/nologo_pic_573458_06d018.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/ori_52fc2adaa2fd7.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/p5781007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/pine_strong_style_color_b82220_wood_bird_house_strong.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/polyresin-gift-craft-singing-bird.jpg_200x200.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/qj7a4MHL.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/rBADs1oQEMCAH13MAAD2dyeyLQU585.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/rBEQWFE1kUYIAAAAAAIxp__q1NgAABfyAP3bN0AAjG_701.jpg%21q70.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/ruf-ctr-yellowbird-2017-c991209032018000232_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/s3832857.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/s4600781.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/s4836139.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/s5488429.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/s6382084.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/s6569646.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/sassb4035617966_q1_1-0_336x596.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/secretarybird-%E4%BA%BA%E9%A9%AC%E5%BA%A7serpentarius-46344626.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/secretarybird-43242550.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/solo_chidlren_s_gift_singing_birds_toys_talking_bird_toy_children_story_teller.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/stainless_steel_bird_cage.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/t019b624b78fab91654.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/thumb_600_800_1493196946466.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/tooopen_27713584.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/tpal_163_metal_crafts_antique_bronze_bird_sculptures.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/tuxieJDAudGFvYmFvY2RuLmNvbS9pbWdleHRyYS8kMDAyJDEyLzYyMjAwMTk0MC9UMm9DM3VYYWRhJDYkNl8hITYyMjAwMTk0MCQ5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/uv_540424057_m_601_m1_180_101.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/vector_art_wild_duck_candian_geese_goose_bird_fow_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/xin_251002240851262127534.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/1/yellowbird1-vi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/2019.05.14_21.07.21/www.baidu.com.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/2019.05.14_21.07.21/www.baidu.com_img_bd_logo1.png.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/2019.05.14_21.07.21/www.baidu.com_img_gs.gif.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/2019.05.14_21.54.22/www.baidu.com.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/2019.05.14_21.54.22/www.baidu.com_img_bd_logo1.png.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/2019.05.14_21.54.22/www.baidu.com_img_gs.gif.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/2019.05.14_21.56.40/a1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/2019.05.14_21.57.34/a1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/2019.05.14_21.57.34/xinwen.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/2019.05.14_22.05.32/a1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/2019.05.14_22.05.32/xinwen.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/2019.05.15_14.00.16/www.baidu.com.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/2019.05.15_14.00.16/www.baidu.com_img_bd_logo1.png.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/temp/2019.05.15_14.00.16/www.baidu.com_img_gs.gif.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/test/a1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/a1.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,104 +483,14 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/crawl/paMovie/MovieItem.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/crawl/paMovie/main.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-              <folding>
-                <element signature="e#23#122#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/test/a1.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-              <folding>
-                <element signature="n#!!block;n#a1#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/crawl/paMovie/paMaoYan/main.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/util/HttpUtil.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/crawl/paMovie/paDouBan/main.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-              <folding>
-                <element signature="e#32#76#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/crawl/paMovie/paDouBan/b.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/crawl/paMovie/paDouBan/MovieItem.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/crawl/paMovie/paMaoYan/MovieItem.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-11">
-              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Kotlin File" />
+        <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -137,35 +506,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/util/RequestUtil.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/crawl/paMaoYan/MovieParse.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/crawl/paMaoYan/URLHandle.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/crawl/c.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/test/MySQLDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/MySQLDemo.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/crawl/paDouBan/paDouBan.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/crawl/paDouBan/MovieItem.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/util/MySQLUtil.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/crawl/paDouBan/a.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/util/HttpUtil.kt" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/test/A.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/JsoupHttpClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/util/PageUtil.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/test/JsoupHttpClient.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/crawl/paDouBan/b.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/crawl/ip/timeutils/A.java" />
-        <option value="$PROJECT_DIR$/src/main/java/crawl/ip/timeutils/TimeUpdate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/crawl/ip/timeutils/MyTimer.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/crawl/ip/ipModel/IpMessage.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/crawl/ip/timeutils/MyTimeJob.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/crawl/ip/ipFilter/IpUtils.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/crawl/ip/httpbrowser/MyHttpResponse.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/crawl/ip/htmlparse/UrlFetcher.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/crawl/ip/htmlparse/IpPool.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/crawl/ip2/database/RedisDB.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/crawl/ip2/htmlparse/IpThread.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/crawl/ip2/httpbrowser/MyHttpResponse.kt" />
         <option value="$PROJECT_DIR$/src/main/java/crawl/ip2/ipModel/IpMessage.kt" />
         <option value="$PROJECT_DIR$/src/main/java/crawl/ip2/ipModel/SerializeUtil.kt" />
         <option value="$PROJECT_DIR$/src/main/java/crawl/ip2/timeutils/MyTimer.kt" />
@@ -184,10 +524,39 @@
         <option value="$PROJECT_DIR$/src/main/java/crawl/paMovie/paMaoYan/a.kt" />
         <option value="$PROJECT_DIR$/src/main/java/crawl/paMovie/MovieItem.kt" />
         <option value="$PROJECT_DIR$/src/main/java/crawl/paMovie/paMaoYan/MovieItem.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/test/a1.kt" />
         <option value="$PROJECT_DIR$/src/main/java/crawl/paMovie/paDouBan/a.kt" />
         <option value="$PROJECT_DIR$/src/main/java/crawl/paMovie/a.kt" />
         <option value="$PROJECT_DIR$/src/main/java/crawl/paMovie/main.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/crawl/paMovie/paDouBan/MovieItem.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/web/types.java" />
+        <option value="$PROJECT_DIR$/src/main/java/web/types.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/web/TypeServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/web/TypeService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/web/TypeDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/web/Shujuku.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/jsp/input.jsp.html" />
+        <option value="$PROJECT_DIR$/src/main/java/web/b/Employ.java" />
+        <option value="$PROJECT_DIR$/src/main/java/web/b/Employ.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/web/b/EmployAdd.java" />
+        <option value="$PROJECT_DIR$/src/main/java/web/b/GetServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/web/b/GetServlet.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/web/c/form.html" />
+        <option value="$PROJECT_DIR$/src/main/java/web/c/welcome.php.html" />
+        <option value="$PROJECT_DIR$/src/main/java/web/a/TypeDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/web/a/TypeService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/web/a/TypeServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/learnKotlin/a1.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/web/d/SimpleHttpServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/word2vec/com/ansj/vec/domain/Neuron.java" />
+        <option value="$PROJECT_DIR$/src/main/java/word2vec/com/ansj/vec/domain/WordNeuron.java" />
+        <option value="$PROJECT_DIR$/src/main/java/word2vec/com/ansj/vec/util/WordKmeans.java" />
+        <option value="$PROJECT_DIR$/src/main/java/word2vec/coms/Learn.java" />
+        <option value="$PROJECT_DIR$/src/main/java/word2vec/com/ansj/vec/util/Haffman.java" />
+        <option value="$PROJECT_DIR$/src/main/java/word2vec/coms/Word2VEC.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/ansj/splitWord/analysis/ToAnalysis.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/org/ansj/splitWord/analysis/ToAnalysis.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/a1.kt" />
       </list>
     </option>
   </component>
@@ -204,19 +573,70 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="root" type="58d84e3e:PackageViewProjectNode" />
+              <item name="root" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="root" type="58d84e3e:PackageViewProjectNode" />
+              <item name="root" type="616d4139:PackageViewModuleNode" />
+              <item name="a" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="root" type="58d84e3e:PackageViewProjectNode" />
+              <item name="root" type="616d4139:PackageViewModuleNode" />
+              <item name="kmeans" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="root" type="58d84e3e:PackageViewProjectNode" />
+              <item name="root" type="616d4139:PackageViewModuleNode" />
+              <item name="org.ansj" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="root" type="58d84e3e:PackageViewProjectNode" />
+              <item name="root" type="616d4139:PackageViewModuleNode" />
+              <item name="org.ansj" type="1f31426a:PackageElementNode" />
+              <item name="app" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="root" type="58d84e3e:PackageViewProjectNode" />
+              <item name="root" type="616d4139:PackageViewModuleNode" />
+              <item name="org.ansj" type="1f31426a:PackageElementNode" />
+              <item name="app" type="1f31426a:PackageElementNode" />
+              <item name="crf" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="root" type="58d84e3e:PackageViewProjectNode" />
+              <item name="root" type="616d4139:PackageViewModuleNode" />
+              <item name="org.ansj" type="1f31426a:PackageElementNode" />
+              <item name="app" type="1f31426a:PackageElementNode" />
+              <item name="crf" type="1f31426a:PackageElementNode" />
+              <item name="model" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="root" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="root" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="root" type="b2602c69:ProjectViewProjectNode" />
               <item name="root" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="root" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="root" type="b2602c69:ProjectViewProjectNode" />
@@ -241,92 +661,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="root" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bj" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="root" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="crawl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="root" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="crawl" type="462c0819:PsiDirectoryNode" />
-              <item name="paMovie" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="root" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="crawl" type="462c0819:PsiDirectoryNode" />
-              <item name="paMovie" type="462c0819:PsiDirectoryNode" />
-              <item name="paDouBan" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="root" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="crawl" type="462c0819:PsiDirectoryNode" />
-              <item name="paMovie" type="462c0819:PsiDirectoryNode" />
-              <item name="paMaoYan" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="root" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="redisTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="root" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="root" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="root" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="value" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="root" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -334,32 +668,37 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557912241387" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/crawl/ip2" />
+    <property name="jdk.selected.JAVA_MODULE" value="11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.5218391" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Users\zyh\IdeaProjects\root\src\main\java\crawl\paDouBan" />
-      <recent name="D:\Users\zyh\IdeaProjects\root\lib" />
-      <recent name="D:\Users\zyh\IdeaProjects\root\data\in" />
-      <recent name="D:\Users\zyh\IdeaProjects\root\src\main\java\util" />
-      <recent name="D:\Users\zyh\IdeaProjects\root\data" />
-    </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
       <recent name="crawl.paMovie" />
       <recent name="crawl.paDouBan" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Users\zyh\IdeaProjects\root\src\main\java\crawl\ip2" />
-      <recent name="D:\Users\zyh\IdeaProjects\root\lib" />
       <recent name="D:\Users\zyh\IdeaProjects\root\src\main\resources" />
-      <recent name="D:\Users\zyh\IdeaProjects\root\lib\redis" />
-      <recent name="D:\Users\zyh\IdeaProjects\root\src\main\java\crawl\ip" />
+      <recent name="D:\Users\zyh\IdeaProjects\root\lib" />
+      <recent name="D:\Users\zyh\IdeaProjects\root" />
+      <recent name="D:\Users\zyh\IdeaProjects\root\src\main\java\word2vec" />
+      <recent name="D:\Users\zyh\IdeaProjects\root\src\main\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\zyh\IdeaProjects\root\src\main\java\web\b" />
+      <recent name="D:\Users\zyh\IdeaProjects\root\src\main\java\web\a" />
+      <recent name="D:\Users\zyh\IdeaProjects\root\src\main\java\crawl\paDouBan" />
+      <recent name="D:\Users\zyh\IdeaProjects\root\lib" />
+      <recent name="D:\Users\zyh\IdeaProjects\root\data\in" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -374,16 +713,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.crawl.paMovie.MainKt">
-    <configuration name="crawl.ip2.timeutils.MyTimer" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.test.A1Kt">
+    <configuration name="SimpleHttpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="web.d.SimpleHttpServer" />
       <module name="root" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="crawl.ip2.timeutils.MyTimer" />
-      <option name="WORKING_DIRECTORY" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="web.d.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Word2VecTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="word2vec.coms.Word2VecTest" />
+      <module name="root" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="word2vec.coms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -414,19 +766,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="crawl.paMovie.paMaoYan.AKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="root" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="crawl.paMovie.paMaoYan.AKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="test.A1Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="root" />
       <option name="VM_PARAMETERS" />
@@ -442,11 +781,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.crawl.paMovie.MainKt" />
         <item itemvalue="Kotlin.test.A1Kt" />
+        <item itemvalue="Application.Word2VecTest" />
+        <item itemvalue="Application.SimpleHttpServer" />
+        <item itemvalue="Kotlin.crawl.paMovie.MainKt" />
         <item itemvalue="Kotlin.crawl.paMovie.paDouBan.AKt" />
-        <item itemvalue="Kotlin.crawl.paMovie.paMaoYan.AKt" />
-        <item itemvalue="Kotlin.crawl.ip2.timeutils.MyTimer" />
       </list>
     </recent_temporary>
   </component>
@@ -460,6 +799,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557677814744</updated>
+      <workItem from="1558970486538" duration="842000" />
+      <workItem from="1559030403009" duration="1782000" />
+      <workItem from="1559033343621" duration="1008000" />
+      <workItem from="1559034424649" duration="699000" />
     </task>
     <task id="LOCAL-00001" summary="2019-05-14 20:33:16">
       <created>1557837211537</created>
@@ -629,8 +972,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558703671017</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="done package paMovie">
+      <created>1558716043575</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1558716043575</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4331000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -643,18 +996,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49796748" visible="true" weight="0.2680965" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49796748" visible="true" weight="0.2272118" />
       <window_info id="Structure" order="1" sideWeight="0.5020325" side_tool="true" weight="0.2680965" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" weight="0.3297587" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.16288953" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3385269" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23229462" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -662,7 +1015,9 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3286119" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.5127479" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.47592068" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -671,6 +1026,7 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27949062" />
@@ -701,6 +1057,9 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout-to-restore>
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2019-05-14 20:33:16" />
     <MESSAGE value="add fun fun File.createNewFileWithParent()" />
@@ -717,56 +1076,28 @@
     <MESSAGE value="add PageUtil&#10;use htmlunit" />
     <MESSAGE value="add package ip2" />
     <MESSAGE value="add package paMovie" />
-    <option name="LAST_COMMIT_MESSAGE" value="add package paMovie" />
+    <MESSAGE value="done package paMovie" />
+    <option name="LAST_COMMIT_MESSAGE" value="done package paMovie" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/a.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/paMovie/paMaoYan/MovieItem.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
+        <state relative-caret-position="675">
+          <caret line="28" column="51" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar!/org/apache/http/impl/client/HttpClients.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/web/a/types.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="20" column="37" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="37" />
-          <folding>
-            <element signature="e#540#541#0" expanded="true" />
-            <element signature="e#597#598#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar!/org/apache/commons/httpclient/HttpClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-          <folding>
-            <element signature="e#641#642#0" expanded="true" />
-            <element signature="e#685#686#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar!/org/apache/http/impl/client/CloseableHttpClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="27" column="58" lean-forward="true" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar!/org/apache/http/client/HttpClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        <state relative-caret-position="225">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="70" column="21" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
+        <state relative-caret-position="431">
+          <caret line="85" column="29" selection-start-line="85" selection-start-column="29" selection-end-line="85" selection-end-column="29" />
           <folding>
             <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
             <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" />
@@ -782,347 +1113,357 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/net/sourceforge/htmlunit/htmlunit/2.32/htmlunit-2.32.jar!/com/gargoylesoftware/htmlunit/html/DomElement.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/web/b/Employ.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="450" column="30" selection-start-line="450" selection-start-column="30" selection-end-line="450" selection-end-column="30" />
+        <state relative-caret-position="175">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/net/sourceforge/htmlunit/htmlunit/2.32/htmlunit-2.32.jar!/com/gargoylesoftware/htmlunit/html/HtmlElement.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/web/b/EmployAdd.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/net/sourceforge/htmlunit/htmlunit/2.32/htmlunit-2.32.jar!/com/gargoylesoftware/htmlunit/html/HtmlPage.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="1069" column="36" selection-start-line="1069" selection-start-column="36" selection-end-line="1069" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/JsoupHttpClient.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="14" column="78" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="78" />
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
-            <element signature="e#14#88#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/timeutils/A.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/ipModel/SerializeUtil.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/web/b/GetServlet.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        <state relative-caret-position="500">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/database/RedisDB.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/web/b/input.jsp.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+        <state relative-caret-position="350">
+          <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/ipFilter/IpFilter.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/timeutils/MyTimer.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/timeutils/TimeUpdate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="42" column="7" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/ipFilter/IpUtils.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="38" column="33" lean-forward="true" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/database/MyRedis.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/web/c/welcome.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/ipModel/IpMessage.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-25">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/httpbrowser/MyHttpResponse.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/htmlparse/UrlFetcher.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1204">
-          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/files/java/jdk/jdk-11.0.1/lib/src.zip!/java.base/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="784" column="29" selection-start-line="784" selection-start-column="29" selection-end-line="784" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/files/java/jdk/jdk-11.0.1/lib/src.zip!/java.base/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="495" column="19" selection-start-line="495" selection-start-column="19" selection-end-line="495" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/timeutils/MyTimeJob.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="53" column="33" selection-start-line="53" selection-start-column="33" selection-end-line="53" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/htmlparse/IpPool.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip/htmlparse/IpThread.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip2/ipFilter/IpUtils.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip2/ipModel/SerializeUtil.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip2/timeutils/TimeUpdate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip2/ipFilter/IpFilter.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip2/database/MyRedis.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding>
-            <element signature="e#28#101#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip2/database/RedisDB.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding>
-            <element signature="e#28#79#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip2/ipModel/IpMessage.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip2/timeutils/MyTimer.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip2/timeutils/MyTimeJob.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-          <folding>
-            <element signature="e#29#322#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip2/htmlparse/IpThread.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/web/c/form.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip2/htmlparse/IpPool.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/web/a/TypeDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="38" column="37" lean-forward="true" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+        <state relative-caret-position="131">
+          <caret line="194" column="20" lean-forward="true" selection-start-column="2" selection-end-line="217" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/web/a/TypeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/web/a/Shujuku.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
           <folding>
-            <element signature="e#29#160#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip2/htmlparse/UrlFetcher.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/web/a/TypeServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        <state relative-caret-position="244">
+          <caret line="13" column="11" lean-forward="true" selection-start-column="2" selection-end-line="154" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/web/d/SimpleHttpServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
           <folding>
-            <element signature="e#29#130#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip2/httpbrowser/MyHttpResponse.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/learnKotlin/a1.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="475">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/ip2/readme.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/word2vec/com/ansj/vec/domain/HiddenNeuron.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="43" selection-start-column="43" selection-end-column="43" />
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/PageUtil.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/word2vec/com/ansj/vec/domain/WordNeuron.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-208">
-          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+        <state relative-caret-position="75">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
           <folding>
-            <element signature="e#14#311#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/word2vec/com/ansj/vec/util/MapCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#1518#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/word2vec/com/ansj/vec/util/WordKmeans.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="147" selection-start-line="147" selection-end-line="147" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2781#2797#0" expanded="true" />
+            <element signature="e#4599#4600#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/word2vec/com/ansj/vec/util/Haffman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#379#387#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/word2vec/com/ansj/vec/domain/WordEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/word2vec/com/ansj/vec/domain/Neuron.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/word2vec/coms/Word2VEC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="145" column="26" selection-start-line="145" selection-start-column="26" selection-end-line="145" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3817#3828#0" expanded="true" />
+            <element signature="e#5062#5073#0" expanded="true" />
+            <element signature="e#5876#5887#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/word2vec/coms/Learn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="291" column="8" selection-start-line="291" selection-start-column="8" selection-end-line="291" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#292#308#0" expanded="true" />
+            <element signature="e#2613#2625#0" expanded="true" />
+            <element signature="e#8776#8784#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ansj/app/crf/pojo/Element.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/word2vec/coms/Word2VecTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ansj/app/extracting/domain/ExtractingResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ansj/app/crf/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ansj/app/crf/model/CRFModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/ansj/app/crf/model/CRFModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/ansj/library/NatureLibrary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/ansj/recognition/impl/NatureRecognition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="196" column="38" selection-start-line="196" selection-start-column="38" selection-end-line="196" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/ansj/domain/TermNature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/ansj/domain/TermNatures.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/ansj/domain/AnsjItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/ansj/splitWord/Analysis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="133" column="23" selection-start-line="133" selection-start-column="23" selection-end-line="133" selection-end-column="23" />
+          <folding>
+            <element signature="e#6016#6017#0" expanded="true" />
+            <element signature="e#6059#6060#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/ansj/util/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/ansj/dic/DicReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/ansj/util/MyStaticValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="167" column="25" selection-start-line="167" selection-start-column="25" selection-end-line="167" selection-end-column="25" />
+          <folding>
+            <element signature="e#4055#4056#0" expanded="true" />
+            <element signature="e#4109#4110#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/test/a1.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        <state relative-caret-position="230">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
           <folding>
+            <element signature="e#14#241#0" expanded="true" />
             <element signature="n#!!block;n#a1#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/MySQLUtil.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/ansj/splitWord/analysis/ToAnalysis.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        <state relative-caret-position="-111">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
-            <element signature="e#14#70#0" expanded="true" />
+            <element signature="e#1891#1892#0" expanded="true" />
+            <element signature="e#1935#1936#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/paMovie/paDouBan/b.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/nature/nature.map">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/paMovie/paDouBan/MovieItem.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/nature/nature.table">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/paMovie/MovieItem.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/person/person.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/paMovie/main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#23#122#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/person/person_split.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/paMovie/paMaoYan/MovieItem.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bigramdict.dic">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/paMovie/paMaoYan/main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/numberLibrary.dic">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/HttpUtil.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/nature_class_suffix.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawl/paMovie/paDouBan/main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-          <folding>
-            <element signature="e#32#76#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/core.dic">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db-config.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/person/foreign.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
@@ -1145,7 +1486,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.41034484" />
+                <option value="0.5218391" />
               </list>
             </option>
           </splitter-proportions>
@@ -1164,11 +1505,11 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>11</last-edited>
+          <last-edited>Kotlin SDK</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.41034484" />
+                <option value="0.5218391" />
               </list>
             </option>
           </splitter-proportions>
@@ -1200,7 +1541,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>cpdetector_1.0.5</last-edited>
+          <last-edited>nlp-lang-1.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
