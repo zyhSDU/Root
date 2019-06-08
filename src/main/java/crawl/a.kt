@@ -1,7 +1,7 @@
 package crawl
 
 import page.PageParserTool
-import util.FileUtil
+import util.WebFileUtil
 import util.HttpUtil
 import value.StringValue
 import value.StringValue.URL.baidu
@@ -43,7 +43,7 @@ object a {
                 println(es)
             }
             //将保存文件
-            FileUtil.savePageToDir(page, StringValue.DirPath.create())
+            WebFileUtil.savePageToDir(page, StringValue.DirPath.create())
             //将已经访问过的链接放入已访问的链接中；
             Links.addVisitedUrlSet(visitUrl)
 

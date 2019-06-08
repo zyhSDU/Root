@@ -32,7 +32,7 @@ object b {
      */
     fun saveHtml(url: String, dirPath: String) {
         // 这是将首页的信息存入到一个html文件中 为了后面分析html文件里面的信息做铺垫
-//            val dest = File("temp\\${TimeUtil.nowDateTime()}\\${FileUtil.getFileNameByUrl(url, contentType)}")
+//            val dest = File("temp\\${TimeUtil.nowDateTime()}\\${WebFileUtil.getFileNameByUrl(url, contentType)}")
 
         val dest = File(dirPath + "a1.html")
 

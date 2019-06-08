@@ -28,15 +28,15 @@ fun kmeans() {
         //2 遍历所有数据，将每个数据划分到最近的中心点中
         ks.map {
             var q = -1
-            var dist_min = Double.MAX_VALUE
+            var distMin = Double.MAX_VALUE
             for (i in centroids.indices) {
                 val centroid = centroids[i]
                 var dist = 0.0
                 for (j in centroid.indices) {
                     dist += (Math.pow((it[j] - centroid[j]), 2.0))
                 }
-                if (dist < dist_min) {
-                    dist_min = dist
+                if (dist < distMin) {
+                    distMin = dist
                     q = i
                 }
             }
