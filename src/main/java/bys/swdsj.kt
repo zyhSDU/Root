@@ -4,9 +4,6 @@ import util.FileUtil
 import util.ScannerUtil
 import value.StringValue
 import java.io.*
-import java.util.*
-import kotlin.collections.ArrayList
-import kotlin.collections.HashMap
 
 const val dir = StringValue.DirPath.`in` + "swdsj\\"
 val tag = arrayOf('g', 'a', 'v', 'l', 'i', 'f', 'w', 'y', 'd', 'n', 'e', 'k', 'q', 'm', 's', 't', 'c', 'p', 'h', 'r', 'x', 'u')
