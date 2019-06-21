@@ -3,9 +3,8 @@ package util
 import java.io.*
 
 fun main() {
-    val file = File("D:\\Users\\zyh\\PycharmProjects\\FranchiseRevenueComparison\\DB")
-    file.list().map {
-        println()
+    File("D:\\Users\\zyh\\PycharmProjects\\FranchiseRevenueComparison\\DB").list().map {
+        println(it.split(".")[0])
     }
 }
 object FileUtil {
