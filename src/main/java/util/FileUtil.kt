@@ -2,8 +2,18 @@ package util
 
 import java.io.*
 
+fun main() {
+    val file = File("D:\\Users\\zyh\\PycharmProjects\\FranchiseRevenueComparison\\DB")
+    file.list().map {
+        println()
+    }
+}
 object FileUtil {
-    fun returnBufferedReader(file: File): BufferedReader {
+    fun listFiles(){
+
+    }
+
+    private fun returnBufferedReader(file: File): BufferedReader {
         return BufferedReader(FileReader(file))
     }
 
@@ -24,8 +34,7 @@ object FileUtil {
         return arrayList
     }
 
-
-    fun returnBufferedWriter(file: File): BufferedWriter {
+    private fun returnBufferedWriter(file: File): BufferedWriter {
         return BufferedWriter(FileWriter(file))
     }
 
