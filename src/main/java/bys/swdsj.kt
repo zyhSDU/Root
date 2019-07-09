@@ -205,7 +205,7 @@ fun main3() {
 }
 
 fun main2() {
-    val arrayOf = arrayOf("HLM", "g", "a", "v", "l", "i", "f", "w", "y", "d", "n", "e", "k", "q", "m", "s", "t", "c", "p", "h", "r", "x", "u")
+    val arrayOf = arrayOf("HLM", "g", "", "v", "l", "i", "f", "w", "y", "d", "n", "e", "k", "q", "m", "s", "t", "c", "p", "h", "r", "x", "u")
     println(arrayOf.size)
     arrayOf.map {
         print(it)

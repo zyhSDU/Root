@@ -30,9 +30,9 @@ fun main() {
         hashMap[it.movieName] = movieItem
     }
 
-    val connection = MySQLUtil.connection
+    val connection = MySQLUtil.conn
     val sql = "insert into movie (name,url,douban_pingfeng ,douban_pingfeng_renshu,star,releaseTime) values (?,?,?,?,?,?)"
-    val ps = connection.prepareStatement(sql)
+    val ps = connection!!.prepareStatement(sql)
     hashMap.map {
         with(it.value) {
             ps.setString(1, title)

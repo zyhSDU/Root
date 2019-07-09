@@ -24,7 +24,7 @@ public class KeyWordComputer<T extends Analysis> {
         POS_SCORE.put("nw", 3.0);
         POS_SCORE.put("nt", 3.0);
         POS_SCORE.put("l", 0.2);
-        POS_SCORE.put("a", 0.2);
+        POS_SCORE.put("crawl/a", 0.2);
         POS_SCORE.put("nz", 3.0);
         POS_SCORE.put("v", 0.2);
         POS_SCORE.put("kw", 6.0); //关键词词性

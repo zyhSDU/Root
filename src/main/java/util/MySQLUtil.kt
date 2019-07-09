@@ -1,7 +1,6 @@
 package util
 
-import java.sql.Connection
-import java.sql.DriverManager
+import java.sql.*
 
 fun main() {
     MySQLUtil.connect1()
@@ -13,14 +12,23 @@ object MySQLUtil {
     private val USER = "root"
     private val PASS = "167943"
 
-    val connection: Connection
+    private var rs: ResultSet? = null
+    private var ps: PreparedStatement? = null
+
+    val conn: Connection?
         get() {
             Class.forName(JDBC_DRIVER)
-            return DriverManager.getConnection(DB_URL, USER, PASS)!!
+            return try {
+                DriverManager.getConnection(DB_URL, USER, PASS)!!
+            } catch (e: Exception) {
+                println("init [SQL驱动程序初始化失败！]")
+                e.printStackTrace()
+                null
+            }
         }
 
     fun connect1() {
-        val stmt = connection.createStatement()
+        val stmt = conn!!.createStatement()
         val sql = "SELECT id, name, url FROM websites"
         val rs = stmt!!.executeQuery(sql)
         // 展开结果集数据库
@@ -36,5 +44,39 @@ object MySQLUtil {
             print("\n")
         }
     }
-}
 
+    fun addUpdDel(sql: String): Int {
+        var i = 0
+        try {
+            ps = conn!!.prepareStatement(sql)
+            i = ps!!.executeUpdate()
+        } catch (e: SQLException) {
+            println("sql数据库增删改异常")
+            e.printStackTrace()
+        }
+
+        return i
+    }
+
+    fun selectSql(sql: String): ResultSet? {
+        try {
+            ps = conn!!.prepareStatement(sql)
+            rs = ps!!.executeQuery(sql)
+        } catch (e: SQLException) {
+            println("sql数据库查询异常")
+            e.printStackTrace()
+        }
+
+        return rs
+    }
+
+    fun closeConn() {
+        try {
+            conn!!.close()
+        } catch (e: SQLException) {
+            println("sql数据库关闭异常")
+            e.printStackTrace()
+        }
+
+    }
+}

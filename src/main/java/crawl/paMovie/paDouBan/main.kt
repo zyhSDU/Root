@@ -1,7 +1,6 @@
 package crawl.paMovie.paDouBan
 
 import org.jsoup.Jsoup
-import util.MySQLUtil
 
 fun paDouBan(): ArrayList<MovieItem> {
     val arrayList = ArrayList<MovieItem>()
@@ -12,7 +11,7 @@ fun paDouBan(): ArrayList<MovieItem> {
         val content = doc.getElementById("content")
         val elements = content.getElementsByClass("info")
         for (element in elements) {
-            val links = element.getElementsByTag("a")[0]
+            val links = element.getElementsByTag("")[0]
             val star = element.getElementsByClass("star")[0]
 
             val movieItem = MovieItem()
@@ -24,9 +23,9 @@ fun paDouBan(): ArrayList<MovieItem> {
         }
     }
 
-//    val connection = MySQLUtil.connection
+//    val conn = MySQLUtil.conn
 //    val sql = "insert into movie (name,url,douban_pingfeng ,douban_pingfeng_renshu) values (?,?,?,?)"
-//    val ps = connection.prepareStatement(sql)
+//    val ps = conn.prepareStatement(sql)
 //    arrayList.map {
 //        with(it) {
 //            ps.setString(1, title)
