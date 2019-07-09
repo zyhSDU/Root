@@ -21,6 +21,8 @@ class MovieServlet : HttpServlet() {
         } catch (e: Exception) {
             ""
         }
+        println("text")
+        println(text)
         val queryAll = MovieDaoImpl.query(text)!!
         page(request, response, queryAll)
         request.getRequestDispatcher("/movie.jsp").forward(request, response)
